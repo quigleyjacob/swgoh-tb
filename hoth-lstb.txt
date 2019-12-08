@@ -1,0 +1,122 @@
+Phase 1
+  Number of Zones: 1
+  Rebel Base (character)
+    1 Star: 885000
+    2 Star: 6580000
+    3 Star: 45600000
+    Combat Missions: 2
+    Points per CM: 291000
+    Platoon Points: 700000
+
+Phase 2
+  Number of Zones: 2
+  Ion Cannon (character)
+    1 Star: 1900000
+    2 Star: 19800000
+    3 Star: 55000000
+    Combat Missions: 2
+    Points per CM: 329000
+    Platoon Points: 840000
+  Overlook (character)
+    1 Star: 1900000
+    2 Star: 15400000
+    3 Star: 43800000
+    Combat Missions: 1
+    Points per CM: 329000
+    Platoon Points: 840000
+
+Phase 3
+Number of Zones: 3
+  Real Airspace (ship)
+    1 Star: 1920000
+    2 Star: 16500000
+    3 Star: 26300000
+    Combat Missions: 1
+    Points per CM: 371000
+    Platoon Points: 840000
+  Rear Trenches (character)
+    1 Star: 3510000
+    2 Star: 27600000
+    3 Star: 64800000
+    Combat Missions: 2
+    Points per CM: 372000
+    Platoon Points: 980000
+  Power Generator (character)
+    1 Star: 3510000
+    2 Star: 22400000
+    3 Star: 52200000
+    Combat Missions: 1
+    Points per CM: 372000
+    Platoon Points: 980000
+
+Phase 4
+  Number of Zones: 3
+  Forward Airspace (ship)
+    1 Star: 2176000
+    2 Star: 18700000
+    3 Star: 29800000
+    Combat Missions: 1
+    Points per CM: 478000
+    Platoon Points: 960000
+  Forward Trenches (character)
+    1 Star: 5220000
+    2 Star: 34700000
+    3 Star: 78100000
+    Combat Missions: 2
+    Points per CM: 423000
+    Platoon Points: 1120000
+  Outer Pass (character)
+    1 Star: 5220000
+    2 Star: 28300000
+    3 Star: 62600000
+    Combat Missions: 1
+    Points per CM: 423000
+    Platoon Points: 1120000
+
+Phase 5
+  Number of Zones: 3
+  Contested Airspace (ship)
+    1 Star: 18000000
+    2 Star: 34000000
+    3 Star: 50000000
+    Combat Missions: 1
+    Points per CM: 536000
+    Platoon Points: 1080000
+  Snowfields (character)
+    1 Star: 14100000
+    2 Star: 49300000
+    3 Star: 89800000
+    Combat Missions: 2
+    Points per CM: 470000
+    Platoon Points: 1260000
+  Forward Stronghold (character)
+    1 Star: 11100000
+    2 Star: 41000000
+    3 Star: 71600000
+    Combat Missions: 1
+    Points per CM: 470000
+    Platoon Points: 1260000
+
+Phase 6
+  Number of Zones: 3
+  Imperial Fleet Staging Area (ship)
+    1 Star: 21600000
+    2 Star: 40800000
+    3 Star: 60000000
+    Combat Missions: 1
+    Points per CM: 614000
+    Platoon Points: 1200000
+  Imperial Flank (character)
+    1 Star: 31000000
+    2 Star: 72000000
+    3 Star: 100000000
+    Combat Missions: 2
+    Points per CM: 541000
+    Platoon Points: 1400000
+  Imperial Landing (character)
+    1 Star: 26400000
+    2 Star: 59300000
+    3 Star: 81500000
+    Combat Missions: 1
+    Points per CM: 541000
+    Platoon Points: 1400000

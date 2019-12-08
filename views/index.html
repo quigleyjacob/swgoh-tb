@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>SWGOH GP</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
+  </head>
+  <body>
+    <div class="ui segment">
+      <p></p>
+      <div id="dimmer" class="ui dimmer">
+        <div id="loader" class="ui text loader">Loading</div>
+      </div>
+    <div class="ui grid">
+      <div class="row">
+        <div class="two wide column"></div>
+
+        <div class="six wide column">
+          <form id="getGuildForm" class="ui inline form">
+            <div class="inline fields">
+              <div class="inline six wide field">
+                <label for="allycode">Enter Ally Code</label>
+                <input id="allycode" type="text" placeholder="Ally Code">
+              </div>
+              <div class="field">
+                <button class="ui button" type="submit">Find Guild</button>
+              </div>
+            </div>
+          </form>
+        </div>
+
+        <div class="six wide column">
+          <div id="error_message" class="ui negative message hidden">
+            <i class="close icon"></i>
+            <div class="header">
+              Invalid Ally Code
+            </div>
+            <p>Please try again</p>
+          </div>
+        </div>
+
+        <div class="two wide column"></div>
+      </div>
+      <div class="row">
+        <div class="two wide column"></div>
+
+        <div class="twelve wide column">
+          <table class="ui striped called table">
+            <thead>
+              <tr>
+                <th>Phase</th>
+                <th>Name</th>
+                <th>1 <i class="star icon"></i></th>
+                <th>2 <i class="star icon"></i></th>
+                <th>3 <i class="star icon"></i></th>
+                <th>Combat Missions</th>
+                <th>Points per CM</th>
+                <th>Platoon Points</th>
+              </tr>
+            </thead>
+            <tbody id="tb-info"></tbody>
+          </table>
+        </div>
+
+        <div class="two wide column"></div>
+      </div>
+
+      <div class="row">
+        <div class="two wide column"></div>
+        <div class="six wide column">
+          <h3 class="ui header">Deploy only stars: <span id="deploy-only"></span></h3>
+        </div>
+        <div class="six wide column">
+          <h3 class="ui header">Perfect Run Stars: <span id="perfect-run"></span></h3>
+        </div>
+        <div class="two wide column"></div>
+      </div>
+
+    </div>
+    </div>
+  </body>
+  <script src='js/index.js' type="text/javascript"></script>
+  <script src='js/tablesort.js' type="text/javascript"></script>
+</html>
