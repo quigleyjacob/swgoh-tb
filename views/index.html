@@ -10,11 +10,7 @@
     <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
   </head>
   <body>
-    <!-- <div class="ui segment"> -->
-      <p></p>
-      <div id="dimmer" class="ui dimmer">
-        <div id="loader" class="ui text loader">Loading</div>
-      </div>
+    <div class="ui segment">
     <div class="ui grid">
       <div class="row">
         <div class="two wide column"></div>
@@ -31,9 +27,7 @@
               </div>
             </div>
           </form>
-        </div>
-
-        <div class="six wide column">
+          <span id="loader" class="ui inline text loader"></span>
           <div id="error_message" class="ui negative message hidden">
             <i class="close icon"></i>
             <div class="header">
@@ -41,6 +35,19 @@
             </div>
             <p>Please try again</p>
           </div>
+          <div id="guild-found" class="ui success message hidden">
+            <i class="close icon"></i>
+            <div class="header">
+              Guild found: <span id="guild-name"></span>
+            </div>
+            <p>Will be saved for further use.</p>
+          </div>
+        </div>
+
+        <div class="six wide column">
+          <h3 class="ui header">Deploy only stars: <span id="deploy-only"></span></h3>
+          <h3 class="ui header">Perfect Run Stars: <span id="perfect-run"></span></h3>
+          <h3 class="ui header">Predicted Stars: <span id="predicted">TODO</span></h3>
         </div>
 
         <div class="two wide column"></div>
@@ -74,20 +81,8 @@
 
         <div class="two wide column"></div>
       </div>
-
-      <div class="row">
-        <div class="two wide column"></div>
-        <div class="six wide column">
-          <h3 class="ui header">Deploy only stars: <span id="deploy-only"></span></h3>
-        </div>
-        <div class="six wide column">
-          <h3 class="ui header">Perfect Run Stars: <span id="perfect-run"></span></h3>
-        </div>
-        <div class="two wide column"></div>
-      </div>
-
     </div>
-    <!-- </div> -->
+    </div>
   </body>
   <script src='js/index.js' type="text/javascript"></script>
   <script src='js/tablesort.js' type="text/javascript"></script>

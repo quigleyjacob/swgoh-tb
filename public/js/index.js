@@ -8,13 +8,14 @@ $('#getGuildForm').submit((e) => {
   e.preventDefault()
   let allycode = $('#allycode')[0].value
   $('#error_message').addClass("hidden")
-  $('#dimmer').addClass("active")
+  $('#loader').text("Looking for Guild")
+  $('#loader').addClass("active")
   if (allycode.match(/^\d{9}$/) || allycode.match(/^\d{3}-\d{3}-\d{3}$/)) {
     allycode = allycode.replace(/-/g, "")
     getGuildInfo(allycode)
   } else {
     $('#error_message').removeClass("hidden")
-    $('#dimmer').removeClass("active")
+    $('#loader').removeClass("active")
   }
 })
 
@@ -22,10 +23,13 @@ async function getGuildInfo(allycode) {
 
   guild_info = (await $.get(`/guild/${allycode}`))[0]
   if (guild_info) {
-      determineStars(false)
-      determineStars(true)
+    console.log(guild_info)
+    $('#guild-name').text(guild_info.name)
+    $('#guild-found').removeClass("hidden")
+    determineStars(false)
+    determineStars(true)
   } else {
-    $('#dimmer').removeClass("active")
+    $('#loader').removeClass("active")
     $('#error_message').removeClass("hidden")
   }
 
@@ -33,7 +37,6 @@ async function getGuildInfo(allycode) {
 
 async function getTBInfo(planet, mode) {
     data = await $.get(`/${planet}${mode}TB`)
-    console.log(data)
     let table = $('#tb-info')
     table.empty()
     data.forEach((phase) => {
@@ -87,6 +90,10 @@ $('.button.tb').on('click', (e) => {
   e.target.className += ' active'
   let info = e.target.textContent.match(/(\w{2}) (\w{3,4})/)
   tb_info = getTBInfo(info[2].toLowerCase(), info[1])
+  if(guild_info.id) {
+    determineStars(true)
+    determineStars(false)
+  }
 })
 
 function determineStars(perfect) {
@@ -169,7 +176,7 @@ function determineStars(perfect) {
     return {stars: stars_per_phase.reduce((a,b) => a+b,0), perfect: perfect}
   }).then(results => {
     $('#error_message').addClass("hidden")
-    $('#dimmer').removeClass("active")
+    $('#loader').removeClass("active")
     if (perfect) {
         $('#perfect-run').text(results.stars)
     } else {

@@ -1,7 +1,7 @@
 {
 	"id": "t02D",
-	"nameKey": "TERRITORY_HOTH_EMPIRE_V2_NAME",
-	"descriptionKey": "TerritoryDetailView_Hoth_Empire_BattleSummary",
+	"nameKey": "HOTH: IMPERIAL RETALIATION",
+	"descriptionKey": "[23c8f5]Hoth: an icy, desolate world in a remote system, and the site of a secret Rebel base. Crush the Rebel Alliance![-]\\n\\n[ffcc33]Mission Bonuses: [-][23c8f5]Hoth Heroes, Empire (See Details)[-].\\n\\n[23c8f5]TIP: [-][ffcc33ff]INVITE ALLIES[-][23c8f5] to join your Guild. Increasing Guild size is the fastest way to improve in Territory Battles.[-]",
 	"prefabName": "prefab.territorymap_hothempire",
 	"roundDuration": 0,
 	"roundCount": 6,
@@ -37,8 +37,8 @@
 			"zoneDefinition": {
 				"zoneId": "hoth_empire_phase01_conflict01",
 				"prefabName": "",
-				"nameKey": "TERRITORYHOTH_EMPIRE_PHASE01_CONFLICT01_NAME",
-				"descriptionKey": "TERRITORYHOTH_EMPIRE_PHASE01_CONFLICT01_DESC",
+				"nameKey": "Imperial Flank",
+				"descriptionKey": "A second wave of AT-ATs are being deployed. Send Platoons to re-establish a foothold.",
 				"linkedConflictId": "",
 				"maxAttemptsAllowed": 2147483647,
 				"unlockRequirement": null,
@@ -80,8 +80,8 @@
 			"zoneDefinition": {
 				"zoneId": "hoth_empire_phase01_conflict02",
 				"prefabName": "",
-				"nameKey": "TERRITORYHOTH_EMPIRE_PHASE01_CONFLICT02_NAME",
-				"descriptionKey": "TERRITORYHOTH_EMPIRE_PHASE01_CONFLICT02_DESC",
+				"nameKey": "Imperial Landing",
+				"descriptionKey": "Send troops ahead to scout the enemy fortifications while Imperial heavy assault vehicles are being deployed.",
 				"linkedConflictId": "",
 				"maxAttemptsAllowed": 2147483647,
 				"unlockRequirement": null,
@@ -123,8 +123,8 @@
 			"zoneDefinition": {
 				"zoneId": "hoth_empire_phase02_conflict01",
 				"prefabName": "",
-				"nameKey": "TERRITORYHOTH_EMPIRE_PHASE02_CONFLICT01_NAME",
-				"descriptionKey": "TERRITORYHOTH_EMPIRE_PHASE02_CONFLICT01_DESC",
+				"nameKey": "Snowfields",
+				"descriptionKey": "Destroy Rebel supply caches to weaken their defenses.",
 				"linkedConflictId": "",
 				"maxAttemptsAllowed": 2147483647,
 				"unlockRequirement": {
@@ -179,8 +179,8 @@
 			"zoneDefinition": {
 				"zoneId": "hoth_empire_phase02_conflict02",
 				"prefabName": "",
-				"nameKey": "TERRITORYHOTH_EMPIRE_PHASE02_CONFLICT02_NAME",
-				"descriptionKey": "TERRITORYHOTH_EMPIRE_PHASE02_CONFLICT02_DESC",
+				"nameKey": "Forward Stronghold",
+				"descriptionKey": "Advance forces here to gain access to the Outer Pass on the way to the Rebel Base (South Entrance)",
 				"linkedConflictId": "",
 				"maxAttemptsAllowed": 2147483647,
 				"unlockRequirement": {
@@ -235,8 +235,8 @@
 			"zoneDefinition": {
 				"zoneId": "hoth_empire_phase03_conflict01",
 				"prefabName": "",
-				"nameKey": "TERRITORYHOTH_EMPIRE_PHASE03_CONFLICT01_NAME",
-				"descriptionKey": "TERRITORYHOTH_EMPIRE_PHASE03_CONFLICT01_DESC",
+				"nameKey": "Imperial Fleet Staging Area",
+				"descriptionKey": "Rebel squadrons have moved to intercept Imperial Capital Ships. Launch ships to engage!",
 				"linkedConflictId": "",
 				"maxAttemptsAllowed": 2147483647,
 				"unlockRequirement": {
@@ -291,8 +291,8 @@
 			"zoneDefinition": {
 				"zoneId": "hoth_empire_phase03_conflict02",
 				"prefabName": "",
-				"nameKey": "TERRITORYHOTH_EMPIRE_PHASE03_CONFLICT02_NAME",
-				"descriptionKey": "TERRITORYHOTH_EMPIRE_PHASE03_CONFLICT02_DESC",
+				"nameKey": "Ion Cannon",
+				"descriptionKey": "Attack the Rebel controlled Ion Cannon to weaken it before Imperial ships press forward.",
 				"linkedConflictId": "",
 				"maxAttemptsAllowed": 2147483647,
 				"unlockRequirement": {
@@ -354,8 +354,8 @@
 			"zoneDefinition": {
 				"zoneId": "hoth_empire_phase03_conflict03",
 				"prefabName": "",
-				"nameKey": "TERRITORYHOTH_EMPIRE_PHASE03_CONFLICT03_NAME",
-				"descriptionKey": "TERRITORYHOTH_EMPIRE_PHASE03_CONFLICT03_DESC",
+				"nameKey": "Outer Pass",
+				"descriptionKey": "Rebel forces are protecting the passage through the mountains. Pierce their defenses.",
 				"linkedConflictId": "",
 				"maxAttemptsAllowed": 2147483647,
 				"unlockRequirement": {
@@ -410,8 +410,8 @@
 			"zoneDefinition": {
 				"zoneId": "hoth_empire_phase04_conflict01",
 				"prefabName": "",
-				"nameKey": "TERRITORYHOTH_EMPIRE_PHASE04_CONFLICT01_NAME",
-				"descriptionKey": "TERRITORYHOTH_EMPIRE_PHASE04_CONFLICT01_DESC",
+				"nameKey": "Contested Airspace",
+				"descriptionKey": "The Rebel fighters are breaking -- press the advantage!",
 				"linkedConflictId": "",
 				"maxAttemptsAllowed": 2147483647,
 				"unlockRequirement": {
@@ -466,8 +466,8 @@
 			"zoneDefinition": {
 				"zoneId": "hoth_empire_phase04_conflict02",
 				"prefabName": "",
-				"nameKey": "TERRITORYHOTH_EMPIRE_PHASE04_CONFLICT02_NAME",
-				"descriptionKey": "TERRITORYHOTH_EMPIRE_PHASE04_CONFLICT02_DESC",
+				"nameKey": "Power Generator",
+				"descriptionKey": "The Power Generator is the only thing protecting the Rebels from Orbital Bombardment -- destroy it at all costs!",
 				"linkedConflictId": "",
 				"maxAttemptsAllowed": 2147483647,
 				"unlockRequirement": {
@@ -522,8 +522,8 @@
 			"zoneDefinition": {
 				"zoneId": "hoth_empire_phase04_conflict03",
 				"prefabName": "",
-				"nameKey": "TERRITORYHOTH_EMPIRE_PHASE04_CONFLICT03_NAME",
-				"descriptionKey": "TERRITORYHOTH_EMPIRE_PHASE04_CONFLICT03_DESC",
+				"nameKey": "Rear Trenches",
+				"descriptionKey": "The fighting has moved to the trenches -- take control of the battlefield from the Rebels.",
 				"linkedConflictId": "",
 				"maxAttemptsAllowed": 2147483647,
 				"unlockRequirement": {
@@ -578,8 +578,8 @@
 			"zoneDefinition": {
 				"zoneId": "hoth_empire_phase05_conflict01",
 				"prefabName": "",
-				"nameKey": "TERRITORYHOTH_EMPIRE_PHASE05_CONFLICT01_NAME",
-				"descriptionKey": "TERRITORYHOTH_EMPIRE_PHASE05_CONFLICT01_DESC",
+				"nameKey": "Forward Airspace",
+				"descriptionKey": "The Rebels are attempting to stall our Imperial fleet movement in this area! Thwart their feeble endeavor.",
 				"linkedConflictId": "",
 				"maxAttemptsAllowed": 2147483647,
 				"unlockRequirement": {
@@ -634,8 +634,8 @@
 			"zoneDefinition": {
 				"zoneId": "hoth_empire_phase05_conflict02",
 				"prefabName": "",
-				"nameKey": "TERRITORYHOTH_EMPIRE_PHASE05_CONFLICT02_NAME",
-				"descriptionKey": "TERRITORYHOTH_EMPIRE_PHASE05_CONFLICT02_DESC",
+				"nameKey": "Forward Trenches",
+				"descriptionKey": "Rebel forces are holding onto entrenchments as a last line of defense to protect the Rebel Base.",
 				"linkedConflictId": "",
 				"maxAttemptsAllowed": 2147483647,
 				"unlockRequirement": {
@@ -690,8 +690,8 @@
 			"zoneDefinition": {
 				"zoneId": "hoth_empire_phase05_conflict03",
 				"prefabName": "",
-				"nameKey": "TERRITORYHOTH_EMPIRE_PHASE05_CONFLICT03_NAME",
-				"descriptionKey": "TERRITORYHOTH_EMPIRE_PHASE05_CONFLICT03_DESC",
+				"nameKey": "Overlook",
+				"descriptionKey": "Take out the turrets in this sector to grant Imperial infantry access to the Rebel Base!",
 				"linkedConflictId": "",
 				"maxAttemptsAllowed": 2147483647,
 				"unlockRequirement": {
@@ -746,8 +746,8 @@
 			"zoneDefinition": {
 				"zoneId": "hoth_empire_phase06_conflict01",
 				"prefabName": "",
-				"nameKey": "TERRITORYHOTH_EMPIRE_PHASE06_CONFLICT01_NAME",
-				"descriptionKey": "TERRITORYHOTH_EMPIRE_PHASE06_CONFLICT01_DESC",
+				"nameKey": "Rear Airspace",
+				"descriptionKey": "Several transport ships are launching to evactuate the Rebel Base. Quell the remaining Rebel ships!",
 				"linkedConflictId": "",
 				"maxAttemptsAllowed": 2147483647,
 				"unlockRequirement": {
@@ -802,8 +802,8 @@
 			"zoneDefinition": {
 				"zoneId": "hoth_empire_phase06_conflict02",
 				"prefabName": "",
-				"nameKey": "TERRITORYHOTH_EMPIRE_PHASE06_CONFLICT02_NAME",
-				"descriptionKey": "TERRITORYHOTH_EMPIRE_PHASE06_CONFLICT02_DESC",
+				"nameKey": "Rebel Base (Main Entrance)",
+				"descriptionKey": "Swiftly rout the Rebel Base and crush their remaining forces.",
 				"linkedConflictId": "",
 				"maxAttemptsAllowed": 2147483647,
 				"unlockRequirement": {
@@ -858,8 +858,8 @@
 			"zoneDefinition": {
 				"zoneId": "hoth_empire_phase06_conflict03",
 				"prefabName": "",
-				"nameKey": "TERRITORYHOTH_EMPIRE_PHASE06_CONFLICT03_NAME",
-				"descriptionKey": "TERRITORYHOTH_EMPIRE_PHASE06_CONFLICT03_DESC",
+				"nameKey": "Rebel Base (South Entrance)",
+				"descriptionKey": "The Southern Entrance has been breached, overwhelm Rebel fortifications to seal Imperial victory.",
 				"linkedConflictId": "",
 				"maxAttemptsAllowed": 2147483647,
 				"unlockRequirement": {
@@ -896,8 +896,8 @@
 			"zoneDefinition": {
 				"zoneId": "hoth_empire_phase01_conflict01_strike01",
 				"prefabName": "",
-				"nameKey": "TERRITORYHOTH_COMBAT_MISSION_NAME",
-				"descriptionKey": "TERRITORYHOTH_PHASE01_CONFLICT01_STRIKE01_DESC",
+				"nameKey": "Combat Mission",
+				"descriptionKey": "Delay Imperial reinforcements!",
 				"linkedConflictId": "hoth_empire_phase01_conflict01",
 				"maxAttemptsAllowed": 1,
 				"unlockRequirement": null,
@@ -919,8 +919,8 @@
 			"zoneDefinition": {
 				"zoneId": "hoth_empire_phase01_conflict01_strike02",
 				"prefabName": "",
-				"nameKey": "TERRITORYHOTH_COMBAT_MISSION_NAME",
-				"descriptionKey": "TERRITORYHOTH_PHASE01_CONFLICT01_STRIKE02_DESC",
+				"nameKey": "Combat Mission",
+				"descriptionKey": "Hold off the Imperial assault!",
 				"linkedConflictId": "hoth_empire_phase01_conflict01",
 				"maxAttemptsAllowed": 1,
 				"unlockRequirement": null,
@@ -942,8 +942,8 @@
 			"zoneDefinition": {
 				"zoneId": "hoth_empire_phase01_conflict02_strike01",
 				"prefabName": "",
-				"nameKey": "TERRITORYHOTH_COMBAT_MISSION_NAME",
-				"descriptionKey": "TERRITORYHOTH_PHASE01_CONFLICT02_STRIKE01_DESC",
+				"nameKey": "Combat Mission",
+				"descriptionKey": "TBD",
 				"linkedConflictId": "hoth_empire_phase01_conflict02",
 				"maxAttemptsAllowed": 1,
 				"unlockRequirement": null,
@@ -965,8 +965,8 @@
 			"zoneDefinition": {
 				"zoneId": "hoth_empire_phase02_conflict01_strike01",
 				"prefabName": "",
-				"nameKey": "TERRITORYHOTH_COMBAT_MISSION_NAME",
-				"descriptionKey": "TERRITORYHOTH_PHASE02_CONFLICT01_STRIKE01_DESC",
+				"nameKey": "Combat Mission",
+				"descriptionKey": "Delay Imperial reinforcements!",
 				"linkedConflictId": "hoth_empire_phase02_conflict01",
 				"maxAttemptsAllowed": 1,
 				"unlockRequirement": null,
@@ -988,8 +988,8 @@
 			"zoneDefinition": {
 				"zoneId": "hoth_empire_phase02_conflict01_strike02",
 				"prefabName": "",
-				"nameKey": "TERRITORYHOTH_COMBAT_MISSION_NAME",
-				"descriptionKey": "TERRITORYHOTH_PHASE02_CONFLICT01_STRIKE02_DESC",
+				"nameKey": "Combat Mission",
+				"descriptionKey": "Repel the Imperial assault!",
 				"linkedConflictId": "hoth_empire_phase02_conflict01",
 				"maxAttemptsAllowed": 1,
 				"unlockRequirement": null,
@@ -1011,8 +1011,8 @@
 			"zoneDefinition": {
 				"zoneId": "hoth_empire_phase02_conflict02_strike01",
 				"prefabName": "",
-				"nameKey": "TERRITORYHOTH_COMBAT_MISSION_NAME",
-				"descriptionKey": "TERRITORYHOTH_PHASE02_CONFLICT02_STRIKE01_DESC",
+				"nameKey": "Combat Mission",
+				"descriptionKey": "Hold off the Imperial assault!",
 				"linkedConflictId": "hoth_empire_phase02_conflict02",
 				"maxAttemptsAllowed": 1,
 				"unlockRequirement": null,
@@ -1034,8 +1034,8 @@
 			"zoneDefinition": {
 				"zoneId": "hoth_empire_phase03_conflict01_strike01",
 				"prefabName": "",
-				"nameKey": "TERRITORYHOTH_COMBAT_MISSION_NAME",
-				"descriptionKey": "TERRITORYHOTH_PHASE03_CONFLICT01_STRIKE01_DESC",
+				"nameKey": "Combat Mission",
+				"descriptionKey": "Repel the Imperial assault!",
 				"linkedConflictId": "hoth_empire_phase03_conflict01",
 				"maxAttemptsAllowed": 1,
 				"unlockRequirement": null,
@@ -1057,8 +1057,8 @@
 			"zoneDefinition": {
 				"zoneId": "hoth_empire_phase03_conflict02_strike01",
 				"prefabName": "",
-				"nameKey": "TERRITORYHOTH_COMBAT_MISSION_NAME",
-				"descriptionKey": "TERRITORYHOTH_PHASE03_CONFLICT02_STRIKE01_DESC",
+				"nameKey": "Combat Mission",
+				"descriptionKey": "Delay Imperial reinforcements!",
 				"linkedConflictId": "hoth_empire_phase03_conflict02",
 				"maxAttemptsAllowed": 1,
 				"unlockRequirement": null,
@@ -1080,8 +1080,8 @@
 			"zoneDefinition": {
 				"zoneId": "hoth_empire_phase03_conflict02_strike02",
 				"prefabName": "",
-				"nameKey": "TERRITORYHOTH_COMBAT_MISSION_NAME",
-				"descriptionKey": "TERRITORYHOTH_PHASE03_CONFLICT02_STRIKE02_DESC",
+				"nameKey": "Combat Mission",
+				"descriptionKey": "Repel the Imperial assault!",
 				"linkedConflictId": "hoth_empire_phase03_conflict02",
 				"maxAttemptsAllowed": 1,
 				"unlockRequirement": null,
@@ -1103,8 +1103,8 @@
 			"zoneDefinition": {
 				"zoneId": "hoth_empire_phase03_conflict03_strike01",
 				"prefabName": "",
-				"nameKey": "TERRITORYHOTH_COMBAT_MISSION_NAME",
-				"descriptionKey": "TERRITORYHOTH_PHASE03_CONFLICT03_STRIKE01_DESC",
+				"nameKey": "Combat Mission",
+				"descriptionKey": "Hold off the Imperial assault!",
 				"linkedConflictId": "hoth_empire_phase03_conflict03",
 				"maxAttemptsAllowed": 1,
 				"unlockRequirement": null,
@@ -1126,8 +1126,8 @@
 			"zoneDefinition": {
 				"zoneId": "hoth_empire_phase04_conflict01_strike01",
 				"prefabName": "",
-				"nameKey": "TERRITORYHOTH_COMBAT_MISSION_NAME",
-				"descriptionKey": "TERRITORYHOTH_PHASE04_CONFLICT01_STRIKE01_DESC",
+				"nameKey": "Combat Mission",
+				"descriptionKey": "Repel the Imperial assault!",
 				"linkedConflictId": "hoth_empire_phase04_conflict01",
 				"maxAttemptsAllowed": 1,
 				"unlockRequirement": null,
@@ -1149,8 +1149,8 @@
 			"zoneDefinition": {
 				"zoneId": "hoth_empire_phase04_conflict02_strike01",
 				"prefabName": "",
-				"nameKey": "TERRITORYHOTH_COMBAT_MISSION_NAME",
-				"descriptionKey": "TERRITORYHOTH_PHASE04_CONFLICT02_STRIKE01_DESC",
+				"nameKey": "Combat Mission",
+				"descriptionKey": "Delay Imperial reinforcements!",
 				"linkedConflictId": "hoth_empire_phase04_conflict02",
 				"maxAttemptsAllowed": 1,
 				"unlockRequirement": null,
@@ -1172,8 +1172,8 @@
 			"zoneDefinition": {
 				"zoneId": "hoth_empire_phase04_conflict02_strike02",
 				"prefabName": "",
-				"nameKey": "TERRITORYHOTH_COMBAT_MISSION_NAME",
-				"descriptionKey": "TERRITORYHOTH_PHASE04_CONFLICT02_STRIKE02_DESC",
+				"nameKey": "Combat Mission",
+				"descriptionKey": "Repel the Imperial assault!",
 				"linkedConflictId": "hoth_empire_phase04_conflict02",
 				"maxAttemptsAllowed": 1,
 				"unlockRequirement": null,
@@ -1195,8 +1195,8 @@
 			"zoneDefinition": {
 				"zoneId": "hoth_empire_phase04_conflict03_strike01",
 				"prefabName": "",
-				"nameKey": "TERRITORYHOTH_COMBAT_MISSION_NAME",
-				"descriptionKey": "TERRITORYHOTH_PHASE04_CONFLICT03_STRIKE01_DESC",
+				"nameKey": "Combat Mission",
+				"descriptionKey": "Sabotage the Imperial forces!",
 				"linkedConflictId": "hoth_empire_phase04_conflict03",
 				"maxAttemptsAllowed": 1,
 				"unlockRequirement": null,
@@ -1218,8 +1218,8 @@
 			"zoneDefinition": {
 				"zoneId": "hoth_empire_phase05_conflict01_strike01",
 				"prefabName": "",
-				"nameKey": "TERRITORYHOTH_COMBAT_MISSION_NAME",
-				"descriptionKey": "TERRITORYHOTH_PHASE05_CONFLICT01_STRIKE01_DESC",
+				"nameKey": "Combat Mission",
+				"descriptionKey": "Delay Imperial reinforcements!",
 				"linkedConflictId": "hoth_empire_phase05_conflict01",
 				"maxAttemptsAllowed": 1,
 				"unlockRequirement": null,
@@ -1241,8 +1241,8 @@
 			"zoneDefinition": {
 				"zoneId": "hoth_empire_phase05_conflict02_strike01",
 				"prefabName": "",
-				"nameKey": "TERRITORYHOTH_COMBAT_MISSION_NAME",
-				"descriptionKey": "TERRITORYHOTH_PHASE05_CONFLICT02_STRIKE01_DESC",
+				"nameKey": "Combat Mission",
+				"descriptionKey": "Delay Imperial reinforcements!",
 				"linkedConflictId": "hoth_empire_phase05_conflict02",
 				"maxAttemptsAllowed": 1,
 				"unlockRequirement": null,
@@ -1264,8 +1264,8 @@
 			"zoneDefinition": {
 				"zoneId": "hoth_empire_phase05_conflict03_strike01",
 				"prefabName": "",
-				"nameKey": "TERRITORYHOTH_COMBAT_MISSION_NAME",
-				"descriptionKey": "TERRITORYHOTH_PHASE05_CONFLICT03_STRIKE01_DESC",
+				"nameKey": "Combat Mission",
+				"descriptionKey": "Repel the Imperial assault!",
 				"linkedConflictId": "hoth_empire_phase05_conflict03",
 				"maxAttemptsAllowed": 1,
 				"unlockRequirement": null,
@@ -1287,8 +1287,8 @@
 			"zoneDefinition": {
 				"zoneId": "hoth_empire_phase05_conflict03_strike02",
 				"prefabName": "",
-				"nameKey": "TERRITORYHOTH_COMBAT_MISSION_NAME",
-				"descriptionKey": "TERRITORYHOTH_PHASE05_CONFLICT03_STRIKE01_DESC",
+				"nameKey": "Combat Mission",
+				"descriptionKey": "Repel the Imperial assault!",
 				"linkedConflictId": "hoth_empire_phase05_conflict03",
 				"maxAttemptsAllowed": 1,
 				"unlockRequirement": null,
@@ -1310,8 +1310,8 @@
 			"zoneDefinition": {
 				"zoneId": "hoth_empire_phase06_conflict01_strike01",
 				"prefabName": "",
-				"nameKey": "TERRITORYHOTH_COMBAT_MISSION_NAME",
-				"descriptionKey": "TERRITORYHOTH_PHASE06_CONFLICT01_STRIKE01_DESC",
+				"nameKey": "Combat Mission",
+				"descriptionKey": "Attack the Imperial Fleet!",
 				"linkedConflictId": "hoth_empire_phase06_conflict01",
 				"maxAttemptsAllowed": 1,
 				"unlockRequirement": null,
@@ -1333,8 +1333,8 @@
 			"zoneDefinition": {
 				"zoneId": "hoth_empire_phase06_conflict02_strike01",
 				"prefabName": "",
-				"nameKey": "TERRITORYHOTH_COMBAT_MISSION_NAME",
-				"descriptionKey": "TERRITORYHOTH_PHASE06_CONFLICT02_STRIKE01_DESC",
+				"nameKey": "Combat Mission",
+				"descriptionKey": "Repel the Imperial assault!",
 				"linkedConflictId": "hoth_empire_phase06_conflict02",
 				"maxAttemptsAllowed": 1,
 				"unlockRequirement": null,
@@ -1356,8 +1356,8 @@
 			"zoneDefinition": {
 				"zoneId": "hoth_empire_phase06_conflict02_strike02",
 				"prefabName": "",
-				"nameKey": "TERRITORYHOTH_COMBAT_MISSION_NAME",
-				"descriptionKey": "TERRITORYHOTH_PHASE06_CONFLICT02_STRIKE02_DESC",
+				"nameKey": "Combat Mission",
+				"descriptionKey": "Destroy the Imperial army!",
 				"linkedConflictId": "hoth_empire_phase06_conflict02",
 				"maxAttemptsAllowed": 1,
 				"unlockRequirement": null,
@@ -1379,8 +1379,8 @@
 			"zoneDefinition": {
 				"zoneId": "hoth_empire_phase06_conflict03_strike01",
 				"prefabName": "",
-				"nameKey": "TERRITORYHOTH_COMBAT_MISSION_NAME",
-				"descriptionKey": "TERRITORYHOTH_PHASE06_CONFLICT03_STRIKE01_DESC",
+				"nameKey": "Combat Mission",
+				"descriptionKey": "Destroy the Imperial army!",
 				"linkedConflictId": "hoth_empire_phase06_conflict03",
 				"maxAttemptsAllowed": 1,
 				"unlockRequirement": null,
@@ -1397,7 +1397,7 @@
 			"zoneDefinition": {
 				"zoneId": "hoth_empire_phase01_conflict01_recon01",
 				"prefabName": "",
-				"nameKey": "TERRITORYHOTH_EMPIRE_PLATOON_PHASE01_CONFLICT01",
+				"nameKey": "Imperial Flank Mission",
 				"descriptionKey": "Unused",
 				"linkedConflictId": "hoth_empire_phase01_conflict01",
 				"maxAttemptsAllowed": 2147483647,
@@ -1410,19 +1410,19 @@
 			"platoonDefinitionList": [
 				{
 					"id": "hoth-platoon-1",
-					"nameKey": "ReconZoneView_Platoon_Name",
+					"nameKey": "PLATOON {0}",
 					"squadList": [
 						{
 							"id": "hoth-squad-01",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-02",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-03",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						}
 					],
 					"reward": {
@@ -1432,19 +1432,19 @@
 				},
 				{
 					"id": "hoth-platoon-2",
-					"nameKey": "ReconZoneView_Platoon_Name",
+					"nameKey": "PLATOON {0}",
 					"squadList": [
 						{
 							"id": "hoth-squad-01",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-02",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-03",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						}
 					],
 					"reward": {
@@ -1454,19 +1454,19 @@
 				},
 				{
 					"id": "hoth-platoon-3",
-					"nameKey": "ReconZoneView_Platoon_Name",
+					"nameKey": "PLATOON {0}",
 					"squadList": [
 						{
 							"id": "hoth-squad-01",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-02",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-03",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						}
 					],
 					"reward": {
@@ -1476,19 +1476,19 @@
 				},
 				{
 					"id": "hoth-platoon-4",
-					"nameKey": "ReconZoneView_Platoon_Name",
+					"nameKey": "PLATOON {0}",
 					"squadList": [
 						{
 							"id": "hoth-squad-01",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-02",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-03",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						}
 					],
 					"reward": {
@@ -1498,19 +1498,19 @@
 				},
 				{
 					"id": "hoth-platoon-5",
-					"nameKey": "ReconZoneView_Platoon_Name",
+					"nameKey": "PLATOON {0}",
 					"squadList": [
 						{
 							"id": "hoth-squad-01",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-02",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-03",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						}
 					],
 					"reward": {
@@ -1520,19 +1520,19 @@
 				},
 				{
 					"id": "hoth-platoon-6",
-					"nameKey": "ReconZoneView_Platoon_Name",
+					"nameKey": "PLATOON {0}",
 					"squadList": [
 						{
 							"id": "hoth-squad-01",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-02",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-03",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						}
 					],
 					"reward": {
@@ -1544,11 +1544,11 @@
 			"abilityImage": "TEST_IMAGE",
 			"abilityShortDescKey": "TEST_ABILITY",
 			"abilityLongDescKey": "TEST_ABILITY_LONG",
-			"goalDescKey": "TERRITORYHOTH_EMPIRE_PHASE01_CONFLICT01_RECON01_MESSAGE",
+			"goalDescKey": "[c][b5e7f5]Reinforce[-][/c] [c][F0FF23]Snow Fields[-][/c] [c][b5e7f5]and[-][/c] [c][F0FF23]Forward Stronghold[-][/c] [c][b5e7f5]with a powerful ability![-][/c]",
 			"goalImage": "tex.territory_backdrop_hoth_atat",
 			"unitRarity": 2,
-			"rewardDescKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_REWARDS_DESC",
-			"subTitleKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SUB_TITLE",
+			"rewardDescKey": "Earn bonus TP for each Platoon completed.",
+			"subTitleKey": "Assign Characters (2-Star or Higher)",
 			"grantedAbilitiesList": [],
 			"strategicAbilitiesList": [
 				{
@@ -1568,7 +1568,7 @@
 						"id": "unlock_empire_recon_tier00",
 						"descKey": ""
 					},
-					"rankLabelOverrideKey": "STRATEGICABILITY_HOTH_ABILITY_RANK_LABEL00",
+					"rankLabelOverrideKey": "Locked",
 					"useOverlayIcon": true,
 					"overlaySpriteName": "",
 					"zonesToApplyToList": [
@@ -1603,7 +1603,7 @@
 						"id": "unlock_empire_recon_tier01",
 						"descKey": ""
 					},
-					"rankLabelOverrideKey": "STRATEGICABILITY_HOTH_ABILITY_RANK_LABEL01",
+					"rankLabelOverrideKey": "Level 1",
 					"useOverlayIcon": false,
 					"overlaySpriteName": "",
 					"zonesToApplyToList": [
@@ -1638,7 +1638,7 @@
 						"id": "unlock_empire_recon_tier02",
 						"descKey": ""
 					},
-					"rankLabelOverrideKey": "STRATEGICABILITY_HOTH_ABILITY_RANK_LABEL02",
+					"rankLabelOverrideKey": "Level 2",
 					"useOverlayIcon": false,
 					"overlaySpriteName": "",
 					"zonesToApplyToList": [
@@ -1666,7 +1666,7 @@
 						"id": "unlock_empire_recon_tier03",
 						"descKey": ""
 					},
-					"rankLabelOverrideKey": "STRATEGICABILITY_HOTH_ABILITY_RANK_LABEL03",
+					"rankLabelOverrideKey": "Level 3",
 					"useOverlayIcon": false,
 					"overlaySpriteName": "",
 					"zonesToApplyToList": [
@@ -1683,7 +1683,7 @@
 			"zoneDefinition": {
 				"zoneId": "hoth_empire_phase01_conflict02_recon01",
 				"prefabName": "",
-				"nameKey": "TERRITORYHOTH_EMPIRE_PLATOON_PHASE01_CONFLICT02",
+				"nameKey": "Imperial Landing Mission",
 				"descriptionKey": "Unused",
 				"linkedConflictId": "hoth_empire_phase01_conflict02",
 				"maxAttemptsAllowed": 2147483647,
@@ -1696,19 +1696,19 @@
 			"platoonDefinitionList": [
 				{
 					"id": "hoth-platoon-1",
-					"nameKey": "ReconZoneView_Platoon_Name",
+					"nameKey": "PLATOON {0}",
 					"squadList": [
 						{
 							"id": "hoth-squad-01",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-02",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-03",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						}
 					],
 					"reward": {
@@ -1718,19 +1718,19 @@
 				},
 				{
 					"id": "hoth-platoon-2",
-					"nameKey": "ReconZoneView_Platoon_Name",
+					"nameKey": "PLATOON {0}",
 					"squadList": [
 						{
 							"id": "hoth-squad-01",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-02",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-03",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						}
 					],
 					"reward": {
@@ -1740,19 +1740,19 @@
 				},
 				{
 					"id": "hoth-platoon-3",
-					"nameKey": "ReconZoneView_Platoon_Name",
+					"nameKey": "PLATOON {0}",
 					"squadList": [
 						{
 							"id": "hoth-squad-01",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-02",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-03",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						}
 					],
 					"reward": {
@@ -1762,19 +1762,19 @@
 				},
 				{
 					"id": "hoth-platoon-4",
-					"nameKey": "ReconZoneView_Platoon_Name",
+					"nameKey": "PLATOON {0}",
 					"squadList": [
 						{
 							"id": "hoth-squad-01",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-02",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-03",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						}
 					],
 					"reward": {
@@ -1784,19 +1784,19 @@
 				},
 				{
 					"id": "hoth-platoon-5",
-					"nameKey": "ReconZoneView_Platoon_Name",
+					"nameKey": "PLATOON {0}",
 					"squadList": [
 						{
 							"id": "hoth-squad-01",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-02",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-03",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						}
 					],
 					"reward": {
@@ -1806,19 +1806,19 @@
 				},
 				{
 					"id": "hoth-platoon-6",
-					"nameKey": "ReconZoneView_Platoon_Name",
+					"nameKey": "PLATOON {0}",
 					"squadList": [
 						{
 							"id": "hoth-squad-01",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-02",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-03",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						}
 					],
 					"reward": {
@@ -1830,11 +1830,11 @@
 			"abilityImage": "TEST_IMAGE",
 			"abilityShortDescKey": "TEST_ABILITY",
 			"abilityLongDescKey": "TEST_ABILITY_LONG",
-			"goalDescKey": "TERRITORYHOTH_EMPIRE_PHASE01_CONFLICT01_RECON01_MESSAGE",
+			"goalDescKey": "[c][b5e7f5]Reinforce[-][/c] [c][F0FF23]Snow Fields[-][/c] [c][b5e7f5]and[-][/c] [c][F0FF23]Forward Stronghold[-][/c] [c][b5e7f5]with a powerful ability![-][/c]",
 			"goalImage": "tex.territory_backdrop_hoth_turretsvslaser",
 			"unitRarity": 2,
-			"rewardDescKey": "TERRITORYHOTH_PHASE01_CONFLICT02_RECON01_REWARDS_DESC",
-			"subTitleKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SUB_TITLE",
+			"rewardDescKey": "TBD",
+			"subTitleKey": "Assign Characters (2-Star or Higher)",
 			"grantedAbilitiesList": [],
 			"strategicAbilitiesList": [
 				{
@@ -1854,7 +1854,7 @@
 						"id": "unlock_empire_recon_tier03",
 						"descKey": ""
 					},
-					"rankLabelOverrideKey": "STRATEGICABILITY_HOTH_ABILITY_RANK_LABEL_DISABLE",
+					"rankLabelOverrideKey": "Disabled",
 					"useOverlayIcon": true,
 					"overlaySpriteName": "icon_apply_curse",
 					"zonesToApplyToList": [
@@ -1887,7 +1887,7 @@
 						"id": "unlock_empire_recon_tier02",
 						"descKey": ""
 					},
-					"rankLabelOverrideKey": "STRATEGICABILITY_HOTH_ABILITY_RANK_LABEL01",
+					"rankLabelOverrideKey": "Level 1",
 					"useOverlayIcon": false,
 					"overlaySpriteName": "",
 					"zonesToApplyToList": [
@@ -1920,7 +1920,7 @@
 						"id": "unlock_empire_recon_tier01",
 						"descKey": ""
 					},
-					"rankLabelOverrideKey": "STRATEGICABILITY_HOTH_ABILITY_RANK_LABEL02",
+					"rankLabelOverrideKey": "Level 2",
 					"useOverlayIcon": false,
 					"overlaySpriteName": "",
 					"zonesToApplyToList": [
@@ -1946,7 +1946,7 @@
 						"id": "unlock_empire_recon_tier00",
 						"descKey": ""
 					},
-					"rankLabelOverrideKey": "STRATEGICABILITY_HOTH_ABILITY_RANK_LABEL03",
+					"rankLabelOverrideKey": "Level 3",
 					"useOverlayIcon": false,
 					"overlaySpriteName": "",
 					"zonesToApplyToList": [
@@ -1961,7 +1961,7 @@
 			"zoneDefinition": {
 				"zoneId": "hoth_empire_phase02_conflict01_recon01",
 				"prefabName": "",
-				"nameKey": "TERRITORYHOTH_EMPIRE_PLATOON_PHASE02_CONFLICT01",
+				"nameKey": "Snowfields Mission",
 				"descriptionKey": "Unused",
 				"linkedConflictId": "hoth_empire_phase02_conflict01",
 				"maxAttemptsAllowed": 2147483647,
@@ -1974,19 +1974,19 @@
 			"platoonDefinitionList": [
 				{
 					"id": "hoth-platoon-1",
-					"nameKey": "ReconZoneView_Platoon_Name",
+					"nameKey": "PLATOON {0}",
 					"squadList": [
 						{
 							"id": "hoth-squad-01",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-02",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-03",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						}
 					],
 					"reward": {
@@ -1996,19 +1996,19 @@
 				},
 				{
 					"id": "hoth-platoon-2",
-					"nameKey": "ReconZoneView_Platoon_Name",
+					"nameKey": "PLATOON {0}",
 					"squadList": [
 						{
 							"id": "hoth-squad-01",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-02",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-03",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						}
 					],
 					"reward": {
@@ -2018,19 +2018,19 @@
 				},
 				{
 					"id": "hoth-platoon-3",
-					"nameKey": "ReconZoneView_Platoon_Name",
+					"nameKey": "PLATOON {0}",
 					"squadList": [
 						{
 							"id": "hoth-squad-01",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-02",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-03",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						}
 					],
 					"reward": {
@@ -2040,19 +2040,19 @@
 				},
 				{
 					"id": "hoth-platoon-4",
-					"nameKey": "ReconZoneView_Platoon_Name",
+					"nameKey": "PLATOON {0}",
 					"squadList": [
 						{
 							"id": "hoth-squad-01",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-02",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-03",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						}
 					],
 					"reward": {
@@ -2062,19 +2062,19 @@
 				},
 				{
 					"id": "hoth-platoon-5",
-					"nameKey": "ReconZoneView_Platoon_Name",
+					"nameKey": "PLATOON {0}",
 					"squadList": [
 						{
 							"id": "hoth-squad-01",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-02",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-03",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						}
 					],
 					"reward": {
@@ -2084,19 +2084,19 @@
 				},
 				{
 					"id": "hoth-platoon-6",
-					"nameKey": "ReconZoneView_Platoon_Name",
+					"nameKey": "PLATOON {0}",
 					"squadList": [
 						{
 							"id": "hoth-squad-01",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-02",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-03",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						}
 					],
 					"reward": {
@@ -2108,11 +2108,11 @@
 			"abilityImage": "TEST_IMAGE",
 			"abilityShortDescKey": "TEST_ABILITY",
 			"abilityLongDescKey": "TEST_ABILITY_LONG",
-			"goalDescKey": "TERRITORYHOTH_EMPIRE_PHASE02_CONFLICT01_RECON01_MESSAGE",
+			"goalDescKey": "[c][b5e7f5]Weaken the Rebel Supply Lines ablity in the[-][/c] [c][F0FF23]Ion Cannon[-][/c] [c][b5e7f5]territory![-][/c]",
 			"goalImage": "tex.territory_backdrop_hoth_turretsvslaser",
 			"unitRarity": 3,
-			"rewardDescKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_REWARDS_DESC",
-			"subTitleKey": "TERRITORYHOTH_PHASE02_CONFLICT01_RECON01_SUB_TITLE",
+			"rewardDescKey": "Earn bonus TP for each Platoon completed.",
+			"subTitleKey": "Assign Characters (3-Star or Higher)",
 			"grantedAbilitiesList": [],
 			"strategicAbilitiesList": [
 				{
@@ -2132,7 +2132,7 @@
 						"id": "unlock_empire_recon_tier03",
 						"descKey": ""
 					},
-					"rankLabelOverrideKey": "STRATEGICABILITY_HOTH_ABILITY_RANK_LABEL_DISABLE",
+					"rankLabelOverrideKey": "Disabled",
 					"useOverlayIcon": true,
 					"overlaySpriteName": "icon_apply_curse",
 					"zonesToApplyToList": [
@@ -2165,7 +2165,7 @@
 						"id": "unlock_empire_recon_tier02",
 						"descKey": ""
 					},
-					"rankLabelOverrideKey": "STRATEGICABILITY_HOTH_ABILITY_RANK_LABEL01",
+					"rankLabelOverrideKey": "Level 1",
 					"useOverlayIcon": false,
 					"overlaySpriteName": "",
 					"zonesToApplyToList": [
@@ -2198,7 +2198,7 @@
 						"id": "unlock_empire_recon_tier01",
 						"descKey": ""
 					},
-					"rankLabelOverrideKey": "STRATEGICABILITY_HOTH_ABILITY_RANK_LABEL02",
+					"rankLabelOverrideKey": "Level 2",
 					"useOverlayIcon": false,
 					"overlaySpriteName": "",
 					"zonesToApplyToList": [
@@ -2224,7 +2224,7 @@
 						"id": "unlock_empire_recon_tier00",
 						"descKey": ""
 					},
-					"rankLabelOverrideKey": "STRATEGICABILITY_HOTH_ABILITY_RANK_LABEL03",
+					"rankLabelOverrideKey": "Level 3",
 					"useOverlayIcon": false,
 					"overlaySpriteName": "",
 					"zonesToApplyToList": [
@@ -2239,7 +2239,7 @@
 			"zoneDefinition": {
 				"zoneId": "hoth_empire_phase02_conflict02_recon01",
 				"prefabName": "",
-				"nameKey": "TERRITORYHOTH_EMPIRE_PLATOON_PHASE02_CONFLICT02",
+				"nameKey": "Forward Stronghold Mission",
 				"descriptionKey": "Unused",
 				"linkedConflictId": "hoth_empire_phase02_conflict02",
 				"maxAttemptsAllowed": 2147483647,
@@ -2252,19 +2252,19 @@
 			"platoonDefinitionList": [
 				{
 					"id": "hoth-platoon-1",
-					"nameKey": "ReconZoneView_Platoon_Name",
+					"nameKey": "PLATOON {0}",
 					"squadList": [
 						{
 							"id": "hoth-squad-01",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-02",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-03",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						}
 					],
 					"reward": {
@@ -2274,19 +2274,19 @@
 				},
 				{
 					"id": "hoth-platoon-2",
-					"nameKey": "ReconZoneView_Platoon_Name",
+					"nameKey": "PLATOON {0}",
 					"squadList": [
 						{
 							"id": "hoth-squad-01",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-02",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-03",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						}
 					],
 					"reward": {
@@ -2296,19 +2296,19 @@
 				},
 				{
 					"id": "hoth-platoon-3",
-					"nameKey": "ReconZoneView_Platoon_Name",
+					"nameKey": "PLATOON {0}",
 					"squadList": [
 						{
 							"id": "hoth-squad-01",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-02",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-03",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						}
 					],
 					"reward": {
@@ -2318,19 +2318,19 @@
 				},
 				{
 					"id": "hoth-platoon-4",
-					"nameKey": "ReconZoneView_Platoon_Name",
+					"nameKey": "PLATOON {0}",
 					"squadList": [
 						{
 							"id": "hoth-squad-01",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-02",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-03",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						}
 					],
 					"reward": {
@@ -2340,19 +2340,19 @@
 				},
 				{
 					"id": "hoth-platoon-5",
-					"nameKey": "ReconZoneView_Platoon_Name",
+					"nameKey": "PLATOON {0}",
 					"squadList": [
 						{
 							"id": "hoth-squad-01",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-02",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-03",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						}
 					],
 					"reward": {
@@ -2362,19 +2362,19 @@
 				},
 				{
 					"id": "hoth-platoon-6",
-					"nameKey": "ReconZoneView_Platoon_Name",
+					"nameKey": "PLATOON {0}",
 					"squadList": [
 						{
 							"id": "hoth-squad-01",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-02",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-03",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						}
 					],
 					"reward": {
@@ -2386,11 +2386,11 @@
 			"abilityImage": "TEST_IMAGE",
 			"abilityShortDescKey": "TEST_ABILITY",
 			"abilityLongDescKey": "TEST_ABILITY_LONG",
-			"goalDescKey": "TERRITORYHOTH_EMPIRE_PHASE02_CONFLICT02_RECON01_MESSAGE",
+			"goalDescKey": "[c][b5e7f5]Reinforce[-][/c] [c][F0FF23]Outer Pass[-][/c] [c][b5e7f5]and[-][/c] [c][F0FF23]Rear Trenches[-][/c] [c][b5e7f5]with a powerful ability![-][/c]",
 			"goalImage": "tex.territory_backdrop_hoth_atat",
 			"unitRarity": 3,
-			"rewardDescKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_REWARDS_DESC",
-			"subTitleKey": "TERRITORYHOTH_PHASE02_CONFLICT01_RECON01_SUB_TITLE",
+			"rewardDescKey": "Earn bonus TP for each Platoon completed.",
+			"subTitleKey": "Assign Characters (3-Star or Higher)",
 			"grantedAbilitiesList": [],
 			"strategicAbilitiesList": [
 				{
@@ -2410,7 +2410,7 @@
 						"id": "unlock_empire_recon_tier00",
 						"descKey": ""
 					},
-					"rankLabelOverrideKey": "STRATEGICABILITY_HOTH_ABILITY_RANK_LABEL00",
+					"rankLabelOverrideKey": "Locked",
 					"useOverlayIcon": true,
 					"overlaySpriteName": "",
 					"zonesToApplyToList": [
@@ -2444,7 +2444,7 @@
 						"id": "unlock_empire_recon_tier01",
 						"descKey": ""
 					},
-					"rankLabelOverrideKey": "STRATEGICABILITY_HOTH_ABILITY_RANK_LABEL01",
+					"rankLabelOverrideKey": "Level 1",
 					"useOverlayIcon": false,
 					"overlaySpriteName": "",
 					"zonesToApplyToList": [
@@ -2478,7 +2478,7 @@
 						"id": "unlock_empire_recon_tier02",
 						"descKey": ""
 					},
-					"rankLabelOverrideKey": "STRATEGICABILITY_HOTH_ABILITY_RANK_LABEL02",
+					"rankLabelOverrideKey": "Level 2",
 					"useOverlayIcon": false,
 					"overlaySpriteName": "",
 					"zonesToApplyToList": [
@@ -2505,7 +2505,7 @@
 						"id": "unlock_empire_recon_tier03",
 						"descKey": ""
 					},
-					"rankLabelOverrideKey": "STRATEGICABILITY_HOTH_ABILITY_RANK_LABEL03",
+					"rankLabelOverrideKey": "Level 3",
 					"useOverlayIcon": false,
 					"overlaySpriteName": "",
 					"zonesToApplyToList": [
@@ -2521,7 +2521,7 @@
 			"zoneDefinition": {
 				"zoneId": "hoth_empire_phase03_conflict01_recon01",
 				"prefabName": "",
-				"nameKey": "TERRITORYHOTH_EMPIRE_PLATOON_PHASE03_CONFLICT01",
+				"nameKey": "Imperial Fleet Mission",
 				"descriptionKey": "Unused",
 				"linkedConflictId": "hoth_empire_phase03_conflict01",
 				"maxAttemptsAllowed": 2147483647,
@@ -2534,19 +2534,19 @@
 			"platoonDefinitionList": [
 				{
 					"id": "hoth-platoon-1",
-					"nameKey": "ReconZoneView_Squadron_Name",
+					"nameKey": "SQUADRON {0}",
 					"squadList": [
 						{
 							"id": "hoth-squad-01",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-02",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-03",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						}
 					],
 					"reward": {
@@ -2556,19 +2556,19 @@
 				},
 				{
 					"id": "hoth-platoon-2",
-					"nameKey": "ReconZoneView_Squadron_Name",
+					"nameKey": "SQUADRON {0}",
 					"squadList": [
 						{
 							"id": "hoth-squad-01",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-02",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-03",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						}
 					],
 					"reward": {
@@ -2578,19 +2578,19 @@
 				},
 				{
 					"id": "hoth-platoon-3",
-					"nameKey": "ReconZoneView_Squadron_Name",
+					"nameKey": "SQUADRON {0}",
 					"squadList": [
 						{
 							"id": "hoth-squad-01",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-02",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-03",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						}
 					],
 					"reward": {
@@ -2600,19 +2600,19 @@
 				},
 				{
 					"id": "hoth-platoon-4",
-					"nameKey": "ReconZoneView_Squadron_Name",
+					"nameKey": "SQUADRON {0}",
 					"squadList": [
 						{
 							"id": "hoth-squad-01",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-02",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-03",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						}
 					],
 					"reward": {
@@ -2622,19 +2622,19 @@
 				},
 				{
 					"id": "hoth-platoon-5",
-					"nameKey": "ReconZoneView_Squadron_Name",
+					"nameKey": "SQUADRON {0}",
 					"squadList": [
 						{
 							"id": "hoth-squad-01",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-02",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-03",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						}
 					],
 					"reward": {
@@ -2644,19 +2644,19 @@
 				},
 				{
 					"id": "hoth-platoon-6",
-					"nameKey": "ReconZoneView_Squadron_Name",
+					"nameKey": "SQUADRON {0}",
 					"squadList": [
 						{
 							"id": "hoth-squad-01",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-02",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-03",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						}
 					],
 					"reward": {
@@ -2668,11 +2668,11 @@
 			"abilityImage": "TEST_IMAGE",
 			"abilityShortDescKey": "TEST_ABILITY",
 			"abilityLongDescKey": "TEST_ABILITY_LONG",
-			"goalDescKey": "TERRITORYHOTH_EMPIRE_PHASE03_CONFLICT01_RECON01_MESSAGE",
+			"goalDescKey": "[c][b5e7f5]Reinforce Character Combat and Special Missions with a powerful ability![-][/c]",
 			"goalImage": "tex.territory_backdrop_hoth_tie_snowspeeder",
 			"unitRarity": 4,
-			"rewardDescKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SHIP_REWARDS_DESC",
-			"subTitleKey": "TERRITORYHOTH_PHASE03_CONFLICT01_RECON01_SUB_TITLE_SHIP",
+			"rewardDescKey": "Earn bonus TP for each Squadron completed.",
+			"subTitleKey": "Assign Ships (4-Star or Higher)",
 			"grantedAbilitiesList": [],
 			"strategicAbilitiesList": [
 				{
@@ -2692,7 +2692,7 @@
 						"id": "unlock_empire_recon_tier00",
 						"descKey": ""
 					},
-					"rankLabelOverrideKey": "STRATEGICABILITY_HOTH_ABILITY_RANK_LABEL00",
+					"rankLabelOverrideKey": "Locked",
 					"useOverlayIcon": true,
 					"overlaySpriteName": "",
 					"zonesToApplyToList": [
@@ -2727,7 +2727,7 @@
 						"id": "unlock_empire_recon_tier01",
 						"descKey": ""
 					},
-					"rankLabelOverrideKey": "STRATEGICABILITY_HOTH_ABILITY_RANK_LABEL01",
+					"rankLabelOverrideKey": "Level 1",
 					"useOverlayIcon": false,
 					"overlaySpriteName": "",
 					"zonesToApplyToList": [
@@ -2762,7 +2762,7 @@
 						"id": "unlock_empire_recon_tier02",
 						"descKey": ""
 					},
-					"rankLabelOverrideKey": "STRATEGICABILITY_HOTH_ABILITY_RANK_LABEL02",
+					"rankLabelOverrideKey": "Level 2",
 					"useOverlayIcon": false,
 					"overlaySpriteName": "",
 					"zonesToApplyToList": [
@@ -2790,7 +2790,7 @@
 						"id": "unlock_empire_recon_tier03",
 						"descKey": ""
 					},
-					"rankLabelOverrideKey": "STRATEGICABILITY_HOTH_ABILITY_RANK_LABEL03",
+					"rankLabelOverrideKey": "Level 3",
 					"useOverlayIcon": false,
 					"overlaySpriteName": "",
 					"zonesToApplyToList": [
@@ -2818,7 +2818,7 @@
 						"id": "unlock_empire_recon_tier00",
 						"descKey": ""
 					},
-					"rankLabelOverrideKey": "STRATEGICABILITY_HOTH_ABILITY_RANK_LABEL00",
+					"rankLabelOverrideKey": "Locked",
 					"useOverlayIcon": true,
 					"overlaySpriteName": "",
 					"zonesToApplyToList": [
@@ -2866,7 +2866,7 @@
 						"id": "unlock_tb_orbital_tier01_phase4",
 						"descKey": ""
 					},
-					"rankLabelOverrideKey": "STRATEGICABILITY_HOTH_ABILITY_RANK_LABEL01",
+					"rankLabelOverrideKey": "Level 1",
 					"useOverlayIcon": false,
 					"overlaySpriteName": "",
 					"zonesToApplyToList": [
@@ -2914,7 +2914,7 @@
 						"id": "unlock_tb_orbital_tier02_phase4",
 						"descKey": ""
 					},
-					"rankLabelOverrideKey": "STRATEGICABILITY_HOTH_ABILITY_RANK_LABEL02",
+					"rankLabelOverrideKey": "Level 2",
 					"useOverlayIcon": false,
 					"overlaySpriteName": "",
 					"zonesToApplyToList": [
@@ -2955,7 +2955,7 @@
 						"id": "unlock_tb_orbital_tier03_phase4",
 						"descKey": ""
 					},
-					"rankLabelOverrideKey": "STRATEGICABILITY_HOTH_ABILITY_RANK_LABEL03",
+					"rankLabelOverrideKey": "Level 3",
 					"useOverlayIcon": false,
 					"overlaySpriteName": "",
 					"zonesToApplyToList": [
@@ -3003,7 +3003,7 @@
 						"id": "unlock_tb_orbital_tier01_phase5",
 						"descKey": ""
 					},
-					"rankLabelOverrideKey": "STRATEGICABILITY_HOTH_ABILITY_RANK_LABEL01",
+					"rankLabelOverrideKey": "Level 1",
 					"useOverlayIcon": false,
 					"overlaySpriteName": "",
 					"zonesToApplyToList": [
@@ -3052,7 +3052,7 @@
 						"id": "unlock_tb_orbital_tier02_phase5",
 						"descKey": ""
 					},
-					"rankLabelOverrideKey": "STRATEGICABILITY_HOTH_ABILITY_RANK_LABEL02",
+					"rankLabelOverrideKey": "Level 2",
 					"useOverlayIcon": false,
 					"overlaySpriteName": "",
 					"zonesToApplyToList": [
@@ -3094,7 +3094,7 @@
 						"id": "unlock_tb_orbital_tier03_phase5",
 						"descKey": ""
 					},
-					"rankLabelOverrideKey": "STRATEGICABILITY_HOTH_ABILITY_RANK_LABEL03",
+					"rankLabelOverrideKey": "Level 3",
 					"useOverlayIcon": false,
 					"overlaySpriteName": "",
 					"zonesToApplyToList": [
@@ -3136,7 +3136,7 @@
 						"id": "unlock_tb_orbital_tier01_phase6",
 						"descKey": ""
 					},
-					"rankLabelOverrideKey": "STRATEGICABILITY_HOTH_ABILITY_RANK_LABEL01",
+					"rankLabelOverrideKey": "Level 1",
 					"useOverlayIcon": false,
 					"overlaySpriteName": "",
 					"zonesToApplyToList": [
@@ -3178,7 +3178,7 @@
 						"id": "unlock_tb_orbital_tier02_phase6",
 						"descKey": ""
 					},
-					"rankLabelOverrideKey": "STRATEGICABILITY_HOTH_ABILITY_RANK_LABEL02",
+					"rankLabelOverrideKey": "Level 2",
 					"useOverlayIcon": false,
 					"overlaySpriteName": "",
 					"zonesToApplyToList": [
@@ -3213,7 +3213,7 @@
 						"id": "unlock_tb_orbital_tier03_phase6",
 						"descKey": ""
 					},
-					"rankLabelOverrideKey": "STRATEGICABILITY_HOTH_ABILITY_RANK_LABEL03",
+					"rankLabelOverrideKey": "Level 3",
 					"useOverlayIcon": false,
 					"overlaySpriteName": "",
 					"zonesToApplyToList": [
@@ -3230,7 +3230,7 @@
 			"zoneDefinition": {
 				"zoneId": "hoth_empire_phase03_conflict02_recon01",
 				"prefabName": "",
-				"nameKey": "TERRITORYHOTH_EMPIRE_PLATOON_PHASE03_CONFLICT02",
+				"nameKey": "Ion Cannon Mission",
 				"descriptionKey": "Unused",
 				"linkedConflictId": "hoth_empire_phase03_conflict02",
 				"maxAttemptsAllowed": 2147483647,
@@ -3243,19 +3243,19 @@
 			"platoonDefinitionList": [
 				{
 					"id": "hoth-platoon-1",
-					"nameKey": "ReconZoneView_Platoon_Name",
+					"nameKey": "PLATOON {0}",
 					"squadList": [
 						{
 							"id": "hoth-squad-01",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-02",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-03",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						}
 					],
 					"reward": {
@@ -3265,19 +3265,19 @@
 				},
 				{
 					"id": "hoth-platoon-2",
-					"nameKey": "ReconZoneView_Platoon_Name",
+					"nameKey": "PLATOON {0}",
 					"squadList": [
 						{
 							"id": "hoth-squad-01",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-02",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-03",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						}
 					],
 					"reward": {
@@ -3287,19 +3287,19 @@
 				},
 				{
 					"id": "hoth-platoon-3",
-					"nameKey": "ReconZoneView_Platoon_Name",
+					"nameKey": "PLATOON {0}",
 					"squadList": [
 						{
 							"id": "hoth-squad-01",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-02",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-03",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						}
 					],
 					"reward": {
@@ -3309,19 +3309,19 @@
 				},
 				{
 					"id": "hoth-platoon-4",
-					"nameKey": "ReconZoneView_Platoon_Name",
+					"nameKey": "PLATOON {0}",
 					"squadList": [
 						{
 							"id": "hoth-squad-01",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-02",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-03",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						}
 					],
 					"reward": {
@@ -3331,19 +3331,19 @@
 				},
 				{
 					"id": "hoth-platoon-5",
-					"nameKey": "ReconZoneView_Platoon_Name",
+					"nameKey": "PLATOON {0}",
 					"squadList": [
 						{
 							"id": "hoth-squad-01",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-02",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-03",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						}
 					],
 					"reward": {
@@ -3353,19 +3353,19 @@
 				},
 				{
 					"id": "hoth-platoon-6",
-					"nameKey": "ReconZoneView_Platoon_Name",
+					"nameKey": "PLATOON {0}",
 					"squadList": [
 						{
 							"id": "hoth-squad-01",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-02",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-03",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						}
 					],
 					"reward": {
@@ -3377,11 +3377,11 @@
 			"abilityImage": "TEST_IMAGE",
 			"abilityShortDescKey": "TEST_ABILITY",
 			"abilityLongDescKey": "TEST_ABILITY_LONG",
-			"goalDescKey": "TERRITORYHOTH_EMPIRE_PHASE03_CONFLICT02_RECON01_MESSAGE",
+			"goalDescKey": "[c][b5e7f5]Reinforce[-][/c] [c][F0FF23]Contested Airspace[-][/c], [c][F0FF23]Forward Airspace[-][/c] [c][b5e7f5]and[-][/c] [c][F0FF23]Rear Airspace[-][/c] [c][b5e7f5]with a powerful ability![-][/c]",
 			"goalImage": "tex.territory_backdrop_hoth_ion_cannon",
 			"unitRarity": 4,
-			"rewardDescKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_REWARDS_DESC",
-			"subTitleKey": "TERRITORYHOTH_PHASE03_CONFLICT01_RECON01_SUB_TITLE",
+			"rewardDescKey": "Earn bonus TP for each Platoon completed.",
+			"subTitleKey": "Assign Characters (4-Star or Higher)",
 			"grantedAbilitiesList": [],
 			"strategicAbilitiesList": [
 				{
@@ -3401,7 +3401,7 @@
 						"id": "unlock_empire_recon_tier03",
 						"descKey": ""
 					},
-					"rankLabelOverrideKey": "STRATEGICABILITY_HOTH_ABILITY_RANK_LABEL_DISABLE",
+					"rankLabelOverrideKey": "Disabled",
 					"useOverlayIcon": true,
 					"overlaySpriteName": "icon_apply_curse",
 					"zonesToApplyToList": [
@@ -3436,7 +3436,7 @@
 						"id": "unlock_empire_recon_tier02",
 						"descKey": ""
 					},
-					"rankLabelOverrideKey": "STRATEGICABILITY_HOTH_ABILITY_RANK_LABEL02",
+					"rankLabelOverrideKey": "Level 2",
 					"useOverlayIcon": false,
 					"overlaySpriteName": "",
 					"zonesToApplyToList": [
@@ -3471,7 +3471,7 @@
 						"id": "unlock_empire_recon_tier01",
 						"descKey": ""
 					},
-					"rankLabelOverrideKey": "STRATEGICABILITY_HOTH_ABILITY_RANK_LABEL01",
+					"rankLabelOverrideKey": "Level 1",
 					"useOverlayIcon": false,
 					"overlaySpriteName": "",
 					"zonesToApplyToList": [
@@ -3499,7 +3499,7 @@
 						"id": "unlock_empire_recon_tier00",
 						"descKey": ""
 					},
-					"rankLabelOverrideKey": "STRATEGICABILITY_HOTH_ABILITY_RANK_LABEL03",
+					"rankLabelOverrideKey": "Level 3",
 					"useOverlayIcon": false,
 					"overlaySpriteName": "",
 					"zonesToApplyToList": [
@@ -3516,7 +3516,7 @@
 			"zoneDefinition": {
 				"zoneId": "hoth_empire_phase03_conflict03_recon01",
 				"prefabName": "",
-				"nameKey": "TERRITORYHOTH_EMPIRE_PLATOON_PHASE03_CONFLICT03",
+				"nameKey": "Outer Pass Mission",
 				"descriptionKey": "Unused",
 				"linkedConflictId": "hoth_empire_phase03_conflict03",
 				"maxAttemptsAllowed": 2147483647,
@@ -3529,19 +3529,19 @@
 			"platoonDefinitionList": [
 				{
 					"id": "hoth-platoon-1",
-					"nameKey": "ReconZoneView_Platoon_Name",
+					"nameKey": "PLATOON {0}",
 					"squadList": [
 						{
 							"id": "hoth-squad-01",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-02",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-03",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						}
 					],
 					"reward": {
@@ -3551,19 +3551,19 @@
 				},
 				{
 					"id": "hoth-platoon-2",
-					"nameKey": "ReconZoneView_Platoon_Name",
+					"nameKey": "PLATOON {0}",
 					"squadList": [
 						{
 							"id": "hoth-squad-01",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-02",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-03",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						}
 					],
 					"reward": {
@@ -3573,19 +3573,19 @@
 				},
 				{
 					"id": "hoth-platoon-3",
-					"nameKey": "ReconZoneView_Platoon_Name",
+					"nameKey": "PLATOON {0}",
 					"squadList": [
 						{
 							"id": "hoth-squad-01",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-02",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-03",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						}
 					],
 					"reward": {
@@ -3595,19 +3595,19 @@
 				},
 				{
 					"id": "hoth-platoon-4",
-					"nameKey": "ReconZoneView_Platoon_Name",
+					"nameKey": "PLATOON {0}",
 					"squadList": [
 						{
 							"id": "hoth-squad-01",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-02",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-03",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						}
 					],
 					"reward": {
@@ -3617,19 +3617,19 @@
 				},
 				{
 					"id": "hoth-platoon-5",
-					"nameKey": "ReconZoneView_Platoon_Name",
+					"nameKey": "PLATOON {0}",
 					"squadList": [
 						{
 							"id": "hoth-squad-01",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-02",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-03",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						}
 					],
 					"reward": {
@@ -3639,19 +3639,19 @@
 				},
 				{
 					"id": "hoth-platoon-6",
-					"nameKey": "ReconZoneView_Platoon_Name",
+					"nameKey": "PLATOON {0}",
 					"squadList": [
 						{
 							"id": "hoth-squad-01",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-02",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-03",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						}
 					],
 					"reward": {
@@ -3663,11 +3663,11 @@
 			"abilityImage": "TEST_IMAGE",
 			"abilityShortDescKey": "TEST_ABILITY",
 			"abilityLongDescKey": "TEST_ABILITY_LONG",
-			"goalDescKey": "TERRITORYHOTH_EMPIRE_PHASE03_CONFLICT03_RECON01_MESSAGE",
+			"goalDescKey": "[c][b5e7f5]Weaken the Rebel Supply Lines ability in the[-][/c] [c][F0FF23]Power Generator[-][/c] [c][b5e7f5]and[-][/c] [c][F0FF23]Rear Trenches[-][/c] [c][b5e7f5]territories![-][/c]",
 			"goalImage": "tex.territory_backdrop_hoth_turretsvslaser",
 			"unitRarity": 4,
-			"rewardDescKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_REWARDS_DESC",
-			"subTitleKey": "TERRITORYHOTH_PHASE03_CONFLICT01_RECON01_SUB_TITLE",
+			"rewardDescKey": "Earn bonus TP for each Platoon completed.",
+			"subTitleKey": "Assign Characters (4-Star or Higher)",
 			"grantedAbilitiesList": [],
 			"strategicAbilitiesList": [
 				{
@@ -3687,7 +3687,7 @@
 						"id": "unlock_empire_recon_tier03",
 						"descKey": ""
 					},
-					"rankLabelOverrideKey": "STRATEGICABILITY_HOTH_ABILITY_RANK_LABEL_DISABLE",
+					"rankLabelOverrideKey": "Disabled",
 					"useOverlayIcon": true,
 					"overlaySpriteName": "",
 					"zonesToApplyToList": [
@@ -3721,7 +3721,7 @@
 						"id": "unlock_empire_recon_tier02",
 						"descKey": ""
 					},
-					"rankLabelOverrideKey": "STRATEGICABILITY_HOTH_ABILITY_RANK_LABEL01",
+					"rankLabelOverrideKey": "Level 1",
 					"useOverlayIcon": false,
 					"overlaySpriteName": "",
 					"zonesToApplyToList": [
@@ -3755,7 +3755,7 @@
 						"id": "unlock_empire_recon_tier01",
 						"descKey": ""
 					},
-					"rankLabelOverrideKey": "STRATEGICABILITY_HOTH_ABILITY_RANK_LABEL02",
+					"rankLabelOverrideKey": "Level 2",
 					"useOverlayIcon": false,
 					"overlaySpriteName": "",
 					"zonesToApplyToList": [
@@ -3782,7 +3782,7 @@
 						"id": "unlock_empire_recon_tier00",
 						"descKey": ""
 					},
-					"rankLabelOverrideKey": "STRATEGICABILITY_HOTH_ABILITY_RANK_LABEL03",
+					"rankLabelOverrideKey": "Level 3",
 					"useOverlayIcon": false,
 					"overlaySpriteName": "",
 					"zonesToApplyToList": [
@@ -3798,7 +3798,7 @@
 			"zoneDefinition": {
 				"zoneId": "hoth_empire_phase04_conflict01_recon01",
 				"prefabName": "",
-				"nameKey": "TERRITORYHOTH_EMPIRE_PLATOON_PHASE04_CONFLICT01",
+				"nameKey": "Contested Airspace Mission",
 				"descriptionKey": "Unused",
 				"linkedConflictId": "hoth_empire_phase04_conflict01",
 				"maxAttemptsAllowed": 2147483647,
@@ -3811,19 +3811,19 @@
 			"platoonDefinitionList": [
 				{
 					"id": "hoth-platoon-1",
-					"nameKey": "ReconZoneView_Squadron_Name",
+					"nameKey": "SQUADRON {0}",
 					"squadList": [
 						{
 							"id": "hoth-squad-01",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-02",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-03",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						}
 					],
 					"reward": {
@@ -3833,19 +3833,19 @@
 				},
 				{
 					"id": "hoth-platoon-2",
-					"nameKey": "ReconZoneView_Squadron_Name",
+					"nameKey": "SQUADRON {0}",
 					"squadList": [
 						{
 							"id": "hoth-squad-01",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-02",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-03",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						}
 					],
 					"reward": {
@@ -3855,19 +3855,19 @@
 				},
 				{
 					"id": "hoth-platoon-3",
-					"nameKey": "ReconZoneView_Squadron_Name",
+					"nameKey": "SQUADRON {0}",
 					"squadList": [
 						{
 							"id": "hoth-squad-01",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-02",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-03",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						}
 					],
 					"reward": {
@@ -3877,19 +3877,19 @@
 				},
 				{
 					"id": "hoth-platoon-4",
-					"nameKey": "ReconZoneView_Squadron_Name",
+					"nameKey": "SQUADRON {0}",
 					"squadList": [
 						{
 							"id": "hoth-squad-01",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-02",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-03",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						}
 					],
 					"reward": {
@@ -3899,19 +3899,19 @@
 				},
 				{
 					"id": "hoth-platoon-5",
-					"nameKey": "ReconZoneView_Squadron_Name",
+					"nameKey": "SQUADRON {0}",
 					"squadList": [
 						{
 							"id": "hoth-squad-01",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-02",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-03",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						}
 					],
 					"reward": {
@@ -3921,19 +3921,19 @@
 				},
 				{
 					"id": "hoth-platoon-6",
-					"nameKey": "ReconZoneView_Squadron_Name",
+					"nameKey": "SQUADRON {0}",
 					"squadList": [
 						{
 							"id": "hoth-squad-01",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-02",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-03",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						}
 					],
 					"reward": {
@@ -3945,11 +3945,11 @@
 			"abilityImage": "TEST_IMAGE",
 			"abilityShortDescKey": "TEST_ABILITY",
 			"abilityLongDescKey": "TEST_ABILITY_LONG",
-			"goalDescKey": "TERRITORYHOTH_EMPIRE_PHASE04_CONFLICT01_RECON01_MESSAGE",
+			"goalDescKey": "[c][b5e7f5]Weaken the Rebel Strafing Run ability in the[-][/c] [c][F0FF23]Power Generator[-][/c] [c][b5e7f5]and[-][/c] [c][F0FF23]Rear Trenches[-][/c] [c][b5e7f5]territories![-][/c]",
 			"goalImage": "tex.territory_backdrop_hoth_tie_snowspeeder",
 			"unitRarity": 5,
-			"rewardDescKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SHIP_REWARDS_DESC",
-			"subTitleKey": "TERRITORYHOTH_PHASE04_CONFLICT01_RECON01_SUB_TITLE_SHIP",
+			"rewardDescKey": "Earn bonus TP for each Squadron completed.",
+			"subTitleKey": "Assign Ships (5-Star or Higher)",
 			"grantedAbilitiesList": [],
 			"strategicAbilitiesList": [
 				{
@@ -3969,7 +3969,7 @@
 						"id": "unlock_empire_recon_tier03",
 						"descKey": ""
 					},
-					"rankLabelOverrideKey": "STRATEGICABILITY_HOTH_ABILITY_RANK_LABEL00",
+					"rankLabelOverrideKey": "Locked",
 					"useOverlayIcon": true,
 					"overlaySpriteName": "icon_apply_curse",
 					"zonesToApplyToList": [
@@ -4003,7 +4003,7 @@
 						"id": "unlock_empire_recon_tier02",
 						"descKey": ""
 					},
-					"rankLabelOverrideKey": "STRATEGICABILITY_HOTH_ABILITY_RANK_LABEL01",
+					"rankLabelOverrideKey": "Level 1",
 					"useOverlayIcon": false,
 					"overlaySpriteName": "",
 					"zonesToApplyToList": [
@@ -4037,7 +4037,7 @@
 						"id": "unlock_empire_recon_tier01",
 						"descKey": ""
 					},
-					"rankLabelOverrideKey": "STRATEGICABILITY_HOTH_ABILITY_RANK_LABEL02",
+					"rankLabelOverrideKey": "Level 2",
 					"useOverlayIcon": false,
 					"overlaySpriteName": "",
 					"zonesToApplyToList": [
@@ -4064,7 +4064,7 @@
 						"id": "unlock_empire_recon_tier00",
 						"descKey": ""
 					},
-					"rankLabelOverrideKey": "STRATEGICABILITY_HOTH_ABILITY_RANK_LABEL03",
+					"rankLabelOverrideKey": "Level 3",
 					"useOverlayIcon": false,
 					"overlaySpriteName": "",
 					"zonesToApplyToList": [
@@ -4080,7 +4080,7 @@
 			"zoneDefinition": {
 				"zoneId": "hoth_empire_phase04_conflict02_recon01",
 				"prefabName": "",
-				"nameKey": "TERRITORYHOTH_EMPIRE_PLATOON_PHASE04_CONFLICT02",
+				"nameKey": "Power Generator Mission",
 				"descriptionKey": "Unused",
 				"linkedConflictId": "hoth_empire_phase04_conflict02",
 				"maxAttemptsAllowed": 2147483647,
@@ -4093,19 +4093,19 @@
 			"platoonDefinitionList": [
 				{
 					"id": "hoth-platoon-1",
-					"nameKey": "ReconZoneView_Platoon_Name",
+					"nameKey": "PLATOON {0}",
 					"squadList": [
 						{
 							"id": "hoth-squad-01",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-02",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-03",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						}
 					],
 					"reward": {
@@ -4115,19 +4115,19 @@
 				},
 				{
 					"id": "hoth-platoon-2",
-					"nameKey": "ReconZoneView_Platoon_Name",
+					"nameKey": "PLATOON {0}",
 					"squadList": [
 						{
 							"id": "hoth-squad-01",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-02",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-03",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						}
 					],
 					"reward": {
@@ -4137,19 +4137,19 @@
 				},
 				{
 					"id": "hoth-platoon-3",
-					"nameKey": "ReconZoneView_Platoon_Name",
+					"nameKey": "PLATOON {0}",
 					"squadList": [
 						{
 							"id": "hoth-squad-01",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-02",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-03",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						}
 					],
 					"reward": {
@@ -4159,19 +4159,19 @@
 				},
 				{
 					"id": "hoth-platoon-4",
-					"nameKey": "ReconZoneView_Platoon_Name",
+					"nameKey": "PLATOON {0}",
 					"squadList": [
 						{
 							"id": "hoth-squad-01",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-02",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-03",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						}
 					],
 					"reward": {
@@ -4181,19 +4181,19 @@
 				},
 				{
 					"id": "hoth-platoon-5",
-					"nameKey": "ReconZoneView_Platoon_Name",
+					"nameKey": "PLATOON {0}",
 					"squadList": [
 						{
 							"id": "hoth-squad-01",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-02",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-03",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						}
 					],
 					"reward": {
@@ -4203,19 +4203,19 @@
 				},
 				{
 					"id": "hoth-platoon-6",
-					"nameKey": "ReconZoneView_Platoon_Name",
+					"nameKey": "PLATOON {0}",
 					"squadList": [
 						{
 							"id": "hoth-squad-01",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-02",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-03",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						}
 					],
 					"reward": {
@@ -4227,11 +4227,11 @@
 			"abilityImage": "TEST_IMAGE",
 			"abilityShortDescKey": "TEST_ABILITY",
 			"abilityLongDescKey": "TEST_ABILITY_LONG",
-			"goalDescKey": "TERRITORYHOTH_EMPIRE_PHASE04_CONFLICT02_RECON01_MESSAGE",
+			"goalDescKey": "[c][b5e7f5]Complete Platoons to enable the Oribtal Bombardment in other territories![-][/c]",
 			"goalImage": "tex.territory_backdrop_hoth_shield_generator",
 			"unitRarity": 5,
-			"rewardDescKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_REWARDS_DESC",
-			"subTitleKey": "TERRITORYHOTH_PHASE04_CONFLICT01_RECON01_SUB_TITLE",
+			"rewardDescKey": "Earn bonus TP for each Platoon completed.",
+			"subTitleKey": "Assign Characters (5-Star or Higher)",
 			"grantedAbilitiesList": [],
 			"strategicAbilitiesList": [
 				{
@@ -4251,7 +4251,7 @@
 						"id": "unlock_empire_recon_tier03",
 						"descKey": ""
 					},
-					"rankLabelOverrideKey": "STRATEGICABILITY_HOTH_ABILITY_RANK_LABEL00",
+					"rankLabelOverrideKey": "Locked",
 					"useOverlayIcon": false,
 					"overlaySpriteName": "",
 					"zonesToApplyToList": [
@@ -4293,7 +4293,7 @@
 						"id": "unlock_empire_recon_tier02",
 						"descKey": ""
 					},
-					"rankLabelOverrideKey": "STRATEGICABILITY_HOTH_ABILITY_RANK_LABEL01",
+					"rankLabelOverrideKey": "Level 1",
 					"useOverlayIcon": false,
 					"overlaySpriteName": "",
 					"zonesToApplyToList": [
@@ -4335,7 +4335,7 @@
 						"id": "unlock_empire_recon_tier01",
 						"descKey": ""
 					},
-					"rankLabelOverrideKey": "STRATEGICABILITY_HOTH_ABILITY_RANK_LABEL02",
+					"rankLabelOverrideKey": "Level 2",
 					"useOverlayIcon": false,
 					"overlaySpriteName": "",
 					"zonesToApplyToList": [
@@ -4370,7 +4370,7 @@
 						"id": "unlock_empire_recon_tier00",
 						"descKey": ""
 					},
-					"rankLabelOverrideKey": "STRATEGICABILITY_HOTH_ABILITY_RANK_LABEL03",
+					"rankLabelOverrideKey": "Level 3",
 					"useOverlayIcon": false,
 					"overlaySpriteName": "",
 					"zonesToApplyToList": [
@@ -4394,7 +4394,7 @@
 			"zoneDefinition": {
 				"zoneId": "hoth_empire_phase04_conflict03_recon01",
 				"prefabName": "",
-				"nameKey": "TERRITORYHOTH_EMPIRE_PLATOON_PHASE04_CONFLICT03",
+				"nameKey": "Rear Trenches Mission",
 				"descriptionKey": "Unused",
 				"linkedConflictId": "hoth_empire_phase04_conflict03",
 				"maxAttemptsAllowed": 2147483647,
@@ -4407,19 +4407,19 @@
 			"platoonDefinitionList": [
 				{
 					"id": "hoth-platoon-1",
-					"nameKey": "ReconZoneView_Platoon_Name",
+					"nameKey": "PLATOON {0}",
 					"squadList": [
 						{
 							"id": "hoth-squad-01",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-02",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-03",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						}
 					],
 					"reward": {
@@ -4429,19 +4429,19 @@
 				},
 				{
 					"id": "hoth-platoon-2",
-					"nameKey": "ReconZoneView_Platoon_Name",
+					"nameKey": "PLATOON {0}",
 					"squadList": [
 						{
 							"id": "hoth-squad-01",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-02",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-03",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						}
 					],
 					"reward": {
@@ -4451,19 +4451,19 @@
 				},
 				{
 					"id": "hoth-platoon-3",
-					"nameKey": "ReconZoneView_Platoon_Name",
+					"nameKey": "PLATOON {0}",
 					"squadList": [
 						{
 							"id": "hoth-squad-01",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-02",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-03",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						}
 					],
 					"reward": {
@@ -4473,19 +4473,19 @@
 				},
 				{
 					"id": "hoth-platoon-4",
-					"nameKey": "ReconZoneView_Platoon_Name",
+					"nameKey": "PLATOON {0}",
 					"squadList": [
 						{
 							"id": "hoth-squad-01",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-02",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-03",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						}
 					],
 					"reward": {
@@ -4495,19 +4495,19 @@
 				},
 				{
 					"id": "hoth-platoon-5",
-					"nameKey": "ReconZoneView_Platoon_Name",
+					"nameKey": "PLATOON {0}",
 					"squadList": [
 						{
 							"id": "hoth-squad-01",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-02",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-03",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						}
 					],
 					"reward": {
@@ -4517,19 +4517,19 @@
 				},
 				{
 					"id": "hoth-platoon-6",
-					"nameKey": "ReconZoneView_Platoon_Name",
+					"nameKey": "PLATOON {0}",
 					"squadList": [
 						{
 							"id": "hoth-squad-01",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-02",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-03",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						}
 					],
 					"reward": {
@@ -4541,11 +4541,11 @@
 			"abilityImage": "TEST_IMAGE",
 			"abilityShortDescKey": "TEST_ABILITY",
 			"abilityLongDescKey": "TEST_ABILITY_LONG",
-			"goalDescKey": "TERRITORYHOTH_EMPIRE_PHASE04_CONFLICT03_RECON01_MESSAGE",
+			"goalDescKey": "[c][b5e7f5]Reinforce[-][/c] [c][F0FF23]Forward Trenches[-][/c] [c][b5e7f5]and[-][/c] [c][F0FF23]Overlook[-][/c] [c][b5e7f5]with a powerful ability![-][/c]",
 			"goalImage": "tex.territory_backdrop_hoth_atat",
 			"unitRarity": 5,
-			"rewardDescKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_REWARDS_DESC",
-			"subTitleKey": "TERRITORYHOTH_PHASE04_CONFLICT01_RECON01_SUB_TITLE",
+			"rewardDescKey": "Earn bonus TP for each Platoon completed.",
+			"subTitleKey": "Assign Characters (5-Star or Higher)",
 			"grantedAbilitiesList": [],
 			"strategicAbilitiesList": [
 				{
@@ -4565,7 +4565,7 @@
 						"id": "unlock_empire_recon_tier00",
 						"descKey": ""
 					},
-					"rankLabelOverrideKey": "STRATEGICABILITY_HOTH_ABILITY_RANK_LABEL00",
+					"rankLabelOverrideKey": "Locked",
 					"useOverlayIcon": true,
 					"overlaySpriteName": "",
 					"zonesToApplyToList": [
@@ -4600,7 +4600,7 @@
 						"id": "unlock_empire_recon_tier01",
 						"descKey": ""
 					},
-					"rankLabelOverrideKey": "STRATEGICABILITY_HOTH_ABILITY_RANK_LABEL01",
+					"rankLabelOverrideKey": "Level 1",
 					"useOverlayIcon": false,
 					"overlaySpriteName": "",
 					"zonesToApplyToList": [
@@ -4635,7 +4635,7 @@
 						"id": "unlock_empire_recon_tier02",
 						"descKey": ""
 					},
-					"rankLabelOverrideKey": "STRATEGICABILITY_HOTH_ABILITY_RANK_LABEL02",
+					"rankLabelOverrideKey": "Level 2",
 					"useOverlayIcon": false,
 					"overlaySpriteName": "",
 					"zonesToApplyToList": [
@@ -4663,7 +4663,7 @@
 						"id": "unlock_empire_recon_tier03",
 						"descKey": ""
 					},
-					"rankLabelOverrideKey": "STRATEGICABILITY_HOTH_ABILITY_RANK_LABEL03",
+					"rankLabelOverrideKey": "Level 3",
 					"useOverlayIcon": false,
 					"overlaySpriteName": "",
 					"zonesToApplyToList": [
@@ -4680,7 +4680,7 @@
 			"zoneDefinition": {
 				"zoneId": "hoth_empire_phase05_conflict01_recon01",
 				"prefabName": "",
-				"nameKey": "TERRITORYHOTH_EMPIRE_PLATOON_PHASE05_CONFLICT01",
+				"nameKey": "Forward Airspace Mission",
 				"descriptionKey": "Unused",
 				"linkedConflictId": "hoth_empire_phase05_conflict01",
 				"maxAttemptsAllowed": 2147483647,
@@ -4693,19 +4693,19 @@
 			"platoonDefinitionList": [
 				{
 					"id": "hoth-platoon-1",
-					"nameKey": "ReconZoneView_Squadron_Name",
+					"nameKey": "SQUADRON {0}",
 					"squadList": [
 						{
 							"id": "hoth-squad-01",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-02",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-03",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						}
 					],
 					"reward": {
@@ -4715,19 +4715,19 @@
 				},
 				{
 					"id": "hoth-platoon-2",
-					"nameKey": "ReconZoneView_Squadron_Name",
+					"nameKey": "SQUADRON {0}",
 					"squadList": [
 						{
 							"id": "hoth-squad-01",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-02",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-03",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						}
 					],
 					"reward": {
@@ -4737,19 +4737,19 @@
 				},
 				{
 					"id": "hoth-platoon-3",
-					"nameKey": "ReconZoneView_Squadron_Name",
+					"nameKey": "SQUADRON {0}",
 					"squadList": [
 						{
 							"id": "hoth-squad-01",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-02",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-03",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						}
 					],
 					"reward": {
@@ -4759,19 +4759,19 @@
 				},
 				{
 					"id": "hoth-platoon-4",
-					"nameKey": "ReconZoneView_Squadron_Name",
+					"nameKey": "SQUADRON {0}",
 					"squadList": [
 						{
 							"id": "hoth-squad-01",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-02",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-03",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						}
 					],
 					"reward": {
@@ -4781,19 +4781,19 @@
 				},
 				{
 					"id": "hoth-platoon-5",
-					"nameKey": "ReconZoneView_Squadron_Name",
+					"nameKey": "SQUADRON {0}",
 					"squadList": [
 						{
 							"id": "hoth-squad-01",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-02",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-03",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						}
 					],
 					"reward": {
@@ -4803,19 +4803,19 @@
 				},
 				{
 					"id": "hoth-platoon-6",
-					"nameKey": "ReconZoneView_Squadron_Name",
+					"nameKey": "SQUADRON {0}",
 					"squadList": [
 						{
 							"id": "hoth-squad-01",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-02",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-03",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						}
 					],
 					"reward": {
@@ -4827,11 +4827,11 @@
 			"abilityImage": "TEST_IMAGE",
 			"abilityShortDescKey": "TEST_ABILITY",
 			"abilityLongDescKey": "TEST_ABILITY_LONG",
-			"goalDescKey": "TERRITORYHOTH_EMPIRE_PHASE05_CONFLICT01_RECON01_MESSAGE",
+			"goalDescKey": "[c][b5e7f5]Weaken the Rebel Strafing Run ability in the[-][/c] [c][F0FF23]Forward Trenches[-][/c] [c][b5e7f5]and[-][/c] [c][F0FF23]Overlook[-][/c] [c][b5e7f5]territories![-][/c]",
 			"goalImage": "tex.territory_backdrop_hoth_tie_snowspeeder",
 			"unitRarity": 6,
-			"rewardDescKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SHIP_REWARDS_DESC",
-			"subTitleKey": "TERRITORYHOTH_PHASE05_CONFLICT01_RECON01_SUB_TITLE_SHIP",
+			"rewardDescKey": "Earn bonus TP for each Squadron completed.",
+			"subTitleKey": "Assign Ships (6-Star or Higher)",
 			"grantedAbilitiesList": [],
 			"strategicAbilitiesList": [
 				{
@@ -4851,7 +4851,7 @@
 						"id": "unlock_empire_recon_tier03",
 						"descKey": ""
 					},
-					"rankLabelOverrideKey": "STRATEGICABILITY_HOTH_ABILITY_RANK_LABEL_DISABLE",
+					"rankLabelOverrideKey": "Disabled",
 					"useOverlayIcon": true,
 					"overlaySpriteName": "icon_apply_curse",
 					"zonesToApplyToList": [
@@ -4886,7 +4886,7 @@
 						"id": "unlock_empire_recon_tier02",
 						"descKey": ""
 					},
-					"rankLabelOverrideKey": "STRATEGICABILITY_HOTH_ABILITY_RANK_LABEL01",
+					"rankLabelOverrideKey": "Level 1",
 					"useOverlayIcon": false,
 					"overlaySpriteName": "",
 					"zonesToApplyToList": [
@@ -4921,7 +4921,7 @@
 						"id": "unlock_empire_recon_tier01",
 						"descKey": ""
 					},
-					"rankLabelOverrideKey": "STRATEGICABILITY_HOTH_ABILITY_RANK_LABEL02",
+					"rankLabelOverrideKey": "Level 2",
 					"useOverlayIcon": false,
 					"overlaySpriteName": "",
 					"zonesToApplyToList": [
@@ -4949,7 +4949,7 @@
 						"id": "unlock_empire_recon_tier00",
 						"descKey": ""
 					},
-					"rankLabelOverrideKey": "STRATEGICABILITY_HOTH_ABILITY_RANK_LABEL03",
+					"rankLabelOverrideKey": "Level 3",
 					"useOverlayIcon": false,
 					"overlaySpriteName": "",
 					"zonesToApplyToList": [
@@ -4966,7 +4966,7 @@
 			"zoneDefinition": {
 				"zoneId": "hoth_empire_phase05_conflict02_recon01",
 				"prefabName": "",
-				"nameKey": "TERRITORYHOTH_EMPIRE_PLATOON_PHASE05_CONFLICT02",
+				"nameKey": "Forward Trenches Mission",
 				"descriptionKey": "Unused",
 				"linkedConflictId": "hoth_empire_phase05_conflict02",
 				"maxAttemptsAllowed": 2147483647,
@@ -4979,19 +4979,19 @@
 			"platoonDefinitionList": [
 				{
 					"id": "hoth-platoon-1",
-					"nameKey": "ReconZoneView_Platoon_Name",
+					"nameKey": "PLATOON {0}",
 					"squadList": [
 						{
 							"id": "hoth-squad-01",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-02",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-03",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						}
 					],
 					"reward": {
@@ -5001,19 +5001,19 @@
 				},
 				{
 					"id": "hoth-platoon-2",
-					"nameKey": "ReconZoneView_Platoon_Name",
+					"nameKey": "PLATOON {0}",
 					"squadList": [
 						{
 							"id": "hoth-squad-01",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-02",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-03",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						}
 					],
 					"reward": {
@@ -5023,19 +5023,19 @@
 				},
 				{
 					"id": "hoth-platoon-3",
-					"nameKey": "ReconZoneView_Platoon_Name",
+					"nameKey": "PLATOON {0}",
 					"squadList": [
 						{
 							"id": "hoth-squad-01",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-02",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-03",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						}
 					],
 					"reward": {
@@ -5045,19 +5045,19 @@
 				},
 				{
 					"id": "hoth-platoon-4",
-					"nameKey": "ReconZoneView_Platoon_Name",
+					"nameKey": "PLATOON {0}",
 					"squadList": [
 						{
 							"id": "hoth-squad-01",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-02",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-03",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						}
 					],
 					"reward": {
@@ -5067,19 +5067,19 @@
 				},
 				{
 					"id": "hoth-platoon-5",
-					"nameKey": "ReconZoneView_Platoon_Name",
+					"nameKey": "PLATOON {0}",
 					"squadList": [
 						{
 							"id": "hoth-squad-01",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-02",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-03",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						}
 					],
 					"reward": {
@@ -5089,19 +5089,19 @@
 				},
 				{
 					"id": "hoth-platoon-6",
-					"nameKey": "ReconZoneView_Platoon_Name",
+					"nameKey": "PLATOON {0}",
 					"squadList": [
 						{
 							"id": "hoth-squad-01",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-02",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-03",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						}
 					],
 					"reward": {
@@ -5113,11 +5113,11 @@
 			"abilityImage": "TEST_IMAGE",
 			"abilityShortDescKey": "TEST_ABILITY",
 			"abilityLongDescKey": "TEST_ABILITY_LONG",
-			"goalDescKey": "TERRITORYHOTH_EMPIRE_PHASE05_CONFLICT02_RECON01_MESSAGE",
+			"goalDescKey": "[c][b5e7f5]Weaken the Rebel Supply Lines ability in the[-][/c] [c][F0FF23]Rebel Base (Main Entrance)[-][/c] [c][b5e7f5]and[-][/c] [c][F0FF23]Rebel Base (South Entrance)[-][/c] [c][b5e7f5]territories![-][/c]",
 			"goalImage": "tex.territory_backdrop_hoth_echo_base",
 			"unitRarity": 6,
-			"rewardDescKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_REWARDS_DESC",
-			"subTitleKey": "TERRITORYHOTH_PHASE05_CONFLICT01_RECON01_SUB_TITLE",
+			"rewardDescKey": "Earn bonus TP for each Platoon completed.",
+			"subTitleKey": "Assign Characters (6-Star or Higher)",
 			"grantedAbilitiesList": [],
 			"strategicAbilitiesList": [
 				{
@@ -5137,7 +5137,7 @@
 						"id": "unlock_empire_recon_tier03",
 						"descKey": ""
 					},
-					"rankLabelOverrideKey": "STRATEGICABILITY_HOTH_ABILITY_RANK_LABEL_DISABLE",
+					"rankLabelOverrideKey": "Disabled",
 					"useOverlayIcon": true,
 					"overlaySpriteName": "icon_apply_curse",
 					"zonesToApplyToList": [
@@ -5170,7 +5170,7 @@
 						"id": "unlock_empire_recon_tier02",
 						"descKey": ""
 					},
-					"rankLabelOverrideKey": "STRATEGICABILITY_HOTH_ABILITY_RANK_LABEL01",
+					"rankLabelOverrideKey": "Level 1",
 					"useOverlayIcon": false,
 					"overlaySpriteName": "",
 					"zonesToApplyToList": [
@@ -5203,7 +5203,7 @@
 						"id": "unlock_empire_recon_tier01",
 						"descKey": ""
 					},
-					"rankLabelOverrideKey": "STRATEGICABILITY_HOTH_ABILITY_RANK_LABEL02",
+					"rankLabelOverrideKey": "Level 2",
 					"useOverlayIcon": false,
 					"overlaySpriteName": "",
 					"zonesToApplyToList": [
@@ -5229,7 +5229,7 @@
 						"id": "unlock_empire_recon_tier00",
 						"descKey": ""
 					},
-					"rankLabelOverrideKey": "STRATEGICABILITY_HOTH_ABILITY_RANK_LABEL03",
+					"rankLabelOverrideKey": "Level 3",
 					"useOverlayIcon": false,
 					"overlaySpriteName": "",
 					"zonesToApplyToList": [
@@ -5244,7 +5244,7 @@
 			"zoneDefinition": {
 				"zoneId": "hoth_empire_phase05_conflict03_recon01",
 				"prefabName": "",
-				"nameKey": "TERRITORYHOTH_EMPIRE_PLATOON_PHASE05_CONFLICT03",
+				"nameKey": "Overlook Mission",
 				"descriptionKey": "Unused",
 				"linkedConflictId": "hoth_empire_phase05_conflict03",
 				"maxAttemptsAllowed": 2147483647,
@@ -5257,19 +5257,19 @@
 			"platoonDefinitionList": [
 				{
 					"id": "hoth-platoon-1",
-					"nameKey": "ReconZoneView_Platoon_Name",
+					"nameKey": "PLATOON {0}",
 					"squadList": [
 						{
 							"id": "hoth-squad-01",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-02",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-03",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						}
 					],
 					"reward": {
@@ -5279,19 +5279,19 @@
 				},
 				{
 					"id": "hoth-platoon-2",
-					"nameKey": "ReconZoneView_Platoon_Name",
+					"nameKey": "PLATOON {0}",
 					"squadList": [
 						{
 							"id": "hoth-squad-01",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-02",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-03",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						}
 					],
 					"reward": {
@@ -5301,19 +5301,19 @@
 				},
 				{
 					"id": "hoth-platoon-3",
-					"nameKey": "ReconZoneView_Platoon_Name",
+					"nameKey": "PLATOON {0}",
 					"squadList": [
 						{
 							"id": "hoth-squad-01",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-02",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-03",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						}
 					],
 					"reward": {
@@ -5323,19 +5323,19 @@
 				},
 				{
 					"id": "hoth-platoon-4",
-					"nameKey": "ReconZoneView_Platoon_Name",
+					"nameKey": "PLATOON {0}",
 					"squadList": [
 						{
 							"id": "hoth-squad-01",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-02",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-03",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						}
 					],
 					"reward": {
@@ -5345,19 +5345,19 @@
 				},
 				{
 					"id": "hoth-platoon-5",
-					"nameKey": "ReconZoneView_Platoon_Name",
+					"nameKey": "PLATOON {0}",
 					"squadList": [
 						{
 							"id": "hoth-squad-01",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-02",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-03",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						}
 					],
 					"reward": {
@@ -5367,19 +5367,19 @@
 				},
 				{
 					"id": "hoth-platoon-6",
-					"nameKey": "ReconZoneView_Platoon_Name",
+					"nameKey": "PLATOON {0}",
 					"squadList": [
 						{
 							"id": "hoth-squad-01",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-02",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-03",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						}
 					],
 					"reward": {
@@ -5391,11 +5391,11 @@
 			"abilityImage": "TEST_IMAGE",
 			"abilityShortDescKey": "TEST_ABILITY",
 			"abilityLongDescKey": "TEST_ABILITY_LONG",
-			"goalDescKey": "TERRITORYHOTH_EMPIRE_PHASE05_CONFLICT03_RECON01_MESSAGE",
+			"goalDescKey": "[c][b5e7f5]Weaken the Rebel Guerrilla Strike ability in the[-][/c] [c][F0FF23]Rebel Base (South Entrance)[-][/c] [c][b5e7f5] [c][b5e7f5]territory![-][/c]",
 			"goalImage": "tex.territory_backdrop_hoth_echo_base",
 			"unitRarity": 6,
-			"rewardDescKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_REWARDS_DESC",
-			"subTitleKey": "TERRITORYHOTH_PHASE05_CONFLICT01_RECON01_SUB_TITLE",
+			"rewardDescKey": "Earn bonus TP for each Platoon completed.",
+			"subTitleKey": "Assign Characters (6-Star or Higher)",
 			"grantedAbilitiesList": [],
 			"strategicAbilitiesList": [
 				{
@@ -5415,7 +5415,7 @@
 						"id": "unlock_empire_recon_tier03",
 						"descKey": ""
 					},
-					"rankLabelOverrideKey": "STRATEGICABILITY_HOTH_ABILITY_RANK_LABEL_DISABLE",
+					"rankLabelOverrideKey": "Disabled",
 					"useOverlayIcon": true,
 					"overlaySpriteName": "icon_apply_curse",
 					"zonesToApplyToList": [
@@ -5448,7 +5448,7 @@
 						"id": "unlock_empire_recon_tier02",
 						"descKey": ""
 					},
-					"rankLabelOverrideKey": "STRATEGICABILITY_HOTH_ABILITY_RANK_LABEL01",
+					"rankLabelOverrideKey": "Level 1",
 					"useOverlayIcon": false,
 					"overlaySpriteName": "",
 					"zonesToApplyToList": [
@@ -5481,7 +5481,7 @@
 						"id": "unlock_empire_recon_tier01",
 						"descKey": ""
 					},
-					"rankLabelOverrideKey": "STRATEGICABILITY_HOTH_ABILITY_RANK_LABEL02",
+					"rankLabelOverrideKey": "Level 2",
 					"useOverlayIcon": false,
 					"overlaySpriteName": "",
 					"zonesToApplyToList": [
@@ -5507,7 +5507,7 @@
 						"id": "unlock_empire_recon_tier00",
 						"descKey": ""
 					},
-					"rankLabelOverrideKey": "STRATEGICABILITY_HOTH_ABILITY_RANK_LABEL03",
+					"rankLabelOverrideKey": "Level 3",
 					"useOverlayIcon": false,
 					"overlaySpriteName": "",
 					"zonesToApplyToList": [
@@ -5522,7 +5522,7 @@
 			"zoneDefinition": {
 				"zoneId": "hoth_empire_phase06_conflict01_recon01",
 				"prefabName": "",
-				"nameKey": "TERRITORYHOTH_EMPIRE_PLATOON_PHASE06_CONFLICT01",
+				"nameKey": "Rear Airspace Mission",
 				"descriptionKey": "Unused",
 				"linkedConflictId": "hoth_empire_phase06_conflict01",
 				"maxAttemptsAllowed": 2147483647,
@@ -5535,19 +5535,19 @@
 			"platoonDefinitionList": [
 				{
 					"id": "hoth-platoon-1",
-					"nameKey": "ReconZoneView_Squadron_Name",
+					"nameKey": "SQUADRON {0}",
 					"squadList": [
 						{
 							"id": "hoth-squad-01",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-02",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-03",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						}
 					],
 					"reward": {
@@ -5557,19 +5557,19 @@
 				},
 				{
 					"id": "hoth-platoon-2",
-					"nameKey": "ReconZoneView_Squadron_Name",
+					"nameKey": "SQUADRON {0}",
 					"squadList": [
 						{
 							"id": "hoth-squad-01",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-02",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-03",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						}
 					],
 					"reward": {
@@ -5579,19 +5579,19 @@
 				},
 				{
 					"id": "hoth-platoon-3",
-					"nameKey": "ReconZoneView_Squadron_Name",
+					"nameKey": "SQUADRON {0}",
 					"squadList": [
 						{
 							"id": "hoth-squad-01",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-02",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-03",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						}
 					],
 					"reward": {
@@ -5601,19 +5601,19 @@
 				},
 				{
 					"id": "hoth-platoon-4",
-					"nameKey": "ReconZoneView_Squadron_Name",
+					"nameKey": "SQUADRON {0}",
 					"squadList": [
 						{
 							"id": "hoth-squad-01",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-02",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-03",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						}
 					],
 					"reward": {
@@ -5623,19 +5623,19 @@
 				},
 				{
 					"id": "hoth-platoon-5",
-					"nameKey": "ReconZoneView_Squadron_Name",
+					"nameKey": "SQUADRON {0}",
 					"squadList": [
 						{
 							"id": "hoth-squad-01",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-02",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-03",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						}
 					],
 					"reward": {
@@ -5645,19 +5645,19 @@
 				},
 				{
 					"id": "hoth-platoon-6",
-					"nameKey": "ReconZoneView_Squadron_Name",
+					"nameKey": "SQUADRON {0}",
 					"squadList": [
 						{
 							"id": "hoth-squad-01",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-02",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-03",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						}
 					],
 					"reward": {
@@ -5669,11 +5669,11 @@
 			"abilityImage": "TEST_IMAGE",
 			"abilityShortDescKey": "TEST_ABILITY",
 			"abilityLongDescKey": "TEST_ABILITY_LONG",
-			"goalDescKey": "TERRITORYHOTH_EMPIRE_PHASE06_CONFLICT01_RECON01_MESSAGE",
+			"goalDescKey": "[c][b5e7f5]Weaken the Rebel Strafing Run ability in the[-][/c] [c][F0FF23]Rebel Base (Main Entrance)[-][/c] [c][b5e7f5]and[-][/c] [c][F0FF23]Rebel Base (South Entrance)[-][/c] [c][b5e7f5]territories![-][/c]",
 			"goalImage": "tex.territory_backdrop_hoth_tie_snowspeeder",
 			"unitRarity": 7,
-			"rewardDescKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SHIP_REWARDS_DESC",
-			"subTitleKey": "TERRITORYHOTH_PHASE06_CONFLICT01_RECON01_SUB_TITLE_SHIP",
+			"rewardDescKey": "Earn bonus TP for each Squadron completed.",
+			"subTitleKey": "Assign Ships (7-Star)",
 			"grantedAbilitiesList": [],
 			"strategicAbilitiesList": [
 				{
@@ -5693,7 +5693,7 @@
 						"id": "unlock_empire_recon_tier03",
 						"descKey": ""
 					},
-					"rankLabelOverrideKey": "STRATEGICABILITY_HOTH_ABILITY_RANK_LABEL_DISABLE",
+					"rankLabelOverrideKey": "Disabled",
 					"useOverlayIcon": true,
 					"overlaySpriteName": "icon_apply_curse",
 					"zonesToApplyToList": [
@@ -5728,7 +5728,7 @@
 						"id": "unlock_empire_recon_tier02",
 						"descKey": ""
 					},
-					"rankLabelOverrideKey": "STRATEGICABILITY_HOTH_ABILITY_RANK_LABEL01",
+					"rankLabelOverrideKey": "Level 1",
 					"useOverlayIcon": false,
 					"overlaySpriteName": "",
 					"zonesToApplyToList": [
@@ -5763,7 +5763,7 @@
 						"id": "unlock_empire_recon_tier01",
 						"descKey": ""
 					},
-					"rankLabelOverrideKey": "STRATEGICABILITY_HOTH_ABILITY_RANK_LABEL02",
+					"rankLabelOverrideKey": "Level 2",
 					"useOverlayIcon": false,
 					"overlaySpriteName": "",
 					"zonesToApplyToList": [
@@ -5791,7 +5791,7 @@
 						"id": "unlock_empire_recon_tier00",
 						"descKey": ""
 					},
-					"rankLabelOverrideKey": "STRATEGICABILITY_HOTH_ABILITY_RANK_LABEL03",
+					"rankLabelOverrideKey": "Level 3",
 					"useOverlayIcon": false,
 					"overlaySpriteName": "",
 					"zonesToApplyToList": [
@@ -5808,7 +5808,7 @@
 			"zoneDefinition": {
 				"zoneId": "hoth_empire_phase06_conflict02_recon01",
 				"prefabName": "",
-				"nameKey": "TERRITORYHOTH_EMPIRE_PLATOON_PHASE06_CONFLICT02",
+				"nameKey": "Rebel Base (Main Entrance) Mission",
 				"descriptionKey": "Unused",
 				"linkedConflictId": "hoth_empire_phase06_conflict02",
 				"maxAttemptsAllowed": 2147483647,
@@ -5821,19 +5821,19 @@
 			"platoonDefinitionList": [
 				{
 					"id": "hoth-platoon-1",
-					"nameKey": "ReconZoneView_Platoon_Name",
+					"nameKey": "PLATOON {0}",
 					"squadList": [
 						{
 							"id": "hoth-squad-01",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-02",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-03",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						}
 					],
 					"reward": {
@@ -5843,19 +5843,19 @@
 				},
 				{
 					"id": "hoth-platoon-2",
-					"nameKey": "ReconZoneView_Platoon_Name",
+					"nameKey": "PLATOON {0}",
 					"squadList": [
 						{
 							"id": "hoth-squad-01",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-02",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-03",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						}
 					],
 					"reward": {
@@ -5865,19 +5865,19 @@
 				},
 				{
 					"id": "hoth-platoon-3",
-					"nameKey": "ReconZoneView_Platoon_Name",
+					"nameKey": "PLATOON {0}",
 					"squadList": [
 						{
 							"id": "hoth-squad-01",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-02",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-03",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						}
 					],
 					"reward": {
@@ -5887,19 +5887,19 @@
 				},
 				{
 					"id": "hoth-platoon-4",
-					"nameKey": "ReconZoneView_Platoon_Name",
+					"nameKey": "PLATOON {0}",
 					"squadList": [
 						{
 							"id": "hoth-squad-01",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-02",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-03",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						}
 					],
 					"reward": {
@@ -5909,19 +5909,19 @@
 				},
 				{
 					"id": "hoth-platoon-5",
-					"nameKey": "ReconZoneView_Platoon_Name",
+					"nameKey": "PLATOON {0}",
 					"squadList": [
 						{
 							"id": "hoth-squad-01",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-02",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-03",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						}
 					],
 					"reward": {
@@ -5931,19 +5931,19 @@
 				},
 				{
 					"id": "hoth-platoon-6",
-					"nameKey": "ReconZoneView_Platoon_Name",
+					"nameKey": "PLATOON {0}",
 					"squadList": [
 						{
 							"id": "hoth-squad-01",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-02",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-03",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						}
 					],
 					"reward": {
@@ -5955,11 +5955,11 @@
 			"abilityImage": "TEST_IMAGE",
 			"abilityShortDescKey": "TEST_ABILITY",
 			"abilityLongDescKey": "TEST_ABILITY_LONG",
-			"goalDescKey": "TERRITORYHOTH_EMPIRE_PHASE06_CONFLICT02_RECON01_MESSAGE",
+			"goalDescKey": "[c][b5e7f5]Weaken the Rebel Guerrilla Strike ability in the[-][/c] [c][F0FF23]Rebel Base (Main Entrance)[-][/c] [c][b5e7f5]territory![-][/c]",
 			"goalImage": "tex.territory_backdrop_hoth_echo_base",
 			"unitRarity": 7,
-			"rewardDescKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_REWARDS_DESC",
-			"subTitleKey": "TERRITORYHOTH_PHASE06_CONFLICT01_RECON01_SUB_TITLE",
+			"rewardDescKey": "Earn bonus TP for each Platoon completed.",
+			"subTitleKey": "Assign Characters (7-Star)",
 			"grantedAbilitiesList": [],
 			"strategicAbilitiesList": [
 				{
@@ -5979,7 +5979,7 @@
 						"id": "unlock_empire_recon_tier03",
 						"descKey": ""
 					},
-					"rankLabelOverrideKey": "STRATEGICABILITY_HOTH_ABILITY_RANK_LABEL_DISABLE",
+					"rankLabelOverrideKey": "Disabled",
 					"useOverlayIcon": true,
 					"overlaySpriteName": "icon_apply_curse",
 					"zonesToApplyToList": [
@@ -6012,7 +6012,7 @@
 						"id": "unlock_empire_recon_tier02",
 						"descKey": ""
 					},
-					"rankLabelOverrideKey": "STRATEGICABILITY_HOTH_ABILITY_RANK_LABEL01",
+					"rankLabelOverrideKey": "Level 1",
 					"useOverlayIcon": false,
 					"overlaySpriteName": "",
 					"zonesToApplyToList": [
@@ -6045,7 +6045,7 @@
 						"id": "unlock_empire_recon_tier01",
 						"descKey": ""
 					},
-					"rankLabelOverrideKey": "STRATEGICABILITY_HOTH_ABILITY_RANK_LABEL02",
+					"rankLabelOverrideKey": "Level 2",
 					"useOverlayIcon": false,
 					"overlaySpriteName": "",
 					"zonesToApplyToList": [
@@ -6071,7 +6071,7 @@
 						"id": "unlock_empire_recon_tier00",
 						"descKey": ""
 					},
-					"rankLabelOverrideKey": "STRATEGICABILITY_HOTH_ABILITY_RANK_LABEL03",
+					"rankLabelOverrideKey": "Level 3",
 					"useOverlayIcon": false,
 					"overlaySpriteName": "",
 					"zonesToApplyToList": [
@@ -6086,7 +6086,7 @@
 			"zoneDefinition": {
 				"zoneId": "hoth_empire_phase06_conflict03_recon01",
 				"prefabName": "",
-				"nameKey": "TERRITORYHOTH_EMPIRE_PLATOON_PHASE06_CONFLICT03",
+				"nameKey": "Rebel Base (South Entrance) Mission",
 				"descriptionKey": "Unused",
 				"linkedConflictId": "hoth_empire_phase06_conflict03",
 				"maxAttemptsAllowed": 2147483647,
@@ -6099,19 +6099,19 @@
 			"platoonDefinitionList": [
 				{
 					"id": "hoth-platoon-1",
-					"nameKey": "ReconZoneView_Platoon_Name",
+					"nameKey": "PLATOON {0}",
 					"squadList": [
 						{
 							"id": "hoth-squad-01",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-02",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-03",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						}
 					],
 					"reward": {
@@ -6121,19 +6121,19 @@
 				},
 				{
 					"id": "hoth-platoon-2",
-					"nameKey": "ReconZoneView_Platoon_Name",
+					"nameKey": "PLATOON {0}",
 					"squadList": [
 						{
 							"id": "hoth-squad-01",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-02",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-03",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						}
 					],
 					"reward": {
@@ -6143,19 +6143,19 @@
 				},
 				{
 					"id": "hoth-platoon-3",
-					"nameKey": "ReconZoneView_Platoon_Name",
+					"nameKey": "PLATOON {0}",
 					"squadList": [
 						{
 							"id": "hoth-squad-01",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-02",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-03",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						}
 					],
 					"reward": {
@@ -6165,19 +6165,19 @@
 				},
 				{
 					"id": "hoth-platoon-4",
-					"nameKey": "ReconZoneView_Platoon_Name",
+					"nameKey": "PLATOON {0}",
 					"squadList": [
 						{
 							"id": "hoth-squad-01",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-02",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-03",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						}
 					],
 					"reward": {
@@ -6187,19 +6187,19 @@
 				},
 				{
 					"id": "hoth-platoon-5",
-					"nameKey": "ReconZoneView_Platoon_Name",
+					"nameKey": "PLATOON {0}",
 					"squadList": [
 						{
 							"id": "hoth-squad-01",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-02",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-03",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						}
 					],
 					"reward": {
@@ -6209,19 +6209,19 @@
 				},
 				{
 					"id": "hoth-platoon-6",
-					"nameKey": "ReconZoneView_Platoon_Name",
+					"nameKey": "PLATOON {0}",
 					"squadList": [
 						{
 							"id": "hoth-squad-01",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-02",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						},
 						{
 							"id": "hoth-squad-03",
-							"nameKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_SQUAD_NAME"
+							"nameKey": "{0} - Squad {1}"
 						}
 					],
 					"reward": {
@@ -6233,11 +6233,11 @@
 			"abilityImage": "TEST_IMAGE",
 			"abilityShortDescKey": "TEST_ABILITY",
 			"abilityLongDescKey": "TEST_ABILITY_LONG",
-			"goalDescKey": "TERRITORYHOTH_EMPIRE_PHASE06_CONFLICT03_RECON01_MESSAGE",
+			"goalDescKey": "[c][b5e7f5]Weaken the Rebel Supply Lines ability in the[-][/c] [c][F0FF23]Rebel Base (South Entrance)[-][/c] [c][b5e7f5]territory![-][/c]",
 			"goalImage": "tex.territory_backdrop_hoth_echo_base",
 			"unitRarity": 7,
-			"rewardDescKey": "TERRITORYHOTH_PHASE01_CONFLICT01_RECON01_REWARDS_DESC",
-			"subTitleKey": "TERRITORYHOTH_PHASE06_CONFLICT01_RECON01_SUB_TITLE",
+			"rewardDescKey": "Earn bonus TP for each Platoon completed.",
+			"subTitleKey": "Assign Characters (7-Star)",
 			"grantedAbilitiesList": [],
 			"strategicAbilitiesList": [
 				{
@@ -6257,7 +6257,7 @@
 						"id": "unlock_empire_recon_tier03",
 						"descKey": ""
 					},
-					"rankLabelOverrideKey": "STRATEGICABILITY_HOTH_ABILITY_RANK_LABEL_DISABLE",
+					"rankLabelOverrideKey": "Disabled",
 					"useOverlayIcon": true,
 					"overlaySpriteName": "icon_apply_curse",
 					"zonesToApplyToList": [
@@ -6290,7 +6290,7 @@
 						"id": "unlock_empire_recon_tier02",
 						"descKey": ""
 					},
-					"rankLabelOverrideKey": "STRATEGICABILITY_HOTH_ABILITY_RANK_LABEL01",
+					"rankLabelOverrideKey": "Level 1",
 					"useOverlayIcon": false,
 					"overlaySpriteName": "",
 					"zonesToApplyToList": [
@@ -6323,7 +6323,7 @@
 						"id": "unlock_empire_recon_tier01",
 						"descKey": ""
 					},
-					"rankLabelOverrideKey": "STRATEGICABILITY_HOTH_ABILITY_RANK_LABEL02",
+					"rankLabelOverrideKey": "Level 2",
 					"useOverlayIcon": false,
 					"overlaySpriteName": "",
 					"zonesToApplyToList": [
@@ -6349,7 +6349,7 @@
 						"id": "unlock_empire_recon_tier00",
 						"descKey": ""
 					},
-					"rankLabelOverrideKey": "STRATEGICABILITY_HOTH_ABILITY_RANK_LABEL03",
+					"rankLabelOverrideKey": "Level 3",
 					"useOverlayIcon": false,
 					"overlaySpriteName": "",
 					"zonesToApplyToList": [
@@ -9758,7 +9758,7 @@
 			"abilityDescriptionKey": "",
 			"abilityTexture": "",
 			"headerKey": "",
-			"textKey": "DYNAMICDESC_DETAILS_HOTH_TB",
+			"textKey": "[23C8F5]Time Limit:[-] [ff8c00]6d[-]\\n[23C8F5]Phases: [b5e7f5]6[-]\\n[23C8F5]Roster Refresh:[-] [b5e7f5]After every Phase[-]\\n\\nExclusive Rewards (earned in Special Mission):",
 			"marginLeft": 0,
 			"textColumnList": [],
 			"textAlignment": 1,
@@ -9767,7 +9767,7 @@
 		{
 			"descriptionType": 2,
 			"unitTexture": "tex.charui_probedroid",
-			"unitNameKey": "UNIT_IMPERIALPROBEDROID_SPECIAL_NAME",
+			"unitNameKey": "[99FF33]Imperial Probe Droid Shards[-]",
 			"abilityNameKey": "",
 			"abilityDescriptionKey": "",
 			"abilityTexture": "",
@@ -9800,7 +9800,7 @@
 			"abilityDescriptionKey": "",
 			"abilityTexture": "",
 			"headerKey": "",
-			"textKey": "DYNAMICDESC_LAYOUT_GRANTEDABILITY_EMPIRE_TEXT",
+			"textKey": "[23C8F5]All of your Empire characters gain the following ability:[-]",
 			"marginLeft": 0,
 			"textColumnList": [],
 			"textAlignment": 1,
@@ -9810,8 +9810,8 @@
 			"descriptionType": 3,
 			"unitTexture": "",
 			"unitNameKey": "",
-			"abilityNameKey": "TERRITORYBATTLES_HOTH_EMPIRE_ABILITY_NAME",
-			"abilityDescriptionKey": "TERRITORYBATTLES_HOTH_EMPIRE_ABILITY_DESC",
+			"abilityNameKey": "Imperial Might",
+			"abilityDescriptionKey": "Empire characters gain: +10% Critical Chance, +10% Max Health, and +10% Lifesteal.",
 			"abilityTexture": "tex.abilityui_passive_empire",
 			"headerKey": "",
 			"textKey": "",
@@ -9828,7 +9828,7 @@
 			"abilityDescriptionKey": "",
 			"abilityTexture": "",
 			"headerKey": "",
-			"textKey": "DYNAMICDESC_LAYOUT_GRANTEDABILITY_HERO_HOTH_TEXT",
+			"textKey": "[23C8F5]All of your Hoth Hero Characters gain the following ability:[-]",
 			"marginLeft": 0,
 			"textColumnList": [],
 			"textAlignment": 1,
@@ -9838,8 +9838,8 @@
 			"descriptionType": 3,
 			"unitTexture": "",
 			"unitNameKey": "",
-			"abilityNameKey": "TERRITORYBATTLES_HOTH_HERO_EMPIRE_ABILITY_NAME",
-			"abilityDescriptionKey": "TERRITORYBATTLES_HOTH_HERO_EMPIRE_ABILITY_DESC",
+			"abilityNameKey": "Malice",
+			"abilityDescriptionKey": "Hoth Hero characters gain: The first time this unit uses a special ability each encounter, dispel all buffs on selected target.",
 			"abilityTexture": "tex.abilityui_passive_uniqueability",
 			"headerKey": "",
 			"textKey": "",
@@ -9855,7 +9855,7 @@
 			"abilityNameKey": "",
 			"abilityDescriptionKey": "",
 			"abilityTexture": "",
-			"headerKey": "CampaignMap_EnemiesButton",
+			"headerKey": "ENEMIES",
 			"textKey": "",
 			"marginLeft": 0,
 			"textColumnList": [],
@@ -9884,7 +9884,7 @@
 			"abilityDescriptionKey": "",
 			"abilityTexture": "",
 			"headerKey": "",
-			"textKey": "DYNAMICDESC_LAYOUT_TERRITORYBATTLE_HOTH_EMPIRE_TEXT",
+			"textKey": "[23C8F5]The Rebel Alliance utilizes a myriad of seasoned soldiers well-equipped for combat in Hoth's harsh icy environment. Be on the lookout for Elite units--not only are they much stronger than normal units, but they also have powerful Elite abilities![-]",
 			"marginLeft": 40,
 			"textColumnList": [],
 			"textAlignment": 1,
@@ -9893,7 +9893,7 @@
 		{
 			"descriptionType": 2,
 			"unitTexture": "tex.charui_rebelhothscout",
-			"unitNameKey": "UNIT_HOTHREBELSCOUT_NAME",
+			"unitNameKey": "Hoth Rebel Scout",
 			"abilityNameKey": "",
 			"abilityDescriptionKey": "",
 			"abilityTexture": "",
@@ -9908,8 +9908,8 @@
 			"descriptionType": 3,
 			"unitTexture": "",
 			"unitNameKey": "",
-			"abilityNameKey": "BASICABILITY_HOTHREBELSCOUT_NAME",
-			"abilityDescriptionKey": "BASICABILITY_HOTHREBELSCOUT_TIER07_DESC",
+			"abilityNameKey": "Bold Maneuvers",
+			"abilityDescriptionKey": "Deal Physical damage to target enemy with a 40% chance to gain 25% Turn Meter for all allies.",
 			"abilityTexture": "tex.ability_hothrebelscout_basic",
 			"headerKey": "",
 			"textKey": "",
@@ -9922,8 +9922,8 @@
 			"descriptionType": 3,
 			"unitTexture": "",
 			"unitNameKey": "",
-			"abilityNameKey": "SPECIALABILITY_HOTHREBELSCOUT01_NAME",
-			"abilityDescriptionKey": "SPECIALABILITY_HOTHREBELSCOUT01_TIER07_DESC",
+			"abilityNameKey": "Rebel Assault",
+			"abilityDescriptionKey": "Deal Physical damage to target enemy with a 55% chance to Stun for 1 turn. In addition, gain 100% Turn Meter on a Critical Hit.",
 			"abilityTexture": "tex.ability_hothrebelscout_special01",
 			"headerKey": "",
 			"textKey": "",
@@ -9936,8 +9936,8 @@
 			"descriptionType": 3,
 			"unitTexture": "",
 			"unitNameKey": "",
-			"abilityNameKey": "UNIQUEABILITY_HOTHREBELSCOUT01_NAME",
-			"abilityDescriptionKey": "UNIQUEABILITY_HOTHREBELSCOUT01_TIERTB_DESC",
+			"abilityNameKey": "Hope of the Alliance",
+			"abilityDescriptionKey": "Hoth Rebel Scout gains 100% Turn Meter whenever an Empire enemy is defeated and half that amount whenever a non-Empire enemy is defeated.",
 			"abilityTexture": "tex.abilityui_passive_speed",
 			"headerKey": "",
 			"textKey": "",
@@ -9950,8 +9950,8 @@
 			"descriptionType": 3,
 			"unitTexture": "",
 			"unitNameKey": "",
-			"abilityNameKey": "ELITEABILITY_HOTHREBELSCOUT01_NAME",
-			"abilityDescriptionKey": "ELITEABILITY_HOTHREBELSCOUT01_DESC",
+			"abilityNameKey": "Diversion [c][ffff33](Elite Only)[-][/c]",
+			"abilityDescriptionKey": "When Hoth Rebel Scout uses any ability while Stealthed he calls a random ally to Assist.",
 			"abilityTexture": "tex.abilityui_passive_assist",
 			"headerKey": "",
 			"textKey": "",
@@ -9963,7 +9963,7 @@
 		{
 			"descriptionType": 2,
 			"unitTexture": "tex.charui_rebelhoth",
-			"unitNameKey": "UNIT_HOTHREBELSOLDIER_NAME",
+			"unitNameKey": "Hoth Rebel Soldier",
 			"abilityNameKey": "",
 			"abilityDescriptionKey": "",
 			"abilityTexture": "",
@@ -9978,8 +9978,8 @@
 			"descriptionType": 3,
 			"unitTexture": "",
 			"unitNameKey": "",
-			"abilityNameKey": "BASICABILITY_HOTHREBELSOLDIER_NAME",
-			"abilityDescriptionKey": "BASICABILITY_HOTHREBELSOLDIER_TIERTB_DESC",
+			"abilityNameKey": "Cover Fire",
+			"abilityDescriptionKey": "Deal Physical damage to target enemy with a 75% chance to inflict Offense Down for 2 Turns. In addition, inflict Offense Down for 2 Turns on critical hit.",
 			"abilityTexture": "tex.ability_hothrebel_basic",
 			"headerKey": "",
 			"textKey": "",
@@ -9992,8 +9992,8 @@
 			"descriptionType": 3,
 			"unitTexture": "",
 			"unitNameKey": "",
-			"abilityNameKey": "SPECIALABILITY_HOTHREBELSOLDIER01_NAME",
-			"abilityDescriptionKey": "SPECIALABILITY_HOTHREBELSOLDIER01_TIERTB_DESC",
+			"abilityNameKey": "Hold the Line",
+			"abilityDescriptionKey": "Taunt and grant Rebel allies Defense Up for 3 turns. In addition, Hoth Rebel Soldier gains 35% Health Up for 3 turns.",
 			"abilityTexture": "tex.ability_hothrebel_special01",
 			"headerKey": "",
 			"textKey": "",
@@ -10006,8 +10006,8 @@
 			"descriptionType": 3,
 			"unitTexture": "",
 			"unitNameKey": "",
-			"abilityNameKey": "UNIQUEABILITY_HOTHREBELSOLDIER01_NAME",
-			"abilityDescriptionKey": "UNIQUEABILITY_HOTHREBELSOLDIER01_TIERTB_DESC",
+			"abilityNameKey": "Rebel Momentum",
+			"abilityDescriptionKey": "Hoth Rebel Soldier gains Defense Up for 2 turns when any character is defeated. At the start of his turn, if Hoth Rebel Soldier has Defense Up, he recovers 30% Max Health. Hoth Rebel Soldier has 70% Counter Chance.",
 			"abilityTexture": "tex.abilityui_passive_def",
 			"headerKey": "",
 			"textKey": "",
@@ -10020,8 +10020,8 @@
 			"descriptionType": 3,
 			"unitTexture": "",
 			"unitNameKey": "",
-			"abilityNameKey": "ELITEABILITY_HOTHREBELSOLDIER_NAME",
-			"abilityDescriptionKey": "ELITEABILITY_HOTHREBELSOLDIER_TIERTB_DESC",
+			"abilityNameKey": "Counter Measures [c][ffff33](Elite Only)[-][/c]",
+			"abilityDescriptionKey": "When Hoth Rebel Soldier attacks, he Dazes target for 2 turns.",
 			"abilityTexture": "tex.abilityui_passive_frenzy",
 			"headerKey": "",
 			"textKey": "",
@@ -10033,7 +10033,7 @@
 		{
 			"descriptionType": 2,
 			"unitTexture": "tex.charui_rebelhothofficer",
-			"unitNameKey": "UNIT_HOTHREBELOFFICER_NAME",
+			"unitNameKey": "Hoth Rebel Commander",
 			"abilityNameKey": "",
 			"abilityDescriptionKey": "",
 			"abilityTexture": "",
@@ -10048,8 +10048,8 @@
 			"descriptionType": 3,
 			"unitTexture": "",
 			"unitNameKey": "",
-			"abilityNameKey": "BASICABILITY_HOTHREBELOFFICER_NAME",
-			"abilityDescriptionKey": "BASICABILITY_HOTHREBELOFFICER_DESC",
+			"abilityNameKey": "Suppression Fire",
+			"abilityDescriptionKey": "Deal Physical damage to target enemy. If the target is Empire, gain 25% Turn Meter.",
 			"abilityTexture": "tex.ability_rebel_commander_tb_basic",
 			"headerKey": "",
 			"textKey": "",
@@ -10062,8 +10062,8 @@
 			"descriptionType": 3,
 			"unitTexture": "",
 			"unitNameKey": "",
-			"abilityNameKey": "SPECIALABILITY_HOTHREBELOFFICER01_NAME",
-			"abilityDescriptionKey": "SPECIALABILITY_HOTHREBELOFFICER01_DESC",
+			"abilityNameKey": "Rally Cry",
+			"abilityDescriptionKey": "Dispel all negative status effects from all allies. Each ally recovers 15% of their Max Health for each effect dispelled this way.",
 			"abilityTexture": "tex.ability_rebel_commander_tb_special01",
 			"headerKey": "",
 			"textKey": "",
@@ -10076,8 +10076,8 @@
 			"descriptionType": 3,
 			"unitTexture": "",
 			"unitNameKey": "",
-			"abilityNameKey": "UNIQUEABILITY_HOTHREBELOFFICER_NAME",
-			"abilityDescriptionKey": "UNIQUEABILITY_HOTHREBELOFFICER_DESC",
+			"abilityNameKey": "Battle Worn",
+			"abilityDescriptionKey": "Recover 5% Protection when another ally is damaged.",
 			"abilityTexture": "tex.abilityui_passive_protection",
 			"headerKey": "",
 			"textKey": "",
@@ -10090,8 +10090,8 @@
 			"descriptionType": 3,
 			"unitTexture": "",
 			"unitNameKey": "",
-			"abilityNameKey": "ELITEABILITY_HOTHREBELOFFICER_NAME",
-			"abilityDescriptionKey": "ELITEABILITY_HOTHREBELOFFICER_DESC",
+			"abilityNameKey": "Veteran's Resolve [c][ffff33](Elite Only)[-][/c]",
+			"abilityDescriptionKey": "Recover 5% Health and Turn Meter when another ally is damaged.",
 			"abilityTexture": "tex.abilityui_passive_heal",
 			"headerKey": "",
 			"textKey": "",
@@ -10103,7 +10103,7 @@
 		{
 			"descriptionType": 2,
 			"unitTexture": "tex.charui_rebeltrooper_sergeant",
-			"unitNameKey": "UNIT_REBELOFFICER_NAME",
+			"unitNameKey": "Rebel Officer",
 			"abilityNameKey": "",
 			"abilityDescriptionKey": "",
 			"abilityTexture": "",
@@ -10118,8 +10118,8 @@
 			"descriptionType": 3,
 			"unitTexture": "",
 			"unitNameKey": "",
-			"abilityNameKey": "BASICABILITY_REBELOFFICER_NAME",
-			"abilityDescriptionKey": "BASICABILITY_REBELOFFICER_DESC",
+			"abilityNameKey": "Cover Blast",
+			"abilityDescriptionKey": "Deal Physical damage to target enemy and a random ally gains Defense Up for 2 turns.",
 			"abilityTexture": "tex.ability_rebel_sergeant_tb_basic",
 			"headerKey": "",
 			"textKey": "",
@@ -10132,8 +10132,8 @@
 			"descriptionType": 3,
 			"unitTexture": "",
 			"unitNameKey": "",
-			"abilityNameKey": "SPECIALABILITY_REBELOFFICER01_NAME",
-			"abilityDescriptionKey": "SPECIALABILITY_REBELOFFICER01_DESC",
+			"abilityNameKey": "Regroup",
+			"abilityDescriptionKey": "All allies recover 50% Health. [c][ffff33]All allies recover 100% Health. (Elite Only)[-][/c]",
 			"abilityTexture": "tex.ability_rebel_sergeant_special01",
 			"headerKey": "",
 			"textKey": "",
@@ -10146,8 +10146,8 @@
 			"descriptionType": 3,
 			"unitTexture": "",
 			"unitNameKey": "",
-			"abilityNameKey": "UNIQUEABILITY_REBELOFFICER_NAME",
-			"abilityDescriptionKey": "UNIQUEABILITY_REBELOFFICER_DESC",
+			"abilityNameKey": "Field Officer",
+			"abilityDescriptionKey": "Rebel Officer gains foresight when another ally attacks.",
 			"abilityTexture": "tex.abilityui_passive_foresight",
 			"headerKey": "",
 			"textKey": "",
@@ -10160,8 +10160,8 @@
 			"descriptionType": 3,
 			"unitTexture": "",
 			"unitNameKey": "",
-			"abilityNameKey": "ELITEABILITY_REBELOFFICER_NAME",
-			"abilityDescriptionKey": "ELITEABILITY_REBELOFFICER_DESC",
+			"abilityNameKey": "Inspiring Leadership [c][ffff33](Elite Only)[-][/c]",
+			"abilityDescriptionKey": "When Rebel Officer attacks all allies gain 5% Turn Meter.",
 			"abilityTexture": "tex.abilityui_passive_rebel",
 			"headerKey": "",
 			"textKey": "",
@@ -10173,7 +10173,7 @@
 		{
 			"descriptionType": 2,
 			"unitTexture": "tex.charui_rebelpilot",
-			"unitNameKey": "UNIT_REBELPILOT_NAME",
+			"unitNameKey": "Rebel Pilot",
 			"abilityNameKey": "",
 			"abilityDescriptionKey": "",
 			"abilityTexture": "",
@@ -10188,8 +10188,8 @@
 			"descriptionType": 3,
 			"unitTexture": "",
 			"unitNameKey": "",
-			"abilityNameKey": "BASICABILITY_REBELPILOT_NAME",
-			"abilityDescriptionKey": "BASICABILITY_REBELPILOT_DESC",
+			"abilityNameKey": "Insurgent Fire",
+			"abilityDescriptionKey": "Deal Physical damage to target enemy. If Rebel Pilot is suffering any negative status effects, call an ally to assist.",
 			"abilityTexture": "tex.ability_rebelpilot_basic",
 			"headerKey": "",
 			"textKey": "",
@@ -10202,8 +10202,8 @@
 			"descriptionType": 3,
 			"unitTexture": "",
 			"unitNameKey": "",
-			"abilityNameKey": "SPECIALABILITY_REBELPILOT01_NAME",
-			"abilityDescriptionKey": "SPECIALABILITY_REBELPILOT01_DESC",
+			"abilityNameKey": "Inspiring Courage",
+			"abilityDescriptionKey": "Dispel all negative status effects from all allies. Each ally gains 5% Turn Meter for each effect dispelled this way.",
 			"abilityTexture": "tex.ability_rebelpilot_special01",
 			"headerKey": "",
 			"textKey": "",
@@ -10216,8 +10216,8 @@
 			"descriptionType": 3,
 			"unitTexture": "",
 			"unitNameKey": "",
-			"abilityNameKey": "UNIQUEABILITY_REBELPILOT_NAME",
-			"abilityDescriptionKey": "UNIQUEABILITY_REBELPILOT_DESC",
+			"abilityNameKey": "Steadfast",
+			"abilityDescriptionKey": "When an ally is defeated, Rebel Pilot gains 100% Turn Meter.",
 			"abilityTexture": "tex.abilityui_passive_extraturn",
 			"headerKey": "",
 			"textKey": "",
@@ -10230,8 +10230,8 @@
 			"descriptionType": 3,
 			"unitTexture": "",
 			"unitNameKey": "",
-			"abilityNameKey": "ELITEABILITY_REBELPILOT_NAME",
-			"abilityDescriptionKey": "ELITEABILITY_REBELPILOT_DESC",
+			"abilityNameKey": "Reprisal [c][ffff33](Elite Only)[-][/c]",
+			"abilityDescriptionKey": "Whenever an ally is defeated, reset the cooldowns of all allied abilities.",
 			"abilityTexture": "tex.abilityui_passive_uniqueability",
 			"headerKey": "",
 			"textKey": "",
@@ -10243,7 +10243,7 @@
 		{
 			"descriptionType": 2,
 			"unitTexture": "tex.charui_rebeltrooper_soldier",
-			"unitNameKey": "UNIT_REBELSOLDIER_NAME",
+			"unitNameKey": "Rebel Soldier",
 			"abilityNameKey": "",
 			"abilityDescriptionKey": "",
 			"abilityTexture": "",
@@ -10258,8 +10258,8 @@
 			"descriptionType": 3,
 			"unitTexture": "",
 			"unitNameKey": "",
-			"abilityNameKey": "BASICABILITY_REBELSOLDIER_NAME",
-			"abilityDescriptionKey": "BASICABILITY_REBELSOLDIER_DESC",
+			"abilityNameKey": "Steady Shot",
+			"abilityDescriptionKey": "Deal Physical damage to target enemy. If Rebel Soldier is debuffed, inflict Health Down. This attack also has a 25% chance to give a random ally Tenacity Up.",
 			"abilityTexture": "tex.ability_rebeltrooper_soldier_tb_basic",
 			"headerKey": "",
 			"textKey": "",
@@ -10272,8 +10272,8 @@
 			"descriptionType": 3,
 			"unitTexture": "",
 			"unitNameKey": "",
-			"abilityNameKey": "SPECIALABILITY_REBELSOLDIER01_NAME",
-			"abilityDescriptionKey": "SPECIALABILITY_REBELSOLDIER01_DESC",
+			"abilityNameKey": "Call Attention",
+			"abilityDescriptionKey": "Rebel Soldier gains Taunt and 40% Max Protection for 2 turns.",
 			"abilityTexture": "tex.ability_rebeltrooper_soldier_tb_special01",
 			"headerKey": "",
 			"textKey": "",
@@ -10286,8 +10286,8 @@
 			"descriptionType": 3,
 			"unitTexture": "",
 			"unitNameKey": "",
-			"abilityNameKey": "UNIQUEABILITY_REBELSOLDIER_NAME",
-			"abilityDescriptionKey": "UNIQUEABILITY_REBELSOLDIER_DESC",
+			"abilityNameKey": "Courage Under Fire",
+			"abilityDescriptionKey": "When Rebel Soldier receives a Critical Hit, he gains Defense Up for 2 turns.",
 			"abilityTexture": "tex.abilityui_passive_def",
 			"headerKey": "",
 			"textKey": "",
@@ -10300,8 +10300,8 @@
 			"descriptionType": 3,
 			"unitTexture": "",
 			"unitNameKey": "",
-			"abilityNameKey": "ELITEABILITY_REBELSOLDIER_NAME",
-			"abilityDescriptionKey": "ELITEABILITY_REBELSOLDIER_DESC",
+			"abilityNameKey": "Hold Position [c][ffff33](Elite Only)[-][/c]",
+			"abilityDescriptionKey": "When Rebel Soldier gains Taunt, he gains Retribution for 2 turns.",
 			"abilityTexture": "tex.abilityui_passive_counterattack",
 			"headerKey": "",
 			"textKey": "",
@@ -10313,7 +10313,7 @@
 		{
 			"descriptionType": 2,
 			"unitTexture": "tex.charui_rebeltrooper_specialforces",
-			"unitNameKey": "UNIT_REBELMERCSPY_NAME_V2",
+			"unitNameKey": "Rebel Spy",
 			"abilityNameKey": "",
 			"abilityDescriptionKey": "",
 			"abilityTexture": "",
@@ -10328,8 +10328,8 @@
 			"descriptionType": 3,
 			"unitTexture": "",
 			"unitNameKey": "",
-			"abilityNameKey": "BASICABILITY_REBELMERCSPY_NAME",
-			"abilityDescriptionKey": "BASICABILITY_REBELMERCSPY_DESC",
+			"abilityNameKey": "Surprise Shot",
+			"abilityDescriptionKey": "Deal Physical damage to target enemy and, if Rebel Spy has Stealth, Stun them for 1 turn.",
 			"abilityTexture": "tex.ability_rebel_spy_tb_basic",
 			"headerKey": "",
 			"textKey": "",
@@ -10342,8 +10342,8 @@
 			"descriptionType": 3,
 			"unitTexture": "",
 			"unitNameKey": "",
-			"abilityNameKey": "SPECIALABILITY_REBELMERCSPY01_NAME",
-			"abilityDescriptionKey": "SPECIALABILITY_REBELMERCSPY01_DESC",
+			"abilityNameKey": "Cover",
+			"abilityDescriptionKey": "The 2 least healthy allies gain Stealth for 2 turns and Recover 40% Protection.",
 			"abilityTexture": "tex.ability_rebel_spy_tb_special01",
 			"headerKey": "",
 			"textKey": "",
@@ -10356,8 +10356,8 @@
 			"descriptionType": 3,
 			"unitTexture": "",
 			"unitNameKey": "",
-			"abilityNameKey": "UNIQUEABILITY_REBELMERCSPY_NAME",
-			"abilityDescriptionKey": "UNIQUEABILITY_REBELMERCSPY_DESC",
+			"abilityNameKey": "Stealth Operative",
+			"abilityDescriptionKey": "Rebel Spy starts each encounter Stealthed. Rebel Spy gains Stealth upon receiving a Critical Hit..",
 			"abilityTexture": "tex.abilityui_passive_stealth",
 			"headerKey": "",
 			"textKey": "",
@@ -10370,8 +10370,8 @@
 			"descriptionType": 3,
 			"unitTexture": "",
 			"unitNameKey": "",
-			"abilityNameKey": "ELITEABILITY_REBELMERCSPY_NAME",
-			"abilityDescriptionKey": "ELITEABILITY_REBELMERCSPY_DESC",
+			"abilityNameKey": "Shadow Tactics [c][ffff33](Elite Only)[-][/c]",
+			"abilityDescriptionKey": "When an ally gains Stealth, Dispel all negative status effects on them.",
 			"abilityTexture": "tex.abilityui_passive_removeharmful",
 			"headerKey": "",
 			"textKey": "",
@@ -10387,7 +10387,7 @@
 			"abilityNameKey": "",
 			"abilityDescriptionKey": "",
 			"abilityTexture": "",
-			"headerKey": "CampaignMap_StrategicAbilitiesAlly",
+			"headerKey": "ALLIED STRATEGIC ABILITIES",
 			"textKey": "",
 			"marginLeft": 0,
 			"textColumnList": [],
@@ -10416,7 +10416,7 @@
 			"abilityDescriptionKey": "",
 			"abilityTexture": "",
 			"headerKey": "",
-			"textKey": "DYNAMICDESC_LAYOUT_TERRITORYBATTLE_STRATEGICABILITIES_ALLY_TEXT",
+			"textKey": "[23C8F5]The following allied abilities and upgrades can be unlocked by completing Platoon Missions.[-]",
 			"marginLeft": 40,
 			"textColumnList": [],
 			"textAlignment": 1,
@@ -10426,8 +10426,8 @@
 			"descriptionType": 3,
 			"unitTexture": "",
 			"unitNameKey": "",
-			"abilityNameKey": "STRATEGICABILITY_HOTH_ORBITALBOMBARDMENT_DETAILS_NAME",
-			"abilityDescriptionKey": "STRATEGICABILITY_HOTH_EMPIRE_ORBITALBOMBARDMENT_TIER1_DESC",
+			"abilityNameKey": "Orbital Bombardment [c][ffff33](Character Combat Only)[-][/c]",
+			"abilityDescriptionKey": "[c][ffffff]Level 1:[-][/c] Deal Physical damage to all enemies with a 75% chance to inflict Ability Block for 1 turn. This ability starts on cooldown. In addition, this ability is disabled in territories protected by the [c][ffff33]Planetary Shield[-][/c] ability. \\n\\n[c][ffffff]Level 2:[-][/c] +35% Damage. \\n\\n[c][ffffff]Level 3:[-][/c] +30 Cooldown Speed.",
 			"abilityTexture": "tex.ability_hoth_orbital_bombardment",
 			"headerKey": "",
 			"textKey": "",
@@ -10454,8 +10454,8 @@
 			"descriptionType": 3,
 			"unitTexture": "",
 			"unitNameKey": "",
-			"abilityNameKey": "STRATEGICABILITY_HOTH_ATATASSAULT_DETAILS_NAME",
-			"abilityDescriptionKey": "STRATEGICABILITY_HOTH_EMPIRE_ATATASSAULT_TIER1_DESC",
+			"abilityNameKey": "AT-AT Assault [c][ffff33](Character Combat Only)[-][/c]",
+			"abilityDescriptionKey": "[c][ffffff]Level 1:[-][/c] Deal bonus damage to target enemy equal to 40% of the target's Maximum Health. Inflict Healing Immunity to target with a 50% chance to inflict to other enemies. \\n\\n[c][ffffff]Level 2:[-][/c] +50 Cooldown Speed. \\n\\n[c][ffffff]Level 3:[-][/c] +45% bonus damage.",
 			"abilityTexture": "tex.ability_hoth_atat",
 			"headerKey": "",
 			"textKey": "",
@@ -10471,7 +10471,7 @@
 			"abilityNameKey": "",
 			"abilityDescriptionKey": "",
 			"abilityTexture": "",
-			"headerKey": "CampaignMap_StrategicAbilitiesEnemy",
+			"headerKey": "ENEMY STRATEGIC ABILITIES",
 			"textKey": "",
 			"marginLeft": 0,
 			"textColumnList": [],
@@ -10500,7 +10500,7 @@
 			"abilityDescriptionKey": "",
 			"abilityTexture": "",
 			"headerKey": "",
-			"textKey": "DYNAMICDESC_LAYOUT_TERRITORYBATTLE_STRATEGICABILITIES_ENEMY_TEXT",
+			"textKey": "[23C8F5]The following abilities are available to enemy units, but can be weakened or disabled by completing Platoon Missions.[-]",
 			"marginLeft": 40,
 			"textColumnList": [],
 			"textAlignment": 1,
@@ -10510,8 +10510,8 @@
 			"descriptionType": 3,
 			"unitTexture": "",
 			"unitNameKey": "",
-			"abilityNameKey": "STRATEGICABILITY_HOTH_IONCANNON_NAME",
-			"abilityDescriptionKey": "STRATEGICABILITY_HOTH_EMPIRE_IONCANNON_TIER0_DESC",
+			"abilityNameKey": "Ion Cannon Blast [c][ffff33](Ship Combat Only)[-][/c]",
+			"abilityDescriptionKey": "[c][ffffff]Level 3:[-][/c] Deal Special damage to target enemy, remove 100% Turn Meter, and Stun them for 1 turn. This ability starts without cooldown. \\n\\n[c][ffffff]Level 2:[-][/c] -30 Cooldown Speed. No longer reduces Turn Meter. \\n\\n[c][ffffff]Level 1:[-][/c] -20 Cooldown Speed. This ability starts on cooldown. \\n\\n[c][ffffff]Disabled:[-][/c] (Ion Cannon Destroyed)",
 			"abilityTexture": "tex.ability_hoth_ion_cannon",
 			"headerKey": "",
 			"textKey": "",
@@ -10538,8 +10538,8 @@
 			"descriptionType": 3,
 			"unitTexture": "",
 			"unitNameKey": "",
-			"abilityNameKey": "STRATEGICABILITY_HOTH_POWERGENERATOR_NAME",
-			"abilityDescriptionKey": "SRATEGICABILITY_HOTH_EMPIRE_ORBITALBOMBARDMENT_DESC01",
+			"abilityNameKey": "Power Generator",
+			"abilityDescriptionKey": "[c][ffffff]Level 3:[-][/c] [c][ffff33]Planetary Shield[-][/c] ability is active in the [c][F0FF23]Rebel Base (Main Entrance)[-][/c], [c][F0FF23]Rebel Base (South Entrance)[-][/c], [c][F0FF23]Forward Trenches[-][/c], [c][F0FF23]Overlook[-][/c], [c][F0FF23]Power Generator[-][/c], and [c][F0FF23]Rear Trenches[-][/c] territories. Orbital Bombardment is disabled. \\n\\n[c][ffffff]Level 2:[-][/c] [c][ffff33]Planetary Shield[-][/c] ability is active in the [c][F0FF23]Rebel Base (Main Entrance)[-][/c], [c][F0FF23]Rebel Base (South Entrance)[-][/c], [c][F0FF23]Forward Trenches[-][/c], and [c][F0FF23]Overlook[-][/c] territories. Orbital Bombardment is enabled on the [c][F0FF23]Power Generator[-][/c] and [c][F0FF23]Rear Trenches[-][/c]. \\n\\n[c][ffffff]Level 1:[-][/c] [c][ffff33]Planetary Shield[-][/c] ability is active in the [c][F0FF23]Rebel Base (Main Entrance)[-][/c] and [c][F0FF23]Rebel Base (South Entrance)[-][/c] territories. Orbital Bombardment is enabled on the [c][F0FF23]Forward Trenches[-][/c], [c][F0FF23]Overlook[-][/c], [c][F0FF23]Power Generator[-][/c], and [c][F0FF23]Rear Trenches[-][/c]. \\n\\n[c][ffffff]Disabled:[-][/c]  Planetary Shield ability is inactive in all territories. Orbital Bombardment is enabled on the [c][F0FF23]Rebel Base (Main Entrance)[-][/c], [c][F0FF23]Rebel Base (South Entrance)[-][/c], [c][F0FF23]Forward Trenches[-][/c], [c][F0FF23]Overlook[-][/c], [c][F0FF23]Power Generator[-][/c], and [c][F0FF23]Rear Trenches[-][/c] territories.",
 			"abilityTexture": "tex.abilityui_passive_shieldgen",
 			"headerKey": "",
 			"textKey": "",
@@ -10566,8 +10566,8 @@
 			"descriptionType": 3,
 			"unitTexture": "",
 			"unitNameKey": "",
-			"abilityNameKey": "STRATEGICABILITY_HOTH_REBELSTRAFINGRUN_NAME",
-			"abilityDescriptionKey": "STRATEGICABILITY_HOTH_EMPIRE_REBELSTRAFINGRUN_TIER3_DESC",
+			"abilityNameKey": "Rebel Strafing Run [c][ffff33](Character Combat Only)[-][/c]",
+			"abilityDescriptionKey": "[c][ffffff]Level 3:[-][/c] Deal bonus damage to all enemies equal to 60% of their Maximum Health, Dispel all buffs on them, and remove 30% Turn Meter. In addition, inflict Defense Down on target enemy for 3 turns. This ability starts on cooldown. \\n\\n[c][ffffff]Level 2:[-][/c] -30 Cooldown Speed. \\n\\n[c][ffffff]Level 1:[-][/c] -20% bonus damage. \\n\\n[c][ffffff]Disabled:[-][/c] (Rebel Strafing Run Destroyed)",
 			"abilityTexture": "tex.ability_hoth_snowspeeder",
 			"headerKey": "",
 			"textKey": "",
@@ -10594,8 +10594,8 @@
 			"descriptionType": 3,
 			"unitTexture": "",
 			"unitNameKey": "",
-			"abilityNameKey": "STRATEGICABILITY_HOTH_EMPIRE_SUPPLYLINES_NAME",
-			"abilityDescriptionKey": "STRATEGICABILITY_HOTH_EMPIRE_SUPPLYLINES_TIER3_DESC",
+			"abilityNameKey": "Rebel Supply Lines [c][ffff33](Character Combat Only)[-][/c]",
+			"abilityDescriptionKey": "[c][ffffff]Level 3:[-][/c] All enemies have +50% Defense and +10% Critical Avoidance. In addition, they recover 20% Health at the start of their turn with a 60% chance to Dispel all debuffs from themselves. \\n\\n[c][ffffff]Level 2:[-][/c] -20% Health recovery per turn and -20% Dispel chance. \\n\\n[c][ffffff]Level 1:[-][/c] -25% Defense and -10% Critical Avoidance. \\n\\n[c][ffffff]Disabled:[-][/c] (Supply Lines Destroyed)",
 			"abilityTexture": "tex.abilityui_passive_supply",
 			"headerKey": "",
 			"textKey": "",
@@ -10622,8 +10622,8 @@
 			"descriptionType": 3,
 			"unitTexture": "",
 			"unitNameKey": "",
-			"abilityNameKey": "STRATEGICABILITY_HOTH_EMPIRE_GUERILLASTRIKE_NAME",
-			"abilityDescriptionKey": "STRATEGICABILITY_HOTH_EMPIRE_GUERILLASTRIKE_TIER3_DESC",
+			"abilityNameKey": "Rebel Guerrilla Strike [c][ffff33](Character Combat Only)[-][/c]",
+			"abilityDescriptionKey": "[c][ffffff]Level 3:[-][/c] All enemies have +10% Critical Chance and a 25% chance to gain Advantage at the start of each Encounter. In addition, each ally's first successful attack each encounter has a 35% chance to also Daze the target for 2 turns. \\n\\n[c][ffffff]Level 2:[-][/c] Remove 35% chance to Daze target with first attack each encounter. \\n\\n[c][ffffff]Level 1:[-][/c] Remove 25% chance to gain Advantage at start of encounter. \\n\\n[c][ffffff]Disabled:[-][/c] (Rebel Guerrilla Strike Destroyed)",
 			"abilityTexture": "tex.abilityui_passive_specialability",
 			"headerKey": "",
 			"textKey": "",
@@ -10652,8 +10652,8 @@
 			"zoneDefinition": {
 				"zoneId": "hoth_empire_phase01_conflict02_covert01",
 				"prefabName": "",
-				"nameKey": "TERRITORYHOTH_SPECIAL_MISSION_NAME",
-				"descriptionKey": "TERRITORYHOTH_PHASE01_CONFLICT02_STRIKE01_DESC",
+				"nameKey": "Special Mission",
+				"descriptionKey": "TBD",
 				"linkedConflictId": "hoth_empire_phase01_conflict02",
 				"maxAttemptsAllowed": 1,
 				"unlockRequirement": null,
@@ -10687,8 +10687,8 @@
 			"zoneDefinition": {
 				"zoneId": "hoth_empire_phase02_conflict02_covert01",
 				"prefabName": "",
-				"nameKey": "TERRITORYHOTH_SPECIAL_MISSION_NAME",
-				"descriptionKey": "TERRITORYHOTH_PHASE02_CONFLICT02_STRIKE01_DESC",
+				"nameKey": "Special Mission",
+				"descriptionKey": "Hold off the Imperial assault!",
 				"linkedConflictId": "hoth_empire_phase02_conflict02",
 				"maxAttemptsAllowed": 1,
 				"unlockRequirement": null,
@@ -10722,8 +10722,8 @@
 			"zoneDefinition": {
 				"zoneId": "hoth_empire_phase03_conflict03_covert01",
 				"prefabName": "",
-				"nameKey": "TERRITORYHOTH_SPECIAL_MISSION_NAME",
-				"descriptionKey": "TERRITORYHOTH_PHASE03_CONFLICT03_STRIKE01_DESC",
+				"nameKey": "Special Mission",
+				"descriptionKey": "Hold off the Imperial assault!",
 				"linkedConflictId": "hoth_empire_phase03_conflict03",
 				"maxAttemptsAllowed": 1,
 				"unlockRequirement": null,
@@ -10757,8 +10757,8 @@
 			"zoneDefinition": {
 				"zoneId": "hoth_empire_phase04_conflict01_covert01",
 				"prefabName": "",
-				"nameKey": "TERRITORYHOTH_SPECIAL_MISSION_NAME",
-				"descriptionKey": "TERRITORYHOTH_PHASE04_CONFLICT01_STRIKE01_DESC",
+				"nameKey": "Special Mission",
+				"descriptionKey": "Repel the Imperial assault!",
 				"linkedConflictId": "hoth_empire_phase04_conflict01",
 				"maxAttemptsAllowed": 1,
 				"unlockRequirement": null,
@@ -10792,7 +10792,7 @@
 			"zoneDefinition": {
 				"zoneId": "hoth_empire_phase05_conflict02_covert01",
 				"prefabName": "",
-				"nameKey": "TERRITORYHOTH_SPECIAL_MISSION_NAME",
+				"nameKey": "Special Mission",
 				"descriptionKey": "TERRITORYHOTH_EMPIRE_PHASE05_CONFLICT02_STRIKE01_DESC",
 				"linkedConflictId": "hoth_empire_phase05_conflict02",
 				"maxAttemptsAllowed": 1,
@@ -10827,8 +10827,8 @@
 			"zoneDefinition": {
 				"zoneId": "hoth_empire_phase06_conflict03_covert01",
 				"prefabName": "",
-				"nameKey": "TERRITORYHOTH_SPECIAL_MISSION_NAME",
-				"descriptionKey": "TERRITORYHOTH_PHASE06_CONFLICT03_STRIKE01_DESC",
+				"nameKey": "Special Mission",
+				"descriptionKey": "Destroy the Imperial army!",
 				"linkedConflictId": "hoth_empire_phase06_conflict03",
 				"maxAttemptsAllowed": 1,
 				"unlockRequirement": null,
@@ -10862,115 +10862,115 @@
 	"statCategoryList": [
 		{
 			"id": "summary",
-			"nameKey": "TERRITORY_STAT_CATEGORY_GP_CONTRIBUTED"
+			"nameKey": "Territory Points Contributed"
 		},
 		{
 			"id": "unit_donated",
-			"nameKey": "TERRITORY_STAT_CATEGORY_UNIT_DONATED"
+			"nameKey": "Platoon Mission Units Assigned"
 		},
 		{
 			"id": "strike_encounter",
-			"nameKey": "TERRITORY_STAT_CATEGORY_STRIKE_ENCOUNTER_COMPLETE"
+			"nameKey": "Combat Mission Waves Completed"
 		},
 		{
 			"id": "disobey",
-			"nameKey": "TERRITORY_DISOBEYED_ORDERS"
+			"nameKey": "Rogue Actions"
 		},
 		{
 			"id": "score_round_1",
-			"nameKey": "TERRITORY_STAT_CATEGORY_SCORE_ROUND_1"
+			"nameKey": "Phase 1 - Territory Points"
 		},
 		{
 			"id": "power_round_1",
-			"nameKey": "TERRITORY_STAT_CATEGORY_POWER_ROUND_1"
+			"nameKey": "Phase 1 - GP Deployed"
 		},
 		{
 			"id": "strike_attempt_round_1",
-			"nameKey": "TERRITORY_STAT_CATEGORY_STRIKE_ATTEMPT_ROUND_1"
+			"nameKey": "Phase 1 - Combat Missions"
 		},
 		{
 			"id": "covert_attempt_round_1",
-			"nameKey": "TERRITORY_STAT_CATEGORY_COVERT_ATTEMPT_ROUND_1"
+			"nameKey": "Phase 1 - Special Missions"
 		},
 		{
 			"id": "score_round_2",
-			"nameKey": "TERRITORY_STAT_CATEGORY_SCORE_ROUND_2"
+			"nameKey": "Phase 2 - Territory Points"
 		},
 		{
 			"id": "power_round_2",
-			"nameKey": "TERRITORY_STAT_CATEGORY_POWER_ROUND_2"
+			"nameKey": "Phase 2 - GP Deployed"
 		},
 		{
 			"id": "strike_attempt_round_2",
-			"nameKey": "TERRITORY_STAT_CATEGORY_STRIKE_ATTEMPT_ROUND_2"
+			"nameKey": "Phase 2 - Combat Missions"
 		},
 		{
 			"id": "covert_attempt_round_2",
-			"nameKey": "TERRITORY_STAT_CATEGORY_COVERT_ATTEMPT_ROUND_2"
+			"nameKey": "Phase 2 - Special Missions"
 		},
 		{
 			"id": "score_round_3",
-			"nameKey": "TERRITORY_STAT_CATEGORY_SCORE_ROUND_3"
+			"nameKey": "Phase 3 - Territory Points"
 		},
 		{
 			"id": "power_round_3",
-			"nameKey": "TERRITORY_STAT_CATEGORY_POWER_ROUND_3"
+			"nameKey": "Phase 3 - GP Deployed"
 		},
 		{
 			"id": "strike_attempt_round_3",
-			"nameKey": "TERRITORY_STAT_CATEGORY_STRIKE_ATTEMPT_ROUND_3"
+			"nameKey": "Phase 3 - Combat Missions"
 		},
 		{
 			"id": "covert_attempt_round_3",
-			"nameKey": "TERRITORY_STAT_CATEGORY_COVERT_ATTEMPT_ROUND_3"
+			"nameKey": "Phase 3 - Special Missions"
 		},
 		{
 			"id": "score_round_4",
-			"nameKey": "TERRITORY_STAT_CATEGORY_SCORE_ROUND_4"
+			"nameKey": "Phase 4 - Territory Points"
 		},
 		{
 			"id": "power_round_4",
-			"nameKey": "TERRITORY_STAT_CATEGORY_POWER_ROUND_4"
+			"nameKey": "Phase 4 - GP Deployed"
 		},
 		{
 			"id": "strike_attempt_round_4",
-			"nameKey": "TERRITORY_STAT_CATEGORY_STRIKE_ATTEMPT_ROUND_4"
+			"nameKey": "Phase 4 - Combat Missions"
 		},
 		{
 			"id": "covert_attempt_round_4",
-			"nameKey": "TERRITORY_STAT_CATEGORY_COVERT_ATTEMPT_ROUND_4"
+			"nameKey": "Phase 4 - Special Missions"
 		},
 		{
 			"id": "score_round_5",
-			"nameKey": "TERRITORY_STAT_CATEGORY_SCORE_ROUND_5"
+			"nameKey": "Phase 5 - Territory Points"
 		},
 		{
 			"id": "power_round_5",
-			"nameKey": "TERRITORY_STAT_CATEGORY_POWER_ROUND_5"
+			"nameKey": "Phase 5 - GP Deployed"
 		},
 		{
 			"id": "strike_attempt_round_5",
-			"nameKey": "TERRITORY_STAT_CATEGORY_STRIKE_ATTEMPT_ROUND_5"
+			"nameKey": "Phase 5 - Combat Missions"
 		},
 		{
 			"id": "covert_attempt_round_5",
-			"nameKey": "TERRITORY_STAT_CATEGORY_COVERT_ATTEMPT_ROUND_5"
+			"nameKey": "Phase 5 - Special Missions"
 		},
 		{
 			"id": "score_round_6",
-			"nameKey": "TERRITORY_STAT_CATEGORY_SCORE_ROUND_6"
+			"nameKey": "Phase 6 - Territory Points"
 		},
 		{
 			"id": "power_round_6",
-			"nameKey": "TERRITORY_STAT_CATEGORY_POWER_ROUND_6"
+			"nameKey": "Phase 6 - GP Deployed"
 		},
 		{
 			"id": "strike_attempt_round_6",
-			"nameKey": "TERRITORY_STAT_CATEGORY_STRIKE_ATTEMPT_ROUND_6"
+			"nameKey": "Phase 6 - Combat Missions"
 		},
 		{
 			"id": "covert_attempt_round_6",
-			"nameKey": "TERRITORY_STAT_CATEGORY_COVERT_ATTEMPT_ROUND_6"
+			"nameKey": "Phase 6 - Special Missions"
 		}
 	],
 	"territoryCategory": "territory_hoth_empire",
@@ -11029,8 +11029,8 @@
 	],
 	"localNotificationsList": [
 		{
-			"messageKey": "PushNotification_TerritoryBattleBeginsMessage",
-			"titleKey": "PushNotification_TerritoryBattleBeginsTitle",
+			"messageKey": "A Territory Battle has just started!",
+			"titleKey": "GUILD EVENTS",
 			"optedIn": true,
 			"phase": 4,
 			"phaseTimeOffsetSeconds": 0,

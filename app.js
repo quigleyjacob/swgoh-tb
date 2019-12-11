@@ -18,10 +18,8 @@ app.use(express.static(__dirname + '/public'))
 app.get('/', (req, res) => {
   res.render('./index.html')
 })
-
-//looking at data for doing misc stuff
 app.get('/data', async (req, res) => {
-  let {result, error, warning} = await swapi.fetchData({"collection": "categoryList"})
+  let {result, error, warning} = await swapi.fetchData({"collection": "warDefinitionList"})
   console.log(error)
   console.log(warning)
   res.send(result)
@@ -30,10 +28,52 @@ app.get('/squads', async (req, res) => {
   let { result, error, warning } = await swapi.fetchSquads()
   res.send(result)
 })
-app.get('/events', async (req, res) => {
-  let {result, error, warning} = await swapi.fetchEvents()
-  res.send(result)
+
+// loads data
+
+app.get('/reward', (req, res) => {
+  let reward_table = getRewardTable()
+  reward_table.then(results => {
+    fs.writeFile("./data/reward-table.json", JSON.stringify(results, null, '\t'), (err) => {
+      if (err) {
+        console.error(err)
+        return
+      }
+    })
+    res.send("done")
+  })
 })
+app.get('/tbToFile', (req, res) => {
+  let territory_battles = getTerritoryBattles()
+  territory_battles.then(results => {
+    fs.writeFile("./data/hoth-lstb.json", JSON.stringify(results[0], null, '\t'), (err) => {
+      if (err) {
+        console.error(err)
+        return
+      }
+    })
+    fs.writeFile("./data/hoth-dstb.json", JSON.stringify(results[1], null, '\t'), (err) => {
+      if (err) {
+        console.error(err)
+        return
+      }
+    })
+    fs.writeFile("./data/geo-dstb.json", JSON.stringify(results[2], null, '\t'), (err) => {
+      if (err) {
+        console.error(err)
+        return
+      }
+    })
+    fs.writeFile("./data/geo-lstb.json", JSON.stringify(results[3], null, '\t'), (err) => {
+      if (err) {
+        console.error(err)
+        return
+      }
+    })
+    res.send("done")
+  })
+})
+
 
 
 app.get('/hothLSTB', (req, res) => {
@@ -63,11 +103,16 @@ app.get('/player/:ally_code', async (req, res) => {
   }
 })
 
+app.get('/events', async (req, res) => {
+  let {result, error, warning} = await swapi.fetchEvents()
+  res.send(result)
+})
+
 function getTBData(planet, type) {
   //planet is either hoth or geo
   // type is either ls or ds
   let tb_data = JSON.parse(fs.readFileSync(`./data/${planet}-${type}tb.json`))
-  let zone_names = JSON.parse(fs.readFileSync(`./data/zone-names.json`))
+  //let zone_names = JSON.parse(fs.readFileSync(`./data/zone-names.json`))
   let rewards = JSON.parse(fs.readFileSync(`./data/reward-table.json`))
   let json = []
   tb_data.conflictZoneDefinitionList.forEach(zone => {
@@ -79,9 +124,9 @@ function getTBData(planet, type) {
     }
     indexOfPhase = json.findIndex(obj => {return obj.name === phase})
     let combat_missions = tb_data.strikeZoneDefinitionList.filter(obj => {return obj.zoneDefinition.linkedConflictId === zone.zoneDefinition.zoneId})
-    console.log(rewards.filter(obj => {return obj.id === zone.zoneDefinition.nameKey}))
+
     json[indexOfPhase].zones.push({
-      name: zone_names[zone.zoneDefinition.zoneId],
+      name: zone.zoneDefinition.nameKey,
       type: zone.combatType === 1 ? "character" : "ship",
       one_star: zone.victoryPointRewardsList[0].galacticScoreRequirement,
       two_star: zone.victoryPointRewardsList[1].galacticScoreRequirement,
@@ -95,7 +140,7 @@ function getTBData(planet, type) {
 }
 
 async function getTerritoryBattles() {
-  let {result, error, warning} = await swapi.fetchData({"collection": "territoryBattleDefinitionList"})
+  let {result, error, warning} = await swapi.fetchData({"collection": "territoryBattleDefinitionList", "language": "eng_us"})
   if (warning) {
     console.log(warning)
   }
@@ -106,7 +151,7 @@ async function getTerritoryBattles() {
   }
 }
 async function getRewardTable() {
-  let {result, error, warning} = await swapi.fetchData({"collection": "tableList"})
+  let {result, error, warning} = await swapi.fetchData({"collection": "tableList", "language": "eng_us"})
   if (warning) {
     console.log(warning)
   }
