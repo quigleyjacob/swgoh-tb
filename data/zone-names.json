@@ -1,0 +1,37 @@
+{
+  "phase01_conflict01": "Rebel Base",
+  "phase02_conflict01": "Ion Cannon",
+  "phase02_conflict02": "Overlook",
+  "phase03_conflict01": "Real Airspace",
+  "phase03_conflict02": "Rear Trenches",
+  "phase03_conflict03": "Power Generator",
+  "phase04_conflict01": "Forward Airspace",
+  "phase04_conflict02": "Forward Trenches",
+  "phase04_conflict03": "Outer Pass",
+  "phase05_conflict01": "Contested Airspace",
+  "phase05_conflict02": "SnowFields",
+  "phase05_conflict03": "Forward Stronghold",
+  "phase06_conflict01": "Staging Area",
+  "phase06_conflict02": "Imperial Flank",
+  "phase06_conflict03": "Imperial Landing",
+
+
+  "hoth_empire_phase01_conflict01": "Imperial Flank",
+  "hoth_empire_phase01_conflict02": "Imperial Landing",
+  "hoth_empire_phase02_conflict01": "SnowFields",
+  "hoth_empire_phase02_conflict02": "Forward Stronghold",
+  "hoth_empire_phase03_conflict01": "Imperial Fleet Staging Area",
+  "hoth_empire_phase03_conflict02": "Ion Cannon",
+  "hoth_empire_phase03_conflict03": "Outer Pass",
+  "hoth_empire_phase04_conflict01": "Contested Airspace",
+  "hoth_empire_phase04_conflict02": "Power Generator",
+  "hoth_empire_phase04_conflict03": "Rear Trenches",
+  "hoth_empire_phase05_conflict01": "Forward Airspace",
+  "hoth_empire_phase05_conflict02": "Forward Trenches",
+  "hoth_empire_phase05_conflict03": "Overlook",
+  "hoth_empire_phase06_conflict01": "Rear Airspace",
+  "hoth_empire_phase06_conflict02": "Rebel Base (Main Entrance)",
+  "hoth_empire_phase06_conflict03": "Rebel Base (South Entrance)"
+
+
+}

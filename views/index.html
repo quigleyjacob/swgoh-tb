@@ -4,12 +4,13 @@
     <meta charset="utf-8">
     <title>SWGOH GP</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+    <link rel="stylesheet" href="css/master.css">
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
   </head>
   <body>
-    <div class="ui segment">
+    <!-- <div class="ui segment"> -->
       <p></p>
       <div id="dimmer" class="ui dimmer">
         <div id="loader" class="ui text loader">Loading</div>
@@ -48,6 +49,12 @@
         <div class="two wide column"></div>
 
         <div class="twelve wide column">
+          <div id="tb-buttons" class="four ui buttons">
+            <div class="ui button tb ls active">LS Hoth</div>
+            <div class="ui button tb ds">DS Hoth</div>
+            <div class="ui button tb ds">DS Geo</div>
+            <div class="ui button tb ls">LS Geo</div>
+          </div>
           <table class="ui striped called table">
             <thead>
               <tr>
@@ -80,7 +87,7 @@
       </div>
 
     </div>
-    </div>
+    <!-- </div> -->
   </body>
   <script src='js/index.js' type="text/javascript"></script>
   <script src='js/tablesort.js' type="text/javascript"></script>

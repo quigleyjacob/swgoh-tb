@@ -19,8 +19,34 @@ app.get('/', (req, res) => {
   res.render('./index.html')
 })
 
+//looking at data for doing misc stuff
+app.get('/data', async (req, res) => {
+  let {result, error, warning} = await swapi.fetchData({"collection": "categoryList"})
+  console.log(error)
+  console.log(warning)
+  res.send(result)
+})
+app.get('/squads', async (req, res) => {
+  let { result, error, warning } = await swapi.fetchSquads()
+  res.send(result)
+})
+app.get('/events', async (req, res) => {
+  let {result, error, warning} = await swapi.fetchEvents()
+  res.send(result)
+})
+
+
 app.get('/hothLSTB', (req, res) => {
   res.send(getTBData('hoth', 'ls'))
+})
+app.get('/hothDSTB', (req, res) => {
+  res.send(getTBData('hoth', 'ds'))
+})
+app.get('/geoDSTB', (req, res) => {
+  res.send(getTBData('geo', 'ds'))
+})
+app.get('/geoLSTB', (req, res) => {
+  res.send(getTBData('geo', 'ls'))
 })
 
 app.get('/guild/:ally_code', async (req, res) => {
@@ -37,50 +63,60 @@ app.get('/player/:ally_code', async (req, res) => {
   }
 })
 
-app.get('/events', async (req, res) => {
-  let {result, error, warning} = await swapi.fetchEvents()
-  res.send(result)
-})
-
 function getTBData(planet, type) {
   //planet is either hoth or geo
   // type is either ls or ds
-  let data = fs.readFileSync(`${planet}-${type}tb.txt`)
-  let array = data.toString().split("\n").filter(str => {return /\S/.test(str)})
-  array.forEach((v, i, a) => {a[i] = v.trim()})
+  let tb_data = JSON.parse(fs.readFileSync(`./data/${planet}-${type}tb.json`))
+  let zone_names = JSON.parse(fs.readFileSync(`./data/zone-names.json`))
+  let rewards = JSON.parse(fs.readFileSync(`./data/reward-table.json`))
   let json = []
-  array.forEach((val, i, arr) => {
-    if (/^Phase \d$/.test(val)) {
-      let phase = {
-        name: val,
-        zones: []
-      }
-      let numZones = Number(arr[i+1].match(/Number of Zones: (\d)/)[1])
-      for (let j = 0; j < numZones; ++j) {
-        let name_type = arr[i + 2 + 7*j].match(/(\w*\s?\w*) \((\w+)\)/)
-        let one_star = arr[i + 2 + 7*j + 1].match(/1 Star: (\d+)/)
-        let two_star = arr[i + 2 + 7*j + 2].match(/2 Star: (\d+)/)
-        let three_star = arr[i + 2 + 7*j + 3].match(/3 Star: (\d+)/)
-        let num_CM = arr[i + 2 + 7*j + 4].match(/Combat Missions: (\d+)/)
-        let points_CM = arr[i + 2 + 7*j + 5].match(/Points per CM: (\d+)/)
-        let platoon_points = arr[i + 2 + 7*j + 6].match(/Platoon Points: (\d+)/)
-        phase.zones.push({
-          name: name_type[1],
-          type: name_type[2],
-          one_star: Number(one_star[1]),
-          two_star: Number(two_star[1]),
-          three_star: Number(three_star[1]),
-          num_CM: Number(num_CM[1]),
-          points_CM: Number(points_CM[1]),
-          platoon_points: Number(platoon_points[1])
-        })
-      }
-      json.push(phase)
+  tb_data.conflictZoneDefinitionList.forEach(zone => {
+    let phase = zone.zoneDefinition.zoneId.match(/^.*(phase0\d).*$/)[1].replace("0", " ")
+    phase = phase.replace(/^./, phase[0].toUpperCase())
+    let indexOfPhase = json.findIndex(obj => {return obj.name === phase})
+    if (indexOfPhase === -1) {
+      json.push({name: phase, zones: []})
     }
+    indexOfPhase = json.findIndex(obj => {return obj.name === phase})
+    let combat_missions = tb_data.strikeZoneDefinitionList.filter(obj => {return obj.zoneDefinition.linkedConflictId === zone.zoneDefinition.zoneId})
+    console.log(rewards.filter(obj => {return obj.id === zone.zoneDefinition.nameKey}))
+    json[indexOfPhase].zones.push({
+      name: zone_names[zone.zoneDefinition.zoneId],
+      type: zone.combatType === 1 ? "character" : "ship",
+      one_star: zone.victoryPointRewardsList[0].galacticScoreRequirement,
+      two_star: zone.victoryPointRewardsList[1].galacticScoreRequirement,
+      three_star: zone.victoryPointRewardsList[2].galacticScoreRequirement,
+      num_CM: combat_missions.length,
+      points_CM: Number(rewards.filter(obj => {return obj.id === combat_missions[0].encounterRewardTableId})[0].rowList.slice(-1)[0].value.split(":")[1]),
+      platoon_points: tb_data.reconZoneDefinitionList.filter(obj => {return obj.zoneDefinition.linkedConflictId ===  zone.zoneDefinition.zoneId})[0].platoonDefinitionList.reduce((a,b) => a + (b.reward.value || 0), 0)
+    })
   })
   return json
 }
 
-app.listen(PORT, (req, res) => {
+async function getTerritoryBattles() {
+  let {result, error, warning} = await swapi.fetchData({"collection": "territoryBattleDefinitionList"})
+  if (warning) {
+    console.log(warning)
+  }
+  if (error) {
+    throw error
+  } else {
+    return result
+  }
+}
+async function getRewardTable() {
+  let {result, error, warning} = await swapi.fetchData({"collection": "tableList"})
+  if (warning) {
+    console.log(warning)
+  }
+  if (error) {
+    throw error
+  } else {
+    return result
+  }
+}
+
+app.listen(PORT, async (req, res) => {
   console.log(`Server listening at port ${PORT}`)
 })

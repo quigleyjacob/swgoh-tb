@@ -1,7 +1,8 @@
 let guild_info = []
-let tb_info = getHothTBInfo()
+let tb_info = getTBInfo('hoth', 'LS')
 let minStars = 0
 let big_number = 1000000000
+
 
 $('#getGuildForm').submit((e) => {
   e.preventDefault()
@@ -30,9 +31,11 @@ async function getGuildInfo(allycode) {
 
 }
 
-async function getHothTBInfo() {
-    data = await $.get('/hothLSTB')
+async function getTBInfo(planet, mode) {
+    data = await $.get(`/${planet}${mode}TB`)
+    console.log(data)
     let table = $('#tb-info')
+    table.empty()
     data.forEach((phase) => {
       phase.zones.forEach((val, i, arr) => {
         let optional_row = ""
@@ -78,6 +81,13 @@ $('.message .close')
       .transition('fade')
     ;
   })
+
+$('.button.tb').on('click', (e) => {
+  $('.button.tb').removeClass('active')
+  e.target.className += ' active'
+  let info = e.target.textContent.match(/(\w{2}) (\w{3,4})/)
+  tb_info = getTBInfo(info[2].toLowerCase(), info[1])
+})
 
 function determineStars(perfect) {
   let charGP = guildCharacterGP()
