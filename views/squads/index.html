@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Squads</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+    <link rel="stylesheet" href="../css/master.css">
+    <link rel="stylesheet" href="https://s3.amazonaws.com/swgoh-media/css/swgohgg.f940c15d.min.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
+  </head>
+  <body>
+    <div class="ui segment">
+      <div class="ui huge center aligned header">
+        Faction Selector
+      </div>
+
+      <div class="ui grid">
+        <div class="ui row">
+          <div class="two wide column"></div>
+          <div class="four wide column">
+            <form id="allycode-form" class="ui form">
+              <div class="field">
+                <label for="allycode">Allycode</label>
+                <input type="text" name="allycode" placeholder="Allycode">
+              </div>
+              <button class="ui button" type="submit" name="Submit">Submit</button>
+            </form>
+          </div>
+          <div id="sort-buttons" class="eight wide column"></div>
+          <div class="two wide column"></div>
+        </div>
+        <div class="row">
+          <div class="two wide column">
+
+          </div>
+          <div class="four wide column">
+            <div id="factions">
+              <div class="ui mini icon input">
+                <input id="text-entry" type="text" name="text-entry" placeholder="Enter Name Here">
+                <i class="search icon"></i>
+              </div>
+              <br>
+            </div>
+          </div>
+          <div class="eight wide column">
+            <div class="ui four cards" id="characters">
+
+            </div>
+          </div>
+          <div class="two wide column">
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src='../js/squads.js' type="text/javascript"></script>
+  <!-- <script src='../js/tablesort.js' type="text/javascript"></script> -->
+</html>

@@ -227,15 +227,8 @@
 				"linkedConflictId": "",
 				"maxAttemptsAllowed": 2147483647,
 				"unlockRequirement": {
-					"evalType": 2,
+					"evalType": 1,
 					"requirementItemList": [
-						{
-							"type": 61,
-							"id": "geonosis_republic_phase01_conflict01",
-							"value": 1,
-							"locKey": "",
-							"negate": false
-						},
 						{
 							"type": 61,
 							"id": "geonosis_republic_phase01_conflict02",
@@ -294,7 +287,7 @@
 					"requirementItemList": [
 						{
 							"type": 61,
-							"id": "geonosis_republic_phase01_conflict02",
+							"id": "geonosis_republic_phase01_conflict03",
 							"value": 1,
 							"locKey": "",
 							"negate": false
@@ -5005,11 +4998,82 @@
 		{
 			"rankStart": 1,
 			"rankEnd": 1,
-			"primaryRewardList": [],
+			"primaryRewardList": [
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 2500,
+					"maxQuantity": 2500,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY_02",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 1750,
+					"maxQuantity": 1750,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "PREMIUM",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 100,
+					"maxQuantity": 100,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle22_geolight",
+					"type": 14,
+					"weight": 0,
+					"minQuantity": 1,
+					"maxQuantity": 1,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				}
+			],
 			"detailedRewardList": [
 				{
-					"id": "GRIND",
+					"id": "TERRITORY_BATTLE_CURRENCY",
 					"type": 3,
+					"weight": 0,
+					"minQuantity": 2500,
+					"maxQuantity": 2500,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY_02",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 1750,
+					"maxQuantity": 1750,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "PREMIUM",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 100,
+					"maxQuantity": 100,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle22_geolight",
+					"type": 14,
 					"weight": 0,
 					"minQuantity": 1,
 					"maxQuantity": 1,
@@ -5022,11 +5086,82 @@
 		{
 			"rankStart": 2,
 			"rankEnd": 2,
-			"primaryRewardList": [],
+			"primaryRewardList": [
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 2700,
+					"maxQuantity": 2700,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY_02",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 2000,
+					"maxQuantity": 2000,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "PREMIUM",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 100,
+					"maxQuantity": 100,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle21_geolight",
+					"type": 14,
+					"weight": 0,
+					"minQuantity": 1,
+					"maxQuantity": 1,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				}
+			],
 			"detailedRewardList": [
 				{
-					"id": "GRIND",
+					"id": "TERRITORY_BATTLE_CURRENCY",
 					"type": 3,
+					"weight": 0,
+					"minQuantity": 2700,
+					"maxQuantity": 2700,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY_02",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 2000,
+					"maxQuantity": 2000,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "PREMIUM",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 100,
+					"maxQuantity": 100,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle21_geolight",
+					"type": 14,
 					"weight": 0,
 					"minQuantity": 1,
 					"maxQuantity": 1,
@@ -5039,11 +5174,82 @@
 		{
 			"rankStart": 3,
 			"rankEnd": 3,
-			"primaryRewardList": [],
+			"primaryRewardList": [
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 2900,
+					"maxQuantity": 2900,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY_02",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 2250,
+					"maxQuantity": 2250,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "PREMIUM",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 200,
+					"maxQuantity": 200,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle21_geolight",
+					"type": 14,
+					"weight": 0,
+					"minQuantity": 1,
+					"maxQuantity": 1,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				}
+			],
 			"detailedRewardList": [
 				{
-					"id": "GRIND",
+					"id": "TERRITORY_BATTLE_CURRENCY",
 					"type": 3,
+					"weight": 0,
+					"minQuantity": 2900,
+					"maxQuantity": 2900,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY_02",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 2250,
+					"maxQuantity": 2250,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "PREMIUM",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 200,
+					"maxQuantity": 200,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle21_geolight",
+					"type": 14,
 					"weight": 0,
 					"minQuantity": 1,
 					"maxQuantity": 1,
@@ -5056,11 +5262,82 @@
 		{
 			"rankStart": 4,
 			"rankEnd": 4,
-			"primaryRewardList": [],
+			"primaryRewardList": [
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 3100,
+					"maxQuantity": 3100,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY_02",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 2500,
+					"maxQuantity": 2500,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "PREMIUM",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 200,
+					"maxQuantity": 200,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle21_geolight",
+					"type": 14,
+					"weight": 0,
+					"minQuantity": 1,
+					"maxQuantity": 1,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				}
+			],
 			"detailedRewardList": [
 				{
-					"id": "GRIND",
+					"id": "TERRITORY_BATTLE_CURRENCY",
 					"type": 3,
+					"weight": 0,
+					"minQuantity": 3100,
+					"maxQuantity": 3100,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY_02",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 2500,
+					"maxQuantity": 2500,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "PREMIUM",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 200,
+					"maxQuantity": 200,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle21_geolight",
+					"type": 14,
 					"weight": 0,
 					"minQuantity": 1,
 					"maxQuantity": 1,
@@ -5073,11 +5350,82 @@
 		{
 			"rankStart": 5,
 			"rankEnd": 5,
-			"primaryRewardList": [],
+			"primaryRewardList": [
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 3300,
+					"maxQuantity": 3300,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY_02",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 2750,
+					"maxQuantity": 2750,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "PREMIUM",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 200,
+					"maxQuantity": 200,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle20_geolight",
+					"type": 14,
+					"weight": 0,
+					"minQuantity": 1,
+					"maxQuantity": 1,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				}
+			],
 			"detailedRewardList": [
 				{
-					"id": "GRIND",
+					"id": "TERRITORY_BATTLE_CURRENCY",
 					"type": 3,
+					"weight": 0,
+					"minQuantity": 3300,
+					"maxQuantity": 3300,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY_02",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 2750,
+					"maxQuantity": 2750,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "PREMIUM",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 200,
+					"maxQuantity": 200,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle20_geolight",
+					"type": 14,
 					"weight": 0,
 					"minQuantity": 1,
 					"maxQuantity": 1,
@@ -5090,11 +5438,82 @@
 		{
 			"rankStart": 6,
 			"rankEnd": 6,
-			"primaryRewardList": [],
+			"primaryRewardList": [
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 3500,
+					"maxQuantity": 3500,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY_02",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 3000,
+					"maxQuantity": 3000,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "PREMIUM",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 200,
+					"maxQuantity": 200,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle19_geolight",
+					"type": 14,
+					"weight": 0,
+					"minQuantity": 1,
+					"maxQuantity": 1,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				}
+			],
 			"detailedRewardList": [
 				{
-					"id": "GRIND",
+					"id": "TERRITORY_BATTLE_CURRENCY",
 					"type": 3,
+					"weight": 0,
+					"minQuantity": 3500,
+					"maxQuantity": 3500,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY_02",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 3000,
+					"maxQuantity": 3000,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "PREMIUM",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 200,
+					"maxQuantity": 200,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle19_geolight",
+					"type": 14,
 					"weight": 0,
 					"minQuantity": 1,
 					"maxQuantity": 1,
@@ -5107,11 +5526,82 @@
 		{
 			"rankStart": 7,
 			"rankEnd": 7,
-			"primaryRewardList": [],
+			"primaryRewardList": [
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 3700,
+					"maxQuantity": 3700,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY_02",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 3250,
+					"maxQuantity": 3250,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "PREMIUM",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 200,
+					"maxQuantity": 200,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle19_geolight",
+					"type": 14,
+					"weight": 0,
+					"minQuantity": 1,
+					"maxQuantity": 1,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				}
+			],
 			"detailedRewardList": [
 				{
-					"id": "GRIND",
+					"id": "TERRITORY_BATTLE_CURRENCY",
 					"type": 3,
+					"weight": 0,
+					"minQuantity": 3700,
+					"maxQuantity": 3700,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY_02",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 3250,
+					"maxQuantity": 3250,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "PREMIUM",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 200,
+					"maxQuantity": 200,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle19_geolight",
+					"type": 14,
 					"weight": 0,
 					"minQuantity": 1,
 					"maxQuantity": 1,
@@ -5124,11 +5614,82 @@
 		{
 			"rankStart": 8,
 			"rankEnd": 8,
-			"primaryRewardList": [],
+			"primaryRewardList": [
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 3850,
+					"maxQuantity": 3850,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY_02",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 3450,
+					"maxQuantity": 3450,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "PREMIUM",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 300,
+					"maxQuantity": 300,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle18_geolight",
+					"type": 14,
+					"weight": 0,
+					"minQuantity": 1,
+					"maxQuantity": 1,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				}
+			],
 			"detailedRewardList": [
 				{
-					"id": "GRIND",
+					"id": "TERRITORY_BATTLE_CURRENCY",
 					"type": 3,
+					"weight": 0,
+					"minQuantity": 3850,
+					"maxQuantity": 3850,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY_02",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 3450,
+					"maxQuantity": 3450,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "PREMIUM",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 300,
+					"maxQuantity": 300,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle18_geolight",
+					"type": 14,
 					"weight": 0,
 					"minQuantity": 1,
 					"maxQuantity": 1,
@@ -5141,11 +5702,82 @@
 		{
 			"rankStart": 9,
 			"rankEnd": 9,
-			"primaryRewardList": [],
+			"primaryRewardList": [
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 4000,
+					"maxQuantity": 4000,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY_02",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 3650,
+					"maxQuantity": 3650,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "PREMIUM",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 300,
+					"maxQuantity": 300,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle18_geolight",
+					"type": 14,
+					"weight": 0,
+					"minQuantity": 1,
+					"maxQuantity": 1,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				}
+			],
 			"detailedRewardList": [
 				{
-					"id": "GRIND",
+					"id": "TERRITORY_BATTLE_CURRENCY",
 					"type": 3,
+					"weight": 0,
+					"minQuantity": 4000,
+					"maxQuantity": 4000,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY_02",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 3650,
+					"maxQuantity": 3650,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "PREMIUM",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 300,
+					"maxQuantity": 300,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle18_geolight",
+					"type": 14,
 					"weight": 0,
 					"minQuantity": 1,
 					"maxQuantity": 1,
@@ -5158,11 +5790,82 @@
 		{
 			"rankStart": 10,
 			"rankEnd": 10,
-			"primaryRewardList": [],
+			"primaryRewardList": [
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 4150,
+					"maxQuantity": 4150,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY_02",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 3850,
+					"maxQuantity": 3850,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "PREMIUM",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 300,
+					"maxQuantity": 300,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle17_geolight",
+					"type": 14,
+					"weight": 0,
+					"minQuantity": 1,
+					"maxQuantity": 1,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				}
+			],
 			"detailedRewardList": [
 				{
-					"id": "GRIND",
+					"id": "TERRITORY_BATTLE_CURRENCY",
 					"type": 3,
+					"weight": 0,
+					"minQuantity": 4150,
+					"maxQuantity": 4150,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY_02",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 3850,
+					"maxQuantity": 3850,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "PREMIUM",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 300,
+					"maxQuantity": 300,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle17_geolight",
+					"type": 14,
 					"weight": 0,
 					"minQuantity": 1,
 					"maxQuantity": 1,
@@ -5175,11 +5878,82 @@
 		{
 			"rankStart": 11,
 			"rankEnd": 11,
-			"primaryRewardList": [],
+			"primaryRewardList": [
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 4300,
+					"maxQuantity": 4300,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY_02",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 4050,
+					"maxQuantity": 4050,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "PREMIUM",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 300,
+					"maxQuantity": 300,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle17_geolight",
+					"type": 14,
+					"weight": 0,
+					"minQuantity": 1,
+					"maxQuantity": 1,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				}
+			],
 			"detailedRewardList": [
 				{
-					"id": "GRIND",
+					"id": "TERRITORY_BATTLE_CURRENCY",
 					"type": 3,
+					"weight": 0,
+					"minQuantity": 4300,
+					"maxQuantity": 4300,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY_02",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 4050,
+					"maxQuantity": 4050,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "PREMIUM",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 300,
+					"maxQuantity": 300,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle17_geolight",
+					"type": 14,
 					"weight": 0,
 					"minQuantity": 1,
 					"maxQuantity": 1,
@@ -5192,11 +5966,82 @@
 		{
 			"rankStart": 12,
 			"rankEnd": 12,
-			"primaryRewardList": [],
+			"primaryRewardList": [
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 4450,
+					"maxQuantity": 4450,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY_02",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 4250,
+					"maxQuantity": 4250,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "PREMIUM",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 300,
+					"maxQuantity": 300,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle16_geolight",
+					"type": 14,
+					"weight": 0,
+					"minQuantity": 1,
+					"maxQuantity": 1,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				}
+			],
 			"detailedRewardList": [
 				{
-					"id": "GRIND",
+					"id": "TERRITORY_BATTLE_CURRENCY",
 					"type": 3,
+					"weight": 0,
+					"minQuantity": 4450,
+					"maxQuantity": 4450,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY_02",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 4250,
+					"maxQuantity": 4250,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "PREMIUM",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 300,
+					"maxQuantity": 300,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle16_geolight",
+					"type": 14,
 					"weight": 0,
 					"minQuantity": 1,
 					"maxQuantity": 1,
@@ -5209,11 +6054,82 @@
 		{
 			"rankStart": 13,
 			"rankEnd": 13,
-			"primaryRewardList": [],
+			"primaryRewardList": [
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 4600,
+					"maxQuantity": 4600,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY_02",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 4450,
+					"maxQuantity": 4450,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "PREMIUM",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 450,
+					"maxQuantity": 450,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle16_geolight",
+					"type": 14,
+					"weight": 0,
+					"minQuantity": 1,
+					"maxQuantity": 1,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				}
+			],
 			"detailedRewardList": [
 				{
-					"id": "GRIND",
+					"id": "TERRITORY_BATTLE_CURRENCY",
 					"type": 3,
+					"weight": 0,
+					"minQuantity": 4600,
+					"maxQuantity": 4600,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY_02",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 4450,
+					"maxQuantity": 4450,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "PREMIUM",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 450,
+					"maxQuantity": 450,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle16_geolight",
+					"type": 14,
 					"weight": 0,
 					"minQuantity": 1,
 					"maxQuantity": 1,
@@ -5226,11 +6142,82 @@
 		{
 			"rankStart": 14,
 			"rankEnd": 14,
-			"primaryRewardList": [],
+			"primaryRewardList": [
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 4750,
+					"maxQuantity": 4750,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY_02",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 4650,
+					"maxQuantity": 4650,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "PREMIUM",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 450,
+					"maxQuantity": 450,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle15_geolight",
+					"type": 14,
+					"weight": 0,
+					"minQuantity": 1,
+					"maxQuantity": 1,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				}
+			],
 			"detailedRewardList": [
 				{
-					"id": "GRIND",
+					"id": "TERRITORY_BATTLE_CURRENCY",
 					"type": 3,
+					"weight": 0,
+					"minQuantity": 4750,
+					"maxQuantity": 4750,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY_02",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 4650,
+					"maxQuantity": 4650,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "PREMIUM",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 450,
+					"maxQuantity": 450,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle15_geolight",
+					"type": 14,
 					"weight": 0,
 					"minQuantity": 1,
 					"maxQuantity": 1,
@@ -5243,11 +6230,82 @@
 		{
 			"rankStart": 15,
 			"rankEnd": 15,
-			"primaryRewardList": [],
+			"primaryRewardList": [
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 4900,
+					"maxQuantity": 4900,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY_02",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 4850,
+					"maxQuantity": 4850,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "PREMIUM",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 450,
+					"maxQuantity": 450,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle15_geolight",
+					"type": 14,
+					"weight": 0,
+					"minQuantity": 1,
+					"maxQuantity": 1,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				}
+			],
 			"detailedRewardList": [
 				{
-					"id": "GRIND",
+					"id": "TERRITORY_BATTLE_CURRENCY",
 					"type": 3,
+					"weight": 0,
+					"minQuantity": 4900,
+					"maxQuantity": 4900,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY_02",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 4850,
+					"maxQuantity": 4850,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "PREMIUM",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 450,
+					"maxQuantity": 450,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle15_geolight",
+					"type": 14,
 					"weight": 0,
 					"minQuantity": 1,
 					"maxQuantity": 1,
@@ -5260,11 +6318,82 @@
 		{
 			"rankStart": 16,
 			"rankEnd": 16,
-			"primaryRewardList": [],
+			"primaryRewardList": [
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 5050,
+					"maxQuantity": 5050,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY_02",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 5050,
+					"maxQuantity": 5050,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "PREMIUM",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 450,
+					"maxQuantity": 450,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle14_geolight",
+					"type": 14,
+					"weight": 0,
+					"minQuantity": 1,
+					"maxQuantity": 1,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				}
+			],
 			"detailedRewardList": [
 				{
-					"id": "GRIND",
+					"id": "TERRITORY_BATTLE_CURRENCY",
 					"type": 3,
+					"weight": 0,
+					"minQuantity": 5050,
+					"maxQuantity": 5050,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY_02",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 5050,
+					"maxQuantity": 5050,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "PREMIUM",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 450,
+					"maxQuantity": 450,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle14_geolight",
+					"type": 14,
 					"weight": 0,
 					"minQuantity": 1,
 					"maxQuantity": 1,
@@ -5277,11 +6406,82 @@
 		{
 			"rankStart": 17,
 			"rankEnd": 17,
-			"primaryRewardList": [],
+			"primaryRewardList": [
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 5200,
+					"maxQuantity": 5200,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY_02",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 5250,
+					"maxQuantity": 5250,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "PREMIUM",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 450,
+					"maxQuantity": 450,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle14_geolight",
+					"type": 14,
+					"weight": 0,
+					"minQuantity": 1,
+					"maxQuantity": 1,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				}
+			],
 			"detailedRewardList": [
 				{
-					"id": "GRIND",
+					"id": "TERRITORY_BATTLE_CURRENCY",
 					"type": 3,
+					"weight": 0,
+					"minQuantity": 5200,
+					"maxQuantity": 5200,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY_02",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 5250,
+					"maxQuantity": 5250,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "PREMIUM",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 450,
+					"maxQuantity": 450,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle14_geolight",
+					"type": 14,
 					"weight": 0,
 					"minQuantity": 1,
 					"maxQuantity": 1,
@@ -5294,11 +6494,82 @@
 		{
 			"rankStart": 18,
 			"rankEnd": 18,
-			"primaryRewardList": [],
+			"primaryRewardList": [
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 5300,
+					"maxQuantity": 5300,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY_02",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 5400,
+					"maxQuantity": 5400,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "PREMIUM",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 600,
+					"maxQuantity": 600,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle13_geolight",
+					"type": 14,
+					"weight": 0,
+					"minQuantity": 1,
+					"maxQuantity": 1,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				}
+			],
 			"detailedRewardList": [
 				{
-					"id": "GRIND",
+					"id": "TERRITORY_BATTLE_CURRENCY",
 					"type": 3,
+					"weight": 0,
+					"minQuantity": 5300,
+					"maxQuantity": 5300,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY_02",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 5400,
+					"maxQuantity": 5400,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "PREMIUM",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 600,
+					"maxQuantity": 600,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle13_geolight",
+					"type": 14,
 					"weight": 0,
 					"minQuantity": 1,
 					"maxQuantity": 1,
@@ -5311,11 +6582,82 @@
 		{
 			"rankStart": 19,
 			"rankEnd": 19,
-			"primaryRewardList": [],
+			"primaryRewardList": [
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 5400,
+					"maxQuantity": 5400,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY_02",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 5550,
+					"maxQuantity": 5550,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "PREMIUM",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 600,
+					"maxQuantity": 600,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle13_geolight",
+					"type": 14,
+					"weight": 0,
+					"minQuantity": 1,
+					"maxQuantity": 1,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				}
+			],
 			"detailedRewardList": [
 				{
-					"id": "GRIND",
+					"id": "TERRITORY_BATTLE_CURRENCY",
 					"type": 3,
+					"weight": 0,
+					"minQuantity": 5400,
+					"maxQuantity": 5400,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY_02",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 5550,
+					"maxQuantity": 5550,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "PREMIUM",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 600,
+					"maxQuantity": 600,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle13_geolight",
+					"type": 14,
 					"weight": 0,
 					"minQuantity": 1,
 					"maxQuantity": 1,
@@ -5328,11 +6670,82 @@
 		{
 			"rankStart": 20,
 			"rankEnd": 20,
-			"primaryRewardList": [],
+			"primaryRewardList": [
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 5500,
+					"maxQuantity": 5500,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY_02",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 5700,
+					"maxQuantity": 5700,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "PREMIUM",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 600,
+					"maxQuantity": 600,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle12_geolight",
+					"type": 14,
+					"weight": 0,
+					"minQuantity": 1,
+					"maxQuantity": 1,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				}
+			],
 			"detailedRewardList": [
 				{
-					"id": "GRIND",
+					"id": "TERRITORY_BATTLE_CURRENCY",
 					"type": 3,
+					"weight": 0,
+					"minQuantity": 5500,
+					"maxQuantity": 5500,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY_02",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 5700,
+					"maxQuantity": 5700,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "PREMIUM",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 600,
+					"maxQuantity": 600,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle12_geolight",
+					"type": 14,
 					"weight": 0,
 					"minQuantity": 1,
 					"maxQuantity": 1,
@@ -5345,11 +6758,82 @@
 		{
 			"rankStart": 21,
 			"rankEnd": 21,
-			"primaryRewardList": [],
+			"primaryRewardList": [
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 5600,
+					"maxQuantity": 5600,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY_02",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 5850,
+					"maxQuantity": 5850,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "PREMIUM",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 600,
+					"maxQuantity": 600,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle12_geolight",
+					"type": 14,
+					"weight": 0,
+					"minQuantity": 1,
+					"maxQuantity": 1,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				}
+			],
 			"detailedRewardList": [
 				{
-					"id": "GRIND",
+					"id": "TERRITORY_BATTLE_CURRENCY",
 					"type": 3,
+					"weight": 0,
+					"minQuantity": 5600,
+					"maxQuantity": 5600,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY_02",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 5850,
+					"maxQuantity": 5850,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "PREMIUM",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 600,
+					"maxQuantity": 600,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle12_geolight",
+					"type": 14,
 					"weight": 0,
 					"minQuantity": 1,
 					"maxQuantity": 1,
@@ -5362,11 +6846,82 @@
 		{
 			"rankStart": 22,
 			"rankEnd": 22,
-			"primaryRewardList": [],
+			"primaryRewardList": [
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 5700,
+					"maxQuantity": 5700,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY_02",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 6000,
+					"maxQuantity": 6000,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "PREMIUM",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 600,
+					"maxQuantity": 600,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle11_geolight",
+					"type": 14,
+					"weight": 0,
+					"minQuantity": 1,
+					"maxQuantity": 1,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				}
+			],
 			"detailedRewardList": [
 				{
-					"id": "GRIND",
+					"id": "TERRITORY_BATTLE_CURRENCY",
 					"type": 3,
+					"weight": 0,
+					"minQuantity": 5700,
+					"maxQuantity": 5700,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY_02",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 6000,
+					"maxQuantity": 6000,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "PREMIUM",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 600,
+					"maxQuantity": 600,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle11_geolight",
+					"type": 14,
 					"weight": 0,
 					"minQuantity": 1,
 					"maxQuantity": 1,
@@ -5379,11 +6934,82 @@
 		{
 			"rankStart": 23,
 			"rankEnd": 23,
-			"primaryRewardList": [],
+			"primaryRewardList": [
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 5800,
+					"maxQuantity": 5800,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY_02",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 6150,
+					"maxQuantity": 6150,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "PREMIUM",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 750,
+					"maxQuantity": 750,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle11_geolight",
+					"type": 14,
+					"weight": 0,
+					"minQuantity": 1,
+					"maxQuantity": 1,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				}
+			],
 			"detailedRewardList": [
 				{
-					"id": "GRIND",
+					"id": "TERRITORY_BATTLE_CURRENCY",
 					"type": 3,
+					"weight": 0,
+					"minQuantity": 5800,
+					"maxQuantity": 5800,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY_02",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 6150,
+					"maxQuantity": 6150,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "PREMIUM",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 750,
+					"maxQuantity": 750,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle11_geolight",
+					"type": 14,
 					"weight": 0,
 					"minQuantity": 1,
 					"maxQuantity": 1,
@@ -5396,11 +7022,82 @@
 		{
 			"rankStart": 24,
 			"rankEnd": 24,
-			"primaryRewardList": [],
+			"primaryRewardList": [
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 5900,
+					"maxQuantity": 5900,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY_02",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 6300,
+					"maxQuantity": 6300,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "PREMIUM",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 750,
+					"maxQuantity": 750,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle10_geolight",
+					"type": 14,
+					"weight": 0,
+					"minQuantity": 1,
+					"maxQuantity": 1,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				}
+			],
 			"detailedRewardList": [
 				{
-					"id": "GRIND",
+					"id": "TERRITORY_BATTLE_CURRENCY",
 					"type": 3,
+					"weight": 0,
+					"minQuantity": 5900,
+					"maxQuantity": 5900,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY_02",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 6300,
+					"maxQuantity": 6300,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "PREMIUM",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 750,
+					"maxQuantity": 750,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle10_geolight",
+					"type": 14,
 					"weight": 0,
 					"minQuantity": 1,
 					"maxQuantity": 1,
@@ -5413,11 +7110,82 @@
 		{
 			"rankStart": 25,
 			"rankEnd": 25,
-			"primaryRewardList": [],
+			"primaryRewardList": [
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 6000,
+					"maxQuantity": 6000,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY_02",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 6450,
+					"maxQuantity": 6450,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "PREMIUM",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 750,
+					"maxQuantity": 750,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle10_geolight",
+					"type": 14,
+					"weight": 0,
+					"minQuantity": 1,
+					"maxQuantity": 1,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				}
+			],
 			"detailedRewardList": [
 				{
-					"id": "GRIND",
+					"id": "TERRITORY_BATTLE_CURRENCY",
 					"type": 3,
+					"weight": 0,
+					"minQuantity": 6000,
+					"maxQuantity": 6000,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY_02",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 6450,
+					"maxQuantity": 6450,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "PREMIUM",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 750,
+					"maxQuantity": 750,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle10_geolight",
+					"type": 14,
 					"weight": 0,
 					"minQuantity": 1,
 					"maxQuantity": 1,
@@ -5430,11 +7198,82 @@
 		{
 			"rankStart": 26,
 			"rankEnd": 26,
-			"primaryRewardList": [],
+			"primaryRewardList": [
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 6100,
+					"maxQuantity": 6100,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY_02",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 6600,
+					"maxQuantity": 6600,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "PREMIUM",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 750,
+					"maxQuantity": 750,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle09_geolight",
+					"type": 14,
+					"weight": 0,
+					"minQuantity": 1,
+					"maxQuantity": 1,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				}
+			],
 			"detailedRewardList": [
 				{
-					"id": "GRIND",
+					"id": "TERRITORY_BATTLE_CURRENCY",
 					"type": 3,
+					"weight": 0,
+					"minQuantity": 6100,
+					"maxQuantity": 6100,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY_02",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 6600,
+					"maxQuantity": 6600,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "PREMIUM",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 750,
+					"maxQuantity": 750,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle09_geolight",
+					"type": 14,
 					"weight": 0,
 					"minQuantity": 1,
 					"maxQuantity": 1,
@@ -5447,11 +7286,82 @@
 		{
 			"rankStart": 27,
 			"rankEnd": 27,
-			"primaryRewardList": [],
+			"primaryRewardList": [
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 6200,
+					"maxQuantity": 6200,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY_02",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 6750,
+					"maxQuantity": 6750,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "PREMIUM",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 750,
+					"maxQuantity": 750,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle09_geolight",
+					"type": 14,
+					"weight": 0,
+					"minQuantity": 1,
+					"maxQuantity": 1,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				}
+			],
 			"detailedRewardList": [
 				{
-					"id": "GRIND",
+					"id": "TERRITORY_BATTLE_CURRENCY",
 					"type": 3,
+					"weight": 0,
+					"minQuantity": 6200,
+					"maxQuantity": 6200,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY_02",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 6750,
+					"maxQuantity": 6750,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "PREMIUM",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 750,
+					"maxQuantity": 750,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle09_geolight",
+					"type": 14,
 					"weight": 0,
 					"minQuantity": 1,
 					"maxQuantity": 1,
@@ -5464,11 +7374,82 @@
 		{
 			"rankStart": 28,
 			"rankEnd": 28,
-			"primaryRewardList": [],
+			"primaryRewardList": [
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 6300,
+					"maxQuantity": 6300,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY_02",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 6950,
+					"maxQuantity": 6950,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "PREMIUM",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 900,
+					"maxQuantity": 900,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle08_geolight",
+					"type": 14,
+					"weight": 0,
+					"minQuantity": 1,
+					"maxQuantity": 1,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				}
+			],
 			"detailedRewardList": [
 				{
-					"id": "GRIND",
+					"id": "TERRITORY_BATTLE_CURRENCY",
 					"type": 3,
+					"weight": 0,
+					"minQuantity": 6300,
+					"maxQuantity": 6300,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY_02",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 6950,
+					"maxQuantity": 6950,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "PREMIUM",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 900,
+					"maxQuantity": 900,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle08_geolight",
+					"type": 14,
 					"weight": 0,
 					"minQuantity": 1,
 					"maxQuantity": 1,
@@ -5481,11 +7462,82 @@
 		{
 			"rankStart": 29,
 			"rankEnd": 29,
-			"primaryRewardList": [],
+			"primaryRewardList": [
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 6400,
+					"maxQuantity": 6400,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY_02",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 7150,
+					"maxQuantity": 7150,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "PREMIUM",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 900,
+					"maxQuantity": 900,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle08_geolight",
+					"type": 14,
+					"weight": 0,
+					"minQuantity": 1,
+					"maxQuantity": 1,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				}
+			],
 			"detailedRewardList": [
 				{
-					"id": "GRIND",
+					"id": "TERRITORY_BATTLE_CURRENCY",
 					"type": 3,
+					"weight": 0,
+					"minQuantity": 6400,
+					"maxQuantity": 6400,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY_02",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 7150,
+					"maxQuantity": 7150,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "PREMIUM",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 900,
+					"maxQuantity": 900,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle08_geolight",
+					"type": 14,
 					"weight": 0,
 					"minQuantity": 1,
 					"maxQuantity": 1,
@@ -5498,11 +7550,82 @@
 		{
 			"rankStart": 30,
 			"rankEnd": 30,
-			"primaryRewardList": [],
+			"primaryRewardList": [
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 6500,
+					"maxQuantity": 6500,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY_02",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 7350,
+					"maxQuantity": 7350,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "PREMIUM",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 900,
+					"maxQuantity": 900,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle07_geolight",
+					"type": 14,
+					"weight": 0,
+					"minQuantity": 1,
+					"maxQuantity": 1,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				}
+			],
 			"detailedRewardList": [
 				{
-					"id": "GRIND",
+					"id": "TERRITORY_BATTLE_CURRENCY",
 					"type": 3,
+					"weight": 0,
+					"minQuantity": 6500,
+					"maxQuantity": 6500,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY_02",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 7350,
+					"maxQuantity": 7350,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "PREMIUM",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 900,
+					"maxQuantity": 900,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle07_geolight",
+					"type": 14,
 					"weight": 0,
 					"minQuantity": 1,
 					"maxQuantity": 1,
@@ -5515,11 +7638,82 @@
 		{
 			"rankStart": 31,
 			"rankEnd": 31,
-			"primaryRewardList": [],
+			"primaryRewardList": [
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 6600,
+					"maxQuantity": 6600,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY_02",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 7550,
+					"maxQuantity": 7550,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "PREMIUM",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 900,
+					"maxQuantity": 900,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle06_geolight",
+					"type": 14,
+					"weight": 0,
+					"minQuantity": 1,
+					"maxQuantity": 1,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				}
+			],
 			"detailedRewardList": [
 				{
-					"id": "GRIND",
+					"id": "TERRITORY_BATTLE_CURRENCY",
 					"type": 3,
+					"weight": 0,
+					"minQuantity": 6600,
+					"maxQuantity": 6600,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY_02",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 7550,
+					"maxQuantity": 7550,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "PREMIUM",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 900,
+					"maxQuantity": 900,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle06_geolight",
+					"type": 14,
 					"weight": 0,
 					"minQuantity": 1,
 					"maxQuantity": 1,
@@ -5532,11 +7726,82 @@
 		{
 			"rankStart": 32,
 			"rankEnd": 32,
-			"primaryRewardList": [],
+			"primaryRewardList": [
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 6700,
+					"maxQuantity": 6700,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY_02",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 7800,
+					"maxQuantity": 7800,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "PREMIUM",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 900,
+					"maxQuantity": 900,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle05_geolight",
+					"type": 14,
+					"weight": 0,
+					"minQuantity": 1,
+					"maxQuantity": 1,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				}
+			],
 			"detailedRewardList": [
 				{
-					"id": "GRIND",
+					"id": "TERRITORY_BATTLE_CURRENCY",
 					"type": 3,
+					"weight": 0,
+					"minQuantity": 6700,
+					"maxQuantity": 6700,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY_02",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 7800,
+					"maxQuantity": 7800,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "PREMIUM",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 900,
+					"maxQuantity": 900,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle05_geolight",
+					"type": 14,
 					"weight": 0,
 					"minQuantity": 1,
 					"maxQuantity": 1,
@@ -5549,11 +7814,82 @@
 		{
 			"rankStart": 33,
 			"rankEnd": 33,
-			"primaryRewardList": [],
+			"primaryRewardList": [
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 6800,
+					"maxQuantity": 6800,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY_02",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 8000,
+					"maxQuantity": 8000,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "PREMIUM",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 900,
+					"maxQuantity": 900,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle04_geolight",
+					"type": 14,
+					"weight": 0,
+					"minQuantity": 1,
+					"maxQuantity": 1,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				}
+			],
 			"detailedRewardList": [
 				{
-					"id": "GRIND",
+					"id": "TERRITORY_BATTLE_CURRENCY",
 					"type": 3,
+					"weight": 0,
+					"minQuantity": 6800,
+					"maxQuantity": 6800,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY_02",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 8000,
+					"maxQuantity": 8000,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "PREMIUM",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 900,
+					"maxQuantity": 900,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle04_geolight",
+					"type": 14,
 					"weight": 0,
 					"minQuantity": 1,
 					"maxQuantity": 1,
@@ -5566,11 +7902,82 @@
 		{
 			"rankStart": 34,
 			"rankEnd": 34,
-			"primaryRewardList": [],
+			"primaryRewardList": [
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 7000,
+					"maxQuantity": 7000,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY_02",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 8200,
+					"maxQuantity": 8200,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "PREMIUM",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 1000,
+					"maxQuantity": 1000,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle03_geolight",
+					"type": 14,
+					"weight": 0,
+					"minQuantity": 1,
+					"maxQuantity": 1,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				}
+			],
 			"detailedRewardList": [
 				{
-					"id": "GRIND",
+					"id": "TERRITORY_BATTLE_CURRENCY",
 					"type": 3,
+					"weight": 0,
+					"minQuantity": 7000,
+					"maxQuantity": 7000,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY_02",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 8200,
+					"maxQuantity": 8200,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "PREMIUM",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 1000,
+					"maxQuantity": 1000,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle03_geolight",
+					"type": 14,
 					"weight": 0,
 					"minQuantity": 1,
 					"maxQuantity": 1,
@@ -5583,11 +7990,82 @@
 		{
 			"rankStart": 35,
 			"rankEnd": 35,
-			"primaryRewardList": [],
+			"primaryRewardList": [
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 7200,
+					"maxQuantity": 7200,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY_02",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 8400,
+					"maxQuantity": 8400,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "PREMIUM",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 1000,
+					"maxQuantity": 1000,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle02_geolight",
+					"type": 14,
+					"weight": 0,
+					"minQuantity": 1,
+					"maxQuantity": 1,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				}
+			],
 			"detailedRewardList": [
 				{
-					"id": "GRIND",
+					"id": "TERRITORY_BATTLE_CURRENCY",
 					"type": 3,
+					"weight": 0,
+					"minQuantity": 7200,
+					"maxQuantity": 7200,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY_02",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 8400,
+					"maxQuantity": 8400,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "PREMIUM",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 1000,
+					"maxQuantity": 1000,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle02_geolight",
+					"type": 14,
 					"weight": 0,
 					"minQuantity": 1,
 					"maxQuantity": 1,
@@ -5600,11 +8078,82 @@
 		{
 			"rankStart": 36,
 			"rankEnd": 0,
-			"primaryRewardList": [],
+			"primaryRewardList": [
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 7400,
+					"maxQuantity": 7400,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY_02",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 8600,
+					"maxQuantity": 8600,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "PREMIUM",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 1000,
+					"maxQuantity": 1000,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle01_geolight",
+					"type": 14,
+					"weight": 0,
+					"minQuantity": 1,
+					"maxQuantity": 1,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				}
+			],
 			"detailedRewardList": [
 				{
-					"id": "GRIND",
+					"id": "TERRITORY_BATTLE_CURRENCY",
 					"type": 3,
+					"weight": 0,
+					"minQuantity": 7400,
+					"maxQuantity": 7400,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY_02",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 8600,
+					"maxQuantity": 8600,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "PREMIUM",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 1000,
+					"maxQuantity": 1000,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle01_geolight",
+					"type": 14,
 					"weight": 0,
 					"minQuantity": 1,
 					"maxQuantity": 1,
@@ -5634,7 +8183,7 @@
 		{
 			"descriptionType": 2,
 			"unitTexture": "tex.charui_kiadimundi",
-			"unitNameKey": "[99FF33]Ki-Adi-Mundi Shards",
+			"unitNameKey": "[99FF33]Ki-Adi-Mundi Shards[-]",
 			"abilityNameKey": "",
 			"abilityDescriptionKey": "",
 			"abilityTexture": "",
@@ -5776,7 +8325,7 @@
 			"unitTexture": "",
 			"unitNameKey": "",
 			"abilityNameKey": "Formations [c][ffff33](Ship combat only)[-][/c]",
-			"abilityDescriptionKey": "[c][ffffff]Level 1:[-][/c] The allied Capital Ship gains two abilities, Assault Formation and Defensive Formation. Allied ships start in Defensive Formation.\\n[c][ffff33]Assault Formation:[-][/c] Reduce allied non-Capital ships' cooldowns by 2 and they gain 50% Turn Meter. This ship takes a bonus turn without reducing its cooldowns. This ability starts on cooldown and shares a cooldown with Defensive Formation. (Cooldown: 2)\\n[c][ffff33]Defensive Formation:[-][/c] Until a new Formation is issued, allied Tanks Taunt at the start of each turn if they don't already have it. This ship takes a bonus turn without reducing its cooldowns. This ability starts on cooldown and shares a cooldown with Assault Formation. (Cooldown: 2)\\n\\n[c][ffffff]Level 2:[-][/c] Add to Defensive Formation: Allied non-Capital ships recover 25% of their Max Health and all of their Protection\\n\\n[c][ffffff]Level 3:[-][/c] Add to Assault Formation: Until a new Formation is issued, allied non-Capital ships deal 100% more damage",
+			"abilityDescriptionKey": "[c][ffffff]Level 1:[-][/c] The allied Capital Ship gains two abilities, Assault Formation and Defensive Formation. Allied ships start in Defensive Formation.\\n[c][ffff33]Assault Formation:[-][/c] Reduce allied non-Capital Ships' cooldowns by 2 and they gain 50% Turn Meter. This ship takes a bonus turn without reducing its cooldowns. This ability starts on cooldown and shares a cooldown with Defensive Formation. (Cooldown: 2)\\n[c][ffff33]Defensive Formation:[-][/c] Until a new Formation is issued, allied Tanks Taunt at the start of each turn if they don't already have it. This ship takes a bonus turn without reducing its cooldowns. This ability starts on cooldown and shares a cooldown with Assault Formation. (Cooldown: 2)\\n\\n[c][ffffff]Level 2:[-][/c] Add to Defensive Formation: Allied non-Capital Ships recover 25% of their Max Health and all of their Protection\\n\\n[c][ffffff]Level 3:[-][/c] Add to Assault Formation: Until a new Formation is issued, allied non-Capital Ships deal 100% more damage",
 			"abilityTexture": "tex.abilityui_captain_default",
 			"headerKey": "",
 			"textKey": "",
@@ -7022,7 +9571,7 @@
 			"unitTexture": "",
 			"unitNameKey": "",
 			"abilityNameKey": "Commence Attack",
-			"abilityDescriptionKey": "Grant Defense Penetration Up, Offense Up, and Retribution for 2 turns to target ally.",
+			"abilityDescriptionKey": "Grant Defense Penetration Up, Offense Up, and Retribution for 2 turns to another random ally.",
 			"abilityTexture": "tex.ability_tseries_basic",
 			"headerKey": "",
 			"textKey": "",
@@ -7932,7 +10481,7 @@
 			"unitTexture": "",
 			"unitNameKey": "",
 			"abilityNameKey": "Notorious Reputation",
-			"abilityDescriptionKey": "Jango Fett has +100% Defense Penetration and +50% Max Health. Enemies defeated on his turn cannot be Revived.\\n\\nAt the start of battle, and whenever he defeats an enemy, Jango Fett recovers 100% Protection and gains [c][F0FF23]Bounty Hunter's Resolve[-][/c] until he is defeated.\\n\\n[c][F0FF23]Bounty Hunter's Resolve[-][/c]: this unit ignores Taunts during their turn. When defeated, revive at 100% Health. Can't be Dispelled or prevented.",
+			"abilityDescriptionKey": "Jango Fett has +100% Defense Penetration and +50% Max Health. Enemies defeated on his turn cannot be Revived.\\n\\nAt the start of encounter, and whenever he defeats an enemy, Jango Fett recovers 100% Protection and gains [c][F0FF23]Bounty Hunter's Resolve[-][/c] until he is defeated.\\n\\n[c][F0FF23]Bounty Hunter's Resolve[-][/c]: this unit ignores Taunts during their turn. When defeated, revive at 100% Health. Can't be Dispelled or prevented.",
 			"abilityTexture": "tex.abilityui_passive_mandalorian",
 			"headerKey": "",
 			"textKey": "",
@@ -8156,7 +10705,7 @@
 			"unitTexture": "",
 			"unitNameKey": "",
 			"abilityNameKey": "Swarming Terror",
-			"abilityDescriptionKey": "When another Separatist or Droid ally uses an ability during their turn, the Vulture Droid is called to assist if the target enemy has Buzz Droids.\\n\\nAt the start of each enemy's turn, if they have at least 1 Buzz Droid, the Buzz Droids reset to 3. At the end of each turn, if an enemy's Buzz Droids were dispelled, inflict Ability Block on that enemy for 1 turn, which can't be resisted.\\n\\nWhen this Vulture Droid is defeated, it summons another Vulture Droid if the allied Capital Ship is Separatist and there is an allied combatant.",
+			"abilityDescriptionKey": "When another Separatist or Droid ally uses an ability during their turn, the Vulture Droid is called to assist if the target enemy has Buzz Droids (limit once per turn).\\n\\nAt the start of each enemy's turn, if they have at least 1 Buzz Droid, the Buzz Droids reset to 3. At the end of each turn, if an enemy's Buzz Droids were dispelled, inflict Ability Block on that enemy for 1 turn, which can't be resisted.\\n\\nWhen this Vulture Droid is defeated, it summons another Vulture Droid if there is an allied combatant.",
 			"abilityTexture": "tex.abilityui_passive_buzzdroid",
 			"headerKey": "",
 			"textKey": "",
@@ -8815,7 +11364,7 @@
 			"zoneDefinition": {
 				"zoneId": "geonosis_republic_phase03_conflict03_covert01",
 				"prefabName": "",
-				"nameKey": "Combat Mission",
+				"nameKey": "Special Mission",
 				"descriptionKey": "TERRITORYHOTH_EMPIRE_PHASE05_CONFLICT02_STRIKE01_DESC",
 				"linkedConflictId": "geonosis_republic_phase03_conflict03",
 				"maxAttemptsAllowed": 1,
@@ -9056,5 +11605,5 @@
 	"minMemberLevelForCommandingGuild": 3,
 	"commandNotificationCooldownDuration": 3600,
 	"minimapPrefab": "ui.territoryui_minimap_battlegeonosisrepublic",
-	"updated": 1575940755848
+	"updated": 1595544380585
 }

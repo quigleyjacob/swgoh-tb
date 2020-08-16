@@ -6091,14 +6091,25 @@
 		{
 			"rankStart": 1,
 			"rankEnd": 1,
-			"primaryRewardList": [],
-			"detailedRewardList": [
+			"primaryRewardList": [
 				{
-					"id": "GRIND",
+					"id": "TERRITORY_BATTLE_CURRENCY",
 					"type": 3,
 					"weight": 0,
-					"minQuantity": 1,
-					"maxQuantity": 1,
+					"minQuantity": 2500,
+					"maxQuantity": 2500,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				}
+			],
+			"detailedRewardList": [
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 2500,
+					"maxQuantity": 2500,
 					"rarity": 8,
 					"statMod": null,
 					"previewPriority": 0
@@ -6108,14 +6119,25 @@
 		{
 			"rankStart": 2,
 			"rankEnd": 2,
-			"primaryRewardList": [],
-			"detailedRewardList": [
+			"primaryRewardList": [
 				{
-					"id": "GRIND",
+					"id": "TERRITORY_BATTLE_CURRENCY",
 					"type": 3,
 					"weight": 0,
-					"minQuantity": 1,
-					"maxQuantity": 1,
+					"minQuantity": 2500,
+					"maxQuantity": 2500,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				}
+			],
+			"detailedRewardList": [
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 2500,
+					"maxQuantity": 2500,
 					"rarity": 8,
 					"statMod": null,
 					"previewPriority": 0
@@ -6125,14 +6147,25 @@
 		{
 			"rankStart": 3,
 			"rankEnd": 3,
-			"primaryRewardList": [],
-			"detailedRewardList": [
+			"primaryRewardList": [
 				{
-					"id": "GRIND",
+					"id": "TERRITORY_BATTLE_CURRENCY",
 					"type": 3,
 					"weight": 0,
-					"minQuantity": 1,
-					"maxQuantity": 1,
+					"minQuantity": 2600,
+					"maxQuantity": 2600,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				}
+			],
+			"detailedRewardList": [
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 2600,
+					"maxQuantity": 2600,
 					"rarity": 8,
 					"statMod": null,
 					"previewPriority": 0
@@ -6142,14 +6175,25 @@
 		{
 			"rankStart": 4,
 			"rankEnd": 4,
-			"primaryRewardList": [],
-			"detailedRewardList": [
+			"primaryRewardList": [
 				{
-					"id": "GRIND",
+					"id": "TERRITORY_BATTLE_CURRENCY",
 					"type": 3,
 					"weight": 0,
-					"minQuantity": 1,
-					"maxQuantity": 1,
+					"minQuantity": 2600,
+					"maxQuantity": 2600,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				}
+			],
+			"detailedRewardList": [
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 2600,
+					"maxQuantity": 2600,
 					"rarity": 8,
 					"statMod": null,
 					"previewPriority": 0
@@ -6159,14 +6203,25 @@
 		{
 			"rankStart": 5,
 			"rankEnd": 5,
-			"primaryRewardList": [],
-			"detailedRewardList": [
+			"primaryRewardList": [
 				{
-					"id": "GRIND",
+					"id": "TERRITORY_BATTLE_CURRENCY",
 					"type": 3,
 					"weight": 0,
-					"minQuantity": 1,
-					"maxQuantity": 1,
+					"minQuantity": 2700,
+					"maxQuantity": 2700,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				}
+			],
+			"detailedRewardList": [
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 2700,
+					"maxQuantity": 2700,
 					"rarity": 8,
 					"statMod": null,
 					"previewPriority": 0
@@ -6176,11 +6231,42 @@
 		{
 			"rankStart": 6,
 			"rankEnd": 6,
-			"primaryRewardList": [],
+			"primaryRewardList": [
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 2700,
+					"maxQuantity": 2700,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle17",
+					"type": 14,
+					"weight": 0,
+					"minQuantity": 1,
+					"maxQuantity": 1,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				}
+			],
 			"detailedRewardList": [
 				{
-					"id": "GRIND",
+					"id": "TERRITORY_BATTLE_CURRENCY",
 					"type": 3,
+					"weight": 0,
+					"minQuantity": 2700,
+					"maxQuantity": 2700,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle17",
+					"type": 14,
 					"weight": 0,
 					"minQuantity": 1,
 					"maxQuantity": 1,
@@ -6193,11 +6279,42 @@
 		{
 			"rankStart": 7,
 			"rankEnd": 7,
-			"primaryRewardList": [],
+			"primaryRewardList": [
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 2800,
+					"maxQuantity": 2800,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle17",
+					"type": 14,
+					"weight": 0,
+					"minQuantity": 1,
+					"maxQuantity": 1,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				}
+			],
 			"detailedRewardList": [
 				{
-					"id": "GRIND",
+					"id": "TERRITORY_BATTLE_CURRENCY",
 					"type": 3,
+					"weight": 0,
+					"minQuantity": 2800,
+					"maxQuantity": 2800,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle17",
+					"type": 14,
 					"weight": 0,
 					"minQuantity": 1,
 					"maxQuantity": 1,
@@ -6210,11 +6327,42 @@
 		{
 			"rankStart": 8,
 			"rankEnd": 8,
-			"primaryRewardList": [],
+			"primaryRewardList": [
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 2800,
+					"maxQuantity": 2800,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle17",
+					"type": 14,
+					"weight": 0,
+					"minQuantity": 1,
+					"maxQuantity": 1,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				}
+			],
 			"detailedRewardList": [
 				{
-					"id": "GRIND",
+					"id": "TERRITORY_BATTLE_CURRENCY",
 					"type": 3,
+					"weight": 0,
+					"minQuantity": 2800,
+					"maxQuantity": 2800,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle17",
+					"type": 14,
 					"weight": 0,
 					"minQuantity": 1,
 					"maxQuantity": 1,
@@ -6227,11 +6375,42 @@
 		{
 			"rankStart": 9,
 			"rankEnd": 9,
-			"primaryRewardList": [],
+			"primaryRewardList": [
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 2900,
+					"maxQuantity": 2900,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle17",
+					"type": 14,
+					"weight": 0,
+					"minQuantity": 1,
+					"maxQuantity": 1,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				}
+			],
 			"detailedRewardList": [
 				{
-					"id": "GRIND",
+					"id": "TERRITORY_BATTLE_CURRENCY",
 					"type": 3,
+					"weight": 0,
+					"minQuantity": 2900,
+					"maxQuantity": 2900,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle17",
+					"type": 14,
 					"weight": 0,
 					"minQuantity": 1,
 					"maxQuantity": 1,
@@ -6244,11 +6423,42 @@
 		{
 			"rankStart": 10,
 			"rankEnd": 10,
-			"primaryRewardList": [],
+			"primaryRewardList": [
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 2900,
+					"maxQuantity": 2900,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle17",
+					"type": 14,
+					"weight": 0,
+					"minQuantity": 1,
+					"maxQuantity": 1,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				}
+			],
 			"detailedRewardList": [
 				{
-					"id": "GRIND",
+					"id": "TERRITORY_BATTLE_CURRENCY",
 					"type": 3,
+					"weight": 0,
+					"minQuantity": 2900,
+					"maxQuantity": 2900,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle17",
+					"type": 14,
 					"weight": 0,
 					"minQuantity": 1,
 					"maxQuantity": 1,
@@ -6261,11 +6471,42 @@
 		{
 			"rankStart": 11,
 			"rankEnd": 11,
-			"primaryRewardList": [],
+			"primaryRewardList": [
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 3000,
+					"maxQuantity": 3000,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle16",
+					"type": 14,
+					"weight": 0,
+					"minQuantity": 1,
+					"maxQuantity": 1,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				}
+			],
 			"detailedRewardList": [
 				{
-					"id": "GRIND",
+					"id": "TERRITORY_BATTLE_CURRENCY",
 					"type": 3,
+					"weight": 0,
+					"minQuantity": 3000,
+					"maxQuantity": 3000,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle16",
+					"type": 14,
 					"weight": 0,
 					"minQuantity": 1,
 					"maxQuantity": 1,
@@ -6278,11 +6519,42 @@
 		{
 			"rankStart": 12,
 			"rankEnd": 12,
-			"primaryRewardList": [],
+			"primaryRewardList": [
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 3000,
+					"maxQuantity": 3000,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle16",
+					"type": 14,
+					"weight": 0,
+					"minQuantity": 1,
+					"maxQuantity": 1,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				}
+			],
 			"detailedRewardList": [
 				{
-					"id": "GRIND",
+					"id": "TERRITORY_BATTLE_CURRENCY",
 					"type": 3,
+					"weight": 0,
+					"minQuantity": 3000,
+					"maxQuantity": 3000,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle16",
+					"type": 14,
 					"weight": 0,
 					"minQuantity": 1,
 					"maxQuantity": 1,
@@ -6295,11 +6567,42 @@
 		{
 			"rankStart": 13,
 			"rankEnd": 13,
-			"primaryRewardList": [],
+			"primaryRewardList": [
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 3100,
+					"maxQuantity": 3100,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle16",
+					"type": 14,
+					"weight": 0,
+					"minQuantity": 1,
+					"maxQuantity": 1,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				}
+			],
 			"detailedRewardList": [
 				{
-					"id": "GRIND",
+					"id": "TERRITORY_BATTLE_CURRENCY",
 					"type": 3,
+					"weight": 0,
+					"minQuantity": 3100,
+					"maxQuantity": 3100,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle16",
+					"type": 14,
 					"weight": 0,
 					"minQuantity": 1,
 					"maxQuantity": 1,
@@ -6312,11 +6615,42 @@
 		{
 			"rankStart": 14,
 			"rankEnd": 14,
-			"primaryRewardList": [],
+			"primaryRewardList": [
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 3200,
+					"maxQuantity": 3200,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle16",
+					"type": 14,
+					"weight": 0,
+					"minQuantity": 1,
+					"maxQuantity": 1,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				}
+			],
 			"detailedRewardList": [
 				{
-					"id": "GRIND",
+					"id": "TERRITORY_BATTLE_CURRENCY",
 					"type": 3,
+					"weight": 0,
+					"minQuantity": 3200,
+					"maxQuantity": 3200,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle16",
+					"type": 14,
 					"weight": 0,
 					"minQuantity": 1,
 					"maxQuantity": 1,
@@ -6329,11 +6663,42 @@
 		{
 			"rankStart": 15,
 			"rankEnd": 15,
-			"primaryRewardList": [],
+			"primaryRewardList": [
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 3300,
+					"maxQuantity": 3300,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle15",
+					"type": 14,
+					"weight": 0,
+					"minQuantity": 1,
+					"maxQuantity": 1,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				}
+			],
 			"detailedRewardList": [
 				{
-					"id": "GRIND",
+					"id": "TERRITORY_BATTLE_CURRENCY",
 					"type": 3,
+					"weight": 0,
+					"minQuantity": 3300,
+					"maxQuantity": 3300,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle15",
+					"type": 14,
 					"weight": 0,
 					"minQuantity": 1,
 					"maxQuantity": 1,
@@ -6346,11 +6711,42 @@
 		{
 			"rankStart": 16,
 			"rankEnd": 16,
-			"primaryRewardList": [],
+			"primaryRewardList": [
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 3300,
+					"maxQuantity": 3300,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle15",
+					"type": 14,
+					"weight": 0,
+					"minQuantity": 1,
+					"maxQuantity": 1,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				}
+			],
 			"detailedRewardList": [
 				{
-					"id": "GRIND",
+					"id": "TERRITORY_BATTLE_CURRENCY",
 					"type": 3,
+					"weight": 0,
+					"minQuantity": 3300,
+					"maxQuantity": 3300,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle15",
+					"type": 14,
 					"weight": 0,
 					"minQuantity": 1,
 					"maxQuantity": 1,
@@ -6363,11 +6759,42 @@
 		{
 			"rankStart": 17,
 			"rankEnd": 17,
-			"primaryRewardList": [],
+			"primaryRewardList": [
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 3400,
+					"maxQuantity": 3400,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle15",
+					"type": 14,
+					"weight": 0,
+					"minQuantity": 1,
+					"maxQuantity": 1,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				}
+			],
 			"detailedRewardList": [
 				{
-					"id": "GRIND",
+					"id": "TERRITORY_BATTLE_CURRENCY",
 					"type": 3,
+					"weight": 0,
+					"minQuantity": 3400,
+					"maxQuantity": 3400,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle15",
+					"type": 14,
 					"weight": 0,
 					"minQuantity": 1,
 					"maxQuantity": 1,
@@ -6380,11 +6807,42 @@
 		{
 			"rankStart": 18,
 			"rankEnd": 18,
-			"primaryRewardList": [],
+			"primaryRewardList": [
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 3500,
+					"maxQuantity": 3500,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle15",
+					"type": 14,
+					"weight": 0,
+					"minQuantity": 1,
+					"maxQuantity": 1,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				}
+			],
 			"detailedRewardList": [
 				{
-					"id": "GRIND",
+					"id": "TERRITORY_BATTLE_CURRENCY",
 					"type": 3,
+					"weight": 0,
+					"minQuantity": 3500,
+					"maxQuantity": 3500,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle15",
+					"type": 14,
 					"weight": 0,
 					"minQuantity": 1,
 					"maxQuantity": 1,
@@ -6397,11 +6855,42 @@
 		{
 			"rankStart": 19,
 			"rankEnd": 19,
-			"primaryRewardList": [],
+			"primaryRewardList": [
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 3600,
+					"maxQuantity": 3600,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle14",
+					"type": 14,
+					"weight": 0,
+					"minQuantity": 1,
+					"maxQuantity": 1,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				}
+			],
 			"detailedRewardList": [
 				{
-					"id": "GRIND",
+					"id": "TERRITORY_BATTLE_CURRENCY",
 					"type": 3,
+					"weight": 0,
+					"minQuantity": 3600,
+					"maxQuantity": 3600,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle14",
+					"type": 14,
 					"weight": 0,
 					"minQuantity": 1,
 					"maxQuantity": 1,
@@ -6414,11 +6903,42 @@
 		{
 			"rankStart": 20,
 			"rankEnd": 20,
-			"primaryRewardList": [],
+			"primaryRewardList": [
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 3700,
+					"maxQuantity": 3700,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle14",
+					"type": 14,
+					"weight": 0,
+					"minQuantity": 1,
+					"maxQuantity": 1,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				}
+			],
 			"detailedRewardList": [
 				{
-					"id": "GRIND",
+					"id": "TERRITORY_BATTLE_CURRENCY",
 					"type": 3,
+					"weight": 0,
+					"minQuantity": 3700,
+					"maxQuantity": 3700,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle14",
+					"type": 14,
 					"weight": 0,
 					"minQuantity": 1,
 					"maxQuantity": 1,
@@ -6431,11 +6951,62 @@
 		{
 			"rankStart": 21,
 			"rankEnd": 21,
-			"primaryRewardList": [],
+			"primaryRewardList": [
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 3800,
+					"maxQuantity": 3800,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY_02",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 500,
+					"maxQuantity": 500,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle14",
+					"type": 14,
+					"weight": 0,
+					"minQuantity": 1,
+					"maxQuantity": 1,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				}
+			],
 			"detailedRewardList": [
 				{
-					"id": "GRIND",
+					"id": "TERRITORY_BATTLE_CURRENCY",
 					"type": 3,
+					"weight": 0,
+					"minQuantity": 3800,
+					"maxQuantity": 3800,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY_02",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 500,
+					"maxQuantity": 500,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle14",
+					"type": 14,
 					"weight": 0,
 					"minQuantity": 1,
 					"maxQuantity": 1,
@@ -6448,11 +7019,62 @@
 		{
 			"rankStart": 22,
 			"rankEnd": 22,
-			"primaryRewardList": [],
+			"primaryRewardList": [
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 3900,
+					"maxQuantity": 3900,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY_02",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 500,
+					"maxQuantity": 500,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle13",
+					"type": 14,
+					"weight": 0,
+					"minQuantity": 1,
+					"maxQuantity": 1,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				}
+			],
 			"detailedRewardList": [
 				{
-					"id": "GRIND",
+					"id": "TERRITORY_BATTLE_CURRENCY",
 					"type": 3,
+					"weight": 0,
+					"minQuantity": 3900,
+					"maxQuantity": 3900,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY_02",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 500,
+					"maxQuantity": 500,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle13",
+					"type": 14,
 					"weight": 0,
 					"minQuantity": 1,
 					"maxQuantity": 1,
@@ -6465,11 +7087,62 @@
 		{
 			"rankStart": 23,
 			"rankEnd": 23,
-			"primaryRewardList": [],
+			"primaryRewardList": [
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 4000,
+					"maxQuantity": 4000,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY_02",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 500,
+					"maxQuantity": 500,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle13",
+					"type": 14,
+					"weight": 0,
+					"minQuantity": 1,
+					"maxQuantity": 1,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				}
+			],
 			"detailedRewardList": [
 				{
-					"id": "GRIND",
+					"id": "TERRITORY_BATTLE_CURRENCY",
 					"type": 3,
+					"weight": 0,
+					"minQuantity": 4000,
+					"maxQuantity": 4000,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY_02",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 500,
+					"maxQuantity": 500,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle13",
+					"type": 14,
 					"weight": 0,
 					"minQuantity": 1,
 					"maxQuantity": 1,
@@ -6482,11 +7155,62 @@
 		{
 			"rankStart": 24,
 			"rankEnd": 24,
-			"primaryRewardList": [],
+			"primaryRewardList": [
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 4100,
+					"maxQuantity": 4100,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY_02",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 500,
+					"maxQuantity": 500,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle13",
+					"type": 14,
+					"weight": 0,
+					"minQuantity": 1,
+					"maxQuantity": 1,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				}
+			],
 			"detailedRewardList": [
 				{
-					"id": "GRIND",
+					"id": "TERRITORY_BATTLE_CURRENCY",
 					"type": 3,
+					"weight": 0,
+					"minQuantity": 4100,
+					"maxQuantity": 4100,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY_02",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 500,
+					"maxQuantity": 500,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle13",
+					"type": 14,
 					"weight": 0,
 					"minQuantity": 1,
 					"maxQuantity": 1,
@@ -6499,11 +7223,82 @@
 		{
 			"rankStart": 25,
 			"rankEnd": 25,
-			"primaryRewardList": [],
+			"primaryRewardList": [
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 4200,
+					"maxQuantity": 4200,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY_02",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 500,
+					"maxQuantity": 500,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "PREMIUM",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 100,
+					"maxQuantity": 100,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle12",
+					"type": 14,
+					"weight": 0,
+					"minQuantity": 1,
+					"maxQuantity": 1,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				}
+			],
 			"detailedRewardList": [
 				{
-					"id": "GRIND",
+					"id": "TERRITORY_BATTLE_CURRENCY",
 					"type": 3,
+					"weight": 0,
+					"minQuantity": 4200,
+					"maxQuantity": 4200,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY_02",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 500,
+					"maxQuantity": 500,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "PREMIUM",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 100,
+					"maxQuantity": 100,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle12",
+					"type": 14,
 					"weight": 0,
 					"minQuantity": 1,
 					"maxQuantity": 1,
@@ -6516,11 +7311,82 @@
 		{
 			"rankStart": 26,
 			"rankEnd": 26,
-			"primaryRewardList": [],
+			"primaryRewardList": [
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 4300,
+					"maxQuantity": 4300,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY_02",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 500,
+					"maxQuantity": 500,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "PREMIUM",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 100,
+					"maxQuantity": 100,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle12",
+					"type": 14,
+					"weight": 0,
+					"minQuantity": 1,
+					"maxQuantity": 1,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				}
+			],
 			"detailedRewardList": [
 				{
-					"id": "GRIND",
+					"id": "TERRITORY_BATTLE_CURRENCY",
 					"type": 3,
+					"weight": 0,
+					"minQuantity": 4300,
+					"maxQuantity": 4300,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY_02",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 500,
+					"maxQuantity": 500,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "PREMIUM",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 100,
+					"maxQuantity": 100,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle12",
+					"type": 14,
 					"weight": 0,
 					"minQuantity": 1,
 					"maxQuantity": 1,
@@ -6533,11 +7399,82 @@
 		{
 			"rankStart": 27,
 			"rankEnd": 27,
-			"primaryRewardList": [],
+			"primaryRewardList": [
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 4400,
+					"maxQuantity": 4400,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY_02",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 500,
+					"maxQuantity": 500,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "PREMIUM",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 100,
+					"maxQuantity": 100,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle12",
+					"type": 14,
+					"weight": 0,
+					"minQuantity": 1,
+					"maxQuantity": 1,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				}
+			],
 			"detailedRewardList": [
 				{
-					"id": "GRIND",
+					"id": "TERRITORY_BATTLE_CURRENCY",
 					"type": 3,
+					"weight": 0,
+					"minQuantity": 4400,
+					"maxQuantity": 4400,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY_02",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 500,
+					"maxQuantity": 500,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "PREMIUM",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 100,
+					"maxQuantity": 100,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle12",
+					"type": 14,
 					"weight": 0,
 					"minQuantity": 1,
 					"maxQuantity": 1,
@@ -6550,11 +7487,82 @@
 		{
 			"rankStart": 28,
 			"rankEnd": 28,
-			"primaryRewardList": [],
+			"primaryRewardList": [
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 4500,
+					"maxQuantity": 4500,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY_02",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 500,
+					"maxQuantity": 500,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "PREMIUM",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 100,
+					"maxQuantity": 100,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle11",
+					"type": 14,
+					"weight": 0,
+					"minQuantity": 1,
+					"maxQuantity": 1,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				}
+			],
 			"detailedRewardList": [
 				{
-					"id": "GRIND",
+					"id": "TERRITORY_BATTLE_CURRENCY",
 					"type": 3,
+					"weight": 0,
+					"minQuantity": 4500,
+					"maxQuantity": 4500,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY_02",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 500,
+					"maxQuantity": 500,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "PREMIUM",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 100,
+					"maxQuantity": 100,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle11",
+					"type": 14,
 					"weight": 0,
 					"minQuantity": 1,
 					"maxQuantity": 1,
@@ -6567,11 +7575,82 @@
 		{
 			"rankStart": 29,
 			"rankEnd": 29,
-			"primaryRewardList": [],
+			"primaryRewardList": [
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 4600,
+					"maxQuantity": 4600,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY_02",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 500,
+					"maxQuantity": 500,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "PREMIUM",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 100,
+					"maxQuantity": 100,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle11",
+					"type": 14,
+					"weight": 0,
+					"minQuantity": 1,
+					"maxQuantity": 1,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				}
+			],
 			"detailedRewardList": [
 				{
-					"id": "GRIND",
+					"id": "TERRITORY_BATTLE_CURRENCY",
 					"type": 3,
+					"weight": 0,
+					"minQuantity": 4600,
+					"maxQuantity": 4600,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY_02",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 500,
+					"maxQuantity": 500,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "PREMIUM",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 100,
+					"maxQuantity": 100,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle11",
+					"type": 14,
 					"weight": 0,
 					"minQuantity": 1,
 					"maxQuantity": 1,
@@ -6584,11 +7663,82 @@
 		{
 			"rankStart": 30,
 			"rankEnd": 30,
-			"primaryRewardList": [],
+			"primaryRewardList": [
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 4800,
+					"maxQuantity": 4800,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY_02",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 500,
+					"maxQuantity": 500,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "PREMIUM",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 150,
+					"maxQuantity": 150,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle11",
+					"type": 14,
+					"weight": 0,
+					"minQuantity": 1,
+					"maxQuantity": 1,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				}
+			],
 			"detailedRewardList": [
 				{
-					"id": "GRIND",
+					"id": "TERRITORY_BATTLE_CURRENCY",
 					"type": 3,
+					"weight": 0,
+					"minQuantity": 4800,
+					"maxQuantity": 4800,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY_02",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 500,
+					"maxQuantity": 500,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "PREMIUM",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 150,
+					"maxQuantity": 150,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle11",
+					"type": 14,
 					"weight": 0,
 					"minQuantity": 1,
 					"maxQuantity": 1,
@@ -6601,11 +7751,82 @@
 		{
 			"rankStart": 31,
 			"rankEnd": 31,
-			"primaryRewardList": [],
+			"primaryRewardList": [
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 4900,
+					"maxQuantity": 4900,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY_02",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 600,
+					"maxQuantity": 600,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "PREMIUM",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 150,
+					"maxQuantity": 150,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle10",
+					"type": 14,
+					"weight": 0,
+					"minQuantity": 1,
+					"maxQuantity": 1,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				}
+			],
 			"detailedRewardList": [
 				{
-					"id": "GRIND",
+					"id": "TERRITORY_BATTLE_CURRENCY",
 					"type": 3,
+					"weight": 0,
+					"minQuantity": 4900,
+					"maxQuantity": 4900,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY_02",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 600,
+					"maxQuantity": 600,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "PREMIUM",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 150,
+					"maxQuantity": 150,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle10",
+					"type": 14,
 					"weight": 0,
 					"minQuantity": 1,
 					"maxQuantity": 1,
@@ -6618,11 +7839,82 @@
 		{
 			"rankStart": 32,
 			"rankEnd": 32,
-			"primaryRewardList": [],
+			"primaryRewardList": [
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 5100,
+					"maxQuantity": 5100,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY_02",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 600,
+					"maxQuantity": 600,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "PREMIUM",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 150,
+					"maxQuantity": 150,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle10",
+					"type": 14,
+					"weight": 0,
+					"minQuantity": 1,
+					"maxQuantity": 1,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				}
+			],
 			"detailedRewardList": [
 				{
-					"id": "GRIND",
+					"id": "TERRITORY_BATTLE_CURRENCY",
 					"type": 3,
+					"weight": 0,
+					"minQuantity": 5100,
+					"maxQuantity": 5100,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY_02",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 600,
+					"maxQuantity": 600,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "PREMIUM",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 150,
+					"maxQuantity": 150,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle10",
+					"type": 14,
 					"weight": 0,
 					"minQuantity": 1,
 					"maxQuantity": 1,
@@ -6635,11 +7927,82 @@
 		{
 			"rankStart": 33,
 			"rankEnd": 33,
-			"primaryRewardList": [],
+			"primaryRewardList": [
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 5200,
+					"maxQuantity": 5200,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY_02",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 600,
+					"maxQuantity": 600,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "PREMIUM",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 150,
+					"maxQuantity": 150,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle09",
+					"type": 14,
+					"weight": 0,
+					"minQuantity": 1,
+					"maxQuantity": 1,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				}
+			],
 			"detailedRewardList": [
 				{
-					"id": "GRIND",
+					"id": "TERRITORY_BATTLE_CURRENCY",
 					"type": 3,
+					"weight": 0,
+					"minQuantity": 5200,
+					"maxQuantity": 5200,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY_02",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 600,
+					"maxQuantity": 600,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "PREMIUM",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 150,
+					"maxQuantity": 150,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle09",
+					"type": 14,
 					"weight": 0,
 					"minQuantity": 1,
 					"maxQuantity": 1,
@@ -6652,11 +8015,82 @@
 		{
 			"rankStart": 34,
 			"rankEnd": 34,
-			"primaryRewardList": [],
+			"primaryRewardList": [
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 5400,
+					"maxQuantity": 5400,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY_02",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 600,
+					"maxQuantity": 600,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "PREMIUM",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 150,
+					"maxQuantity": 150,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle09",
+					"type": 14,
+					"weight": 0,
+					"minQuantity": 1,
+					"maxQuantity": 1,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				}
+			],
 			"detailedRewardList": [
 				{
-					"id": "GRIND",
+					"id": "TERRITORY_BATTLE_CURRENCY",
 					"type": 3,
+					"weight": 0,
+					"minQuantity": 5400,
+					"maxQuantity": 5400,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY_02",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 600,
+					"maxQuantity": 600,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "PREMIUM",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 150,
+					"maxQuantity": 150,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle09",
+					"type": 14,
 					"weight": 0,
 					"minQuantity": 1,
 					"maxQuantity": 1,
@@ -6669,11 +8103,82 @@
 		{
 			"rankStart": 35,
 			"rankEnd": 35,
-			"primaryRewardList": [],
+			"primaryRewardList": [
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 5500,
+					"maxQuantity": 5500,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY_02",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 600,
+					"maxQuantity": 600,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "PREMIUM",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 200,
+					"maxQuantity": 200,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle08",
+					"type": 14,
+					"weight": 0,
+					"minQuantity": 1,
+					"maxQuantity": 1,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				}
+			],
 			"detailedRewardList": [
 				{
-					"id": "GRIND",
+					"id": "TERRITORY_BATTLE_CURRENCY",
 					"type": 3,
+					"weight": 0,
+					"minQuantity": 5500,
+					"maxQuantity": 5500,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY_02",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 600,
+					"maxQuantity": 600,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "PREMIUM",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 200,
+					"maxQuantity": 200,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle08",
+					"type": 14,
 					"weight": 0,
 					"minQuantity": 1,
 					"maxQuantity": 1,
@@ -6686,11 +8191,82 @@
 		{
 			"rankStart": 36,
 			"rankEnd": 36,
-			"primaryRewardList": [],
+			"primaryRewardList": [
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 5700,
+					"maxQuantity": 5700,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY_02",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 700,
+					"maxQuantity": 700,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "PREMIUM",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 200,
+					"maxQuantity": 200,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle08",
+					"type": 14,
+					"weight": 0,
+					"minQuantity": 1,
+					"maxQuantity": 1,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				}
+			],
 			"detailedRewardList": [
 				{
-					"id": "GRIND",
+					"id": "TERRITORY_BATTLE_CURRENCY",
 					"type": 3,
+					"weight": 0,
+					"minQuantity": 5700,
+					"maxQuantity": 5700,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY_02",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 700,
+					"maxQuantity": 700,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "PREMIUM",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 200,
+					"maxQuantity": 200,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle08",
+					"type": 14,
 					"weight": 0,
 					"minQuantity": 1,
 					"maxQuantity": 1,
@@ -6703,11 +8279,82 @@
 		{
 			"rankStart": 37,
 			"rankEnd": 37,
-			"primaryRewardList": [],
+			"primaryRewardList": [
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 5900,
+					"maxQuantity": 5900,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY_02",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 700,
+					"maxQuantity": 700,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "PREMIUM",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 200,
+					"maxQuantity": 200,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle07",
+					"type": 14,
+					"weight": 0,
+					"minQuantity": 1,
+					"maxQuantity": 1,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				}
+			],
 			"detailedRewardList": [
 				{
-					"id": "GRIND",
+					"id": "TERRITORY_BATTLE_CURRENCY",
 					"type": 3,
+					"weight": 0,
+					"minQuantity": 5900,
+					"maxQuantity": 5900,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY_02",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 700,
+					"maxQuantity": 700,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "PREMIUM",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 200,
+					"maxQuantity": 200,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle07",
+					"type": 14,
 					"weight": 0,
 					"minQuantity": 1,
 					"maxQuantity": 1,
@@ -6720,11 +8367,82 @@
 		{
 			"rankStart": 38,
 			"rankEnd": 38,
-			"primaryRewardList": [],
+			"primaryRewardList": [
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 6100,
+					"maxQuantity": 6100,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY_02",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 700,
+					"maxQuantity": 700,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "PREMIUM",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 200,
+					"maxQuantity": 200,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle07",
+					"type": 14,
+					"weight": 0,
+					"minQuantity": 1,
+					"maxQuantity": 1,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				}
+			],
 			"detailedRewardList": [
 				{
-					"id": "GRIND",
+					"id": "TERRITORY_BATTLE_CURRENCY",
 					"type": 3,
+					"weight": 0,
+					"minQuantity": 6100,
+					"maxQuantity": 6100,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY_02",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 700,
+					"maxQuantity": 700,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "PREMIUM",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 200,
+					"maxQuantity": 200,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle07",
+					"type": 14,
 					"weight": 0,
 					"minQuantity": 1,
 					"maxQuantity": 1,
@@ -6737,11 +8455,82 @@
 		{
 			"rankStart": 39,
 			"rankEnd": 39,
-			"primaryRewardList": [],
+			"primaryRewardList": [
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 6400,
+					"maxQuantity": 6400,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY_02",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 700,
+					"maxQuantity": 700,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "PREMIUM",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 200,
+					"maxQuantity": 200,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle06",
+					"type": 14,
+					"weight": 0,
+					"minQuantity": 1,
+					"maxQuantity": 1,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				}
+			],
 			"detailedRewardList": [
 				{
-					"id": "GRIND",
+					"id": "TERRITORY_BATTLE_CURRENCY",
 					"type": 3,
+					"weight": 0,
+					"minQuantity": 6400,
+					"maxQuantity": 6400,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY_02",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 700,
+					"maxQuantity": 700,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "PREMIUM",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 200,
+					"maxQuantity": 200,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle06",
+					"type": 14,
 					"weight": 0,
 					"minQuantity": 1,
 					"maxQuantity": 1,
@@ -6754,11 +8543,82 @@
 		{
 			"rankStart": 40,
 			"rankEnd": 40,
-			"primaryRewardList": [],
+			"primaryRewardList": [
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 6600,
+					"maxQuantity": 6600,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY_02",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 700,
+					"maxQuantity": 700,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "PREMIUM",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 250,
+					"maxQuantity": 250,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle06",
+					"type": 14,
+					"weight": 0,
+					"minQuantity": 1,
+					"maxQuantity": 1,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				}
+			],
 			"detailedRewardList": [
 				{
-					"id": "GRIND",
+					"id": "TERRITORY_BATTLE_CURRENCY",
 					"type": 3,
+					"weight": 0,
+					"minQuantity": 6600,
+					"maxQuantity": 6600,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY_02",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 700,
+					"maxQuantity": 700,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "PREMIUM",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 250,
+					"maxQuantity": 250,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle06",
+					"type": 14,
 					"weight": 0,
 					"minQuantity": 1,
 					"maxQuantity": 1,
@@ -6771,11 +8631,82 @@
 		{
 			"rankStart": 41,
 			"rankEnd": 41,
-			"primaryRewardList": [],
+			"primaryRewardList": [
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 6800,
+					"maxQuantity": 6800,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY_02",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 800,
+					"maxQuantity": 800,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "PREMIUM",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 300,
+					"maxQuantity": 300,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle05",
+					"type": 14,
+					"weight": 0,
+					"minQuantity": 1,
+					"maxQuantity": 1,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				}
+			],
 			"detailedRewardList": [
 				{
-					"id": "GRIND",
+					"id": "TERRITORY_BATTLE_CURRENCY",
 					"type": 3,
+					"weight": 0,
+					"minQuantity": 6800,
+					"maxQuantity": 6800,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY_02",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 800,
+					"maxQuantity": 800,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "PREMIUM",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 300,
+					"maxQuantity": 300,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle05",
+					"type": 14,
 					"weight": 0,
 					"minQuantity": 1,
 					"maxQuantity": 1,
@@ -6788,11 +8719,82 @@
 		{
 			"rankStart": 42,
 			"rankEnd": 42,
-			"primaryRewardList": [],
+			"primaryRewardList": [
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 7100,
+					"maxQuantity": 7100,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY_02",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 800,
+					"maxQuantity": 800,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "PREMIUM",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 350,
+					"maxQuantity": 350,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle04",
+					"type": 14,
+					"weight": 0,
+					"minQuantity": 1,
+					"maxQuantity": 1,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				}
+			],
 			"detailedRewardList": [
 				{
-					"id": "GRIND",
+					"id": "TERRITORY_BATTLE_CURRENCY",
 					"type": 3,
+					"weight": 0,
+					"minQuantity": 7100,
+					"maxQuantity": 7100,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY_02",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 800,
+					"maxQuantity": 800,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "PREMIUM",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 350,
+					"maxQuantity": 350,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle04",
+					"type": 14,
 					"weight": 0,
 					"minQuantity": 1,
 					"maxQuantity": 1,
@@ -6805,11 +8807,82 @@
 		{
 			"rankStart": 43,
 			"rankEnd": 43,
-			"primaryRewardList": [],
+			"primaryRewardList": [
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 7300,
+					"maxQuantity": 7300,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY_02",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 800,
+					"maxQuantity": 800,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "PREMIUM",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 400,
+					"maxQuantity": 400,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle03",
+					"type": 14,
+					"weight": 0,
+					"minQuantity": 1,
+					"maxQuantity": 1,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				}
+			],
 			"detailedRewardList": [
 				{
-					"id": "GRIND",
+					"id": "TERRITORY_BATTLE_CURRENCY",
 					"type": 3,
+					"weight": 0,
+					"minQuantity": 7300,
+					"maxQuantity": 7300,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY_02",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 800,
+					"maxQuantity": 800,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "PREMIUM",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 400,
+					"maxQuantity": 400,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle03",
+					"type": 14,
 					"weight": 0,
 					"minQuantity": 1,
 					"maxQuantity": 1,
@@ -6822,11 +8895,82 @@
 		{
 			"rankStart": 44,
 			"rankEnd": 44,
-			"primaryRewardList": [],
+			"primaryRewardList": [
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 7600,
+					"maxQuantity": 7600,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY_02",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 800,
+					"maxQuantity": 800,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "PREMIUM",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 450,
+					"maxQuantity": 450,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle02",
+					"type": 14,
+					"weight": 0,
+					"minQuantity": 1,
+					"maxQuantity": 1,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				}
+			],
 			"detailedRewardList": [
 				{
-					"id": "GRIND",
+					"id": "TERRITORY_BATTLE_CURRENCY",
 					"type": 3,
+					"weight": 0,
+					"minQuantity": 7600,
+					"maxQuantity": 7600,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY_02",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 800,
+					"maxQuantity": 800,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "PREMIUM",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 450,
+					"maxQuantity": 450,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle02",
+					"type": 14,
 					"weight": 0,
 					"minQuantity": 1,
 					"maxQuantity": 1,
@@ -6839,11 +8983,82 @@
 		{
 			"rankStart": 45,
 			"rankEnd": 0,
-			"primaryRewardList": [],
+			"primaryRewardList": [
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 7900,
+					"maxQuantity": 7900,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY_02",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 800,
+					"maxQuantity": 800,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "PREMIUM",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 500,
+					"maxQuantity": 500,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle01",
+					"type": 14,
+					"weight": 0,
+					"minQuantity": 1,
+					"maxQuantity": 1,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				}
+			],
 			"detailedRewardList": [
 				{
-					"id": "GRIND",
+					"id": "TERRITORY_BATTLE_CURRENCY",
 					"type": 3,
+					"weight": 0,
+					"minQuantity": 7900,
+					"maxQuantity": 7900,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "TERRITORY_BATTLE_CURRENCY_02",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 800,
+					"maxQuantity": 800,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "PREMIUM",
+					"type": 3,
+					"weight": 0,
+					"minQuantity": 500,
+					"maxQuantity": 500,
+					"rarity": 8,
+					"statMod": null,
+					"previewPriority": 0
+				},
+				{
+					"id": "mysterybox_territorybattle01",
+					"type": 14,
 					"weight": 0,
 					"minQuantity": 1,
 					"maxQuantity": 1,
@@ -8178,5 +10393,5 @@
 	"minMemberLevelForCommandingGuild": 3,
 	"commandNotificationCooldownDuration": 3600,
 	"minimapPrefab": "ui.territoryui_minimap_battlehoth",
-	"updated": 1575940755848
+	"updated": 1595544380585
 }

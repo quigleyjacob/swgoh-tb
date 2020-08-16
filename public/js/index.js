@@ -2,7 +2,7 @@ let guild_info = []
 let tb_info = getTBInfo('hoth', 'LS')
 let minStars = 0
 let big_number = 1000000000
-
+console.log("hello there")
 
 $('#getGuildForm').submit((e) => {
   e.preventDefault()

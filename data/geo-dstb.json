@@ -10790,5 +10790,5 @@
 	"minMemberLevelForCommandingGuild": 3,
 	"commandNotificationCooldownDuration": 3600,
 	"minimapPrefab": "ui.territoryui_minimap_battlegeonosisseparatist",
-	"updated": 1575940755848
+	"updated": 1595544380585
 }

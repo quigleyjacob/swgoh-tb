@@ -103,7 +103,7 @@
 				"value": "GuildHomeGameState"
 			}
 		],
-		"updated": 1575940754660
+		"updated": 1595544380107
 	},
 	{
 		"id": "hoth_rebel_phase04_ships",
@@ -117,7 +117,7 @@
 				"value": "GALACTIC_SCORE:478000"
 			}
 		],
-		"updated": 1575940754660
+		"updated": 1595544380107
 	},
 	{
 		"id": "bronzium-promote-condition_4zone_5v5_ga_c3s1",
@@ -167,7 +167,7 @@
 				"value": "4750"
 			}
 		],
-		"updated": 1575940754660
+		"updated": 1595544380107
 	},
 	{
 		"id": "unit_gear_tier_color",
@@ -413,7 +413,7 @@
 				"value": "0xF75C1EFF"
 			}
 		],
-		"updated": 1575940754660
+		"updated": 1595544380107
 	},
 	{
 		"id": "geonosis_republic_phase04_ships",
@@ -427,7 +427,7 @@
 				"value": "GALACTIC_SCORE:2750000"
 			}
 		],
-		"updated": 1575940754660
+		"updated": 1595544380107
 	},
 	{
 		"id": "reinforcement-unlock-by-rarity",
@@ -461,7 +461,7 @@
 				"value": "4"
 			}
 		],
-		"updated": 1575940754660
+		"updated": 1595544380107
 	},
 	{
 		"id": "agility_role_support_mastery",
@@ -487,7 +487,7 @@
 				"value": "4.2"
 			}
 		],
-		"updated": 1575940754660
+		"updated": 1595544380107
 	},
 	{
 		"id": "chromium-promote-condition_4zone_5v5_ga_c4s0",
@@ -537,7 +537,7 @@
 				"value": "11250"
 			}
 		],
-		"updated": 1575940754660
+		"updated": 1595544380107
 	},
 	{
 		"id": "client_home_button_config",
@@ -555,7 +555,7 @@
 				"value": "button_home_ships"
 			}
 		],
-		"updated": 1575940754660
+		"updated": 1595544380107
 	},
 	{
 		"id": "TIER_UP_OFFENSEMOD_TIER_06",
@@ -577,7 +577,7 @@
 				"value": "tieruprecipe_OFFENSEMOD_TIER_06_04"
 			}
 		],
-		"updated": 1575940754660
+		"updated": 1595544380107
 	},
 	{
 		"id": "TIER_UP_OFFENSEMOD_TIER_05",
@@ -599,7 +599,7 @@
 				"value": "tieruprecipe_OFFENSEMOD_TIER_05_04"
 			}
 		],
-		"updated": 1575940754660
+		"updated": 1595544380107
 	},
 	{
 		"id": "strength_role_tank_mastery",
@@ -617,7 +617,7 @@
 				"value": "220"
 			}
 		],
-		"updated": 1575940754660
+		"updated": 1595544380107
 	},
 	{
 		"id": "chromium-promote-condition_4zone_5v5_ga_c3s1",
@@ -667,7 +667,7 @@
 				"value": "11250"
 			}
 		],
-		"updated": 1575940754660
+		"updated": 1595544380107
 	},
 	{
 		"id": "TIER_UP_SPEEDMOD_TIER_06",
@@ -689,7 +689,7 @@
 				"value": "tieruprecipe_SPEEDMOD_TIER_06_04"
 			}
 		],
-		"updated": 1575940754660
+		"updated": 1595544380107
 	},
 	{
 		"id": "TIER_UP_SPEEDMOD_TIER_05",
@@ -711,7 +711,7 @@
 				"value": "tieruprecipe_SPEEDMOD_TIER_05_04"
 			}
 		],
-		"updated": 1575940754660
+		"updated": 1595544380107
 	},
 	{
 		"id": "crew_rating_per_relic_tier",
@@ -745,7 +745,7 @@
 				"value": "1350"
 			}
 		],
-		"updated": 1575940754660
+		"updated": 1595544380107
 	},
 	{
 		"id": "aurodium-promote-condition_2zone_5v5_ga_c2s0",
@@ -795,7 +795,7 @@
 				"value": "17500"
 			}
 		],
-		"updated": 1575940754660
+		"updated": 1595544380107
 	},
 	{
 		"id": "TIER_UP_CRITDAMAGEMOD_TIER_05",
@@ -817,7 +817,7 @@
 				"value": "tieruprecipe_CRITDAMAGEMOD_TIER_05_04"
 			}
 		],
-		"updated": 1575940754660
+		"updated": 1595544380107
 	},
 	{
 		"id": "TIER_UP_CRITDAMAGEMOD_TIER_06",
@@ -839,7 +839,7 @@
 				"value": "tieruprecipe_CRITDAMAGEMOD_TIER_06_04"
 			}
 		],
-		"updated": 1575940754660
+		"updated": 1595544380107
 	},
 	{
 		"id": "geonosis_republic_phase01_ships",
@@ -853,7 +853,7 @@
 				"value": "GALACTIC_SCORE:523900"
 			}
 		],
-		"updated": 1575940754660
+		"updated": 1595544380107
 	},
 	{
 		"id": "intelligence_role_tank_mastery",
@@ -875,7 +875,7 @@
 				"value": "3"
 			}
 		],
-		"updated": 1575940754660
+		"updated": 1595544380107
 	},
 	{
 		"id": "agility_role_attacker_mastery",
@@ -901,7 +901,7 @@
 				"value": "26"
 			}
 		],
-		"updated": 1575940754660
+		"updated": 1595544380107
 	},
 	{
 		"id": "hoth_empire_phase03_ships",
@@ -915,7 +915,7 @@
 				"value": "GALACTIC_SCORE:401000"
 			}
 		],
-		"updated": 1575940754660
+		"updated": 1595544380107
 	},
 	{
 		"id": "TIER_UP_POTENCYMOD_TIER_06",
@@ -937,7 +937,7 @@
 				"value": "tieruprecipe_POTENCYMOD_TIER_06_04"
 			}
 		],
-		"updated": 1575940754660
+		"updated": 1595544380107
 	},
 	{
 		"id": "TIER_UP_POTENCYMOD_TIER_05",
@@ -959,7 +959,7 @@
 				"value": "tieruprecipe_POTENCYMOD_TIER_05_04"
 			}
 		],
-		"updated": 1575940754660
+		"updated": 1595544380107
 	},
 	{
 		"id": "bronzium-promote-condition_4zone_5v5_ga_c4s0",
@@ -1009,7 +1009,7 @@
 				"value": "4750"
 			}
 		],
-		"updated": 1575940754660
+		"updated": 1595544380107
 	},
 	{
 		"id": "galactic_power_modifier_per_ship_crew_size_table",
@@ -1027,7 +1027,7 @@
 				"value": "0.4"
 			}
 		],
-		"updated": 1575940754660
+		"updated": 1595544380107
 	},
 	{
 		"id": "galactic_power_modifier_per_relic_tier",
@@ -1061,7 +1061,7 @@
 				"value": "21"
 			}
 		],
-		"updated": 1575940754660
+		"updated": 1595544380107
 	},
 	{
 		"id": "geonosis_republic_phase02_ships",
@@ -1075,7 +1075,7 @@
 				"value": "GALACTIC_SCORE:900000"
 			}
 		],
-		"updated": 1575940754660
+		"updated": 1595544380107
 	},
 	{
 		"id": "geonosis_separatist_phase02_special_mission",
@@ -1101,7 +1101,7 @@
 				"value": "GALACTIC_SCORE:1404000"
 			}
 		],
-		"updated": 1575940754660
+		"updated": 1595544380107
 	},
 	{
 		"id": "aurodium-promote-condition_4zone_5v5_ga_c3s1",
@@ -1151,7 +1151,7 @@
 				"value": "23500"
 			}
 		],
-		"updated": 1575940754660
+		"updated": 1595544380107
 	},
 	{
 		"id": "hoth_empire_phase05_ships",
@@ -1165,7 +1165,7 @@
 				"value": "GALACTIC_SCORE:616000"
 			}
 		],
-		"updated": 1575940754660
+		"updated": 1595544380107
 	},
 	{
 		"id": "geonosis_separatist_phase03_ships",
@@ -1179,7 +1179,7 @@
 				"value": "GALACTIC_SCORE:1665000"
 			}
 		],
-		"updated": 1575940754660
+		"updated": 1595544380107
 	},
 	{
 		"id": "hoth_rebel_phase06_ships",
@@ -1193,7 +1193,7 @@
 				"value": "GALACTIC_SCORE:614000"
 			}
 		],
-		"updated": 1575940754660
+		"updated": 1595544380107
 	},
 	{
 		"id": "hoth_empire_phase06_ships",
@@ -1207,7 +1207,7 @@
 				"value": "GALACTIC_SCORE:798000"
 			}
 		],
-		"updated": 1575940754660
+		"updated": 1595544380107
 	},
 	{
 		"id": "galactic_power_per_complete_gear_tier_table",
@@ -1265,7 +1265,7 @@
 				"value": "6690"
 			}
 		],
-		"updated": 1575940754660
+		"updated": 1595544380107
 	},
 	{
 		"id": "aurodium-promote-condition_2zone_5v5_ga_c1s1",
@@ -1315,7 +1315,7 @@
 				"value": "20000"
 			}
 		],
-		"updated": 1575940754660
+		"updated": 1595544380107
 	},
 	{
 		"id": "geonosis_republic_phase03",
@@ -1341,7 +1341,7 @@
 				"value": "GALACTIC_SCORE:1627500"
 			}
 		],
-		"updated": 1575940754660
+		"updated": 1595544380107
 	},
 	{
 		"id": "geonosis_republic_phase02",
@@ -1367,7 +1367,7 @@
 				"value": "GALACTIC_SCORE:1377000"
 			}
 		],
-		"updated": 1575940754660
+		"updated": 1595544380107
 	},
 	{
 		"id": "geonosis_republic_phase01",
@@ -1393,7 +1393,7 @@
 				"value": "GALACTIC_SCORE:1155000"
 			}
 		],
-		"updated": 1575940754660
+		"updated": 1595544380107
 	},
 	{
 		"id": "geonosis_separatist_phase04_ships",
@@ -1407,7 +1407,7 @@
 				"value": "GALACTIC_SCORE:2530000"
 			}
 		],
-		"updated": 1575940754660
+		"updated": 1595544380107
 	},
 	{
 		"id": "kyber-promote-condition_4zone_5v5_ga_c4s0",
@@ -1457,7 +1457,7 @@
 				"value": "35500"
 			}
 		],
-		"updated": 1575940754660
+		"updated": 1595544380107
 	},
 	{
 		"id": "geonosis_republic_phase04",
@@ -1483,7 +1483,7 @@
 				"value": "GALACTIC_SCORE:1837500"
 			}
 		],
-		"updated": 1575940754660
+		"updated": 1595544380107
 	},
 	{
 		"id": "TIER_UP_CRITCHANCEMOD_TIER_05",
@@ -1505,7 +1505,7 @@
 				"value": "tieruprecipe_CRITCHANCEMOD_TIER_05_04"
 			}
 		],
-		"updated": 1575940754660
+		"updated": 1595544380107
 	},
 	{
 		"id": "TIER_UP_CRITCHANCEMOD_TIER_06",
@@ -1527,7 +1527,7 @@
 				"value": "tieruprecipe_CRITCHANCEMOD_TIER_06_04"
 			}
 		],
-		"updated": 1575940754660
+		"updated": 1595544380107
 	},
 	{
 		"id": "galactic_power_per_relic_tier",
@@ -1561,7 +1561,7 @@
 				"value": "3528"
 			}
 		],
-		"updated": 1575940754660
+		"updated": 1595544380107
 	},
 	{
 		"id": "strength_role_healer_mastery",
@@ -1579,7 +1579,7 @@
 				"value": "0.0015"
 			}
 		],
-		"updated": 1575940754660
+		"updated": 1595544380107
 	},
 	{
 		"id": "geonosis_separatist_phase03_ships_special_mission",
@@ -1593,7 +1593,7 @@
 				"value": "GALACTIC_SCORE:2164500"
 			}
 		],
-		"updated": 1575940754660
+		"updated": 1595544380107
 	},
 	{
 		"id": "geonosis_republic_phase01_special_mission",
@@ -1619,7 +1619,7 @@
 				"value": "GALACTIC_SCORE:1501500"
 			}
 		],
-		"updated": 1575940754660
+		"updated": 1595544380107
 	},
 	{
 		"id": "geonosis_separatist_phase02_ships",
@@ -1633,7 +1633,7 @@
 				"value": "GALACTIC_SCORE:825000"
 			}
 		],
-		"updated": 1575940754660
+		"updated": 1595544380107
 	},
 	{
 		"id": "geonosis_republic_phase04_special_mission",
@@ -1659,7 +1659,7 @@
 				"value": "GALACTIC_SCORE:2388750"
 			}
 		],
-		"updated": 1575940754660
+		"updated": 1595544380107
 	},
 	{
 		"id": "kyber-promote-condition_4zone_5v5_ga_c3s1",
@@ -1709,7 +1709,7 @@
 				"value": "35500"
 			}
 		],
-		"updated": 1575940754660
+		"updated": 1595544380107
 	},
 	{
 		"id": "client-logging-override-table",
@@ -1733,13 +1733,9 @@
 			{
 				"key": "SynergyUtils",
 				"value": "LOG_AND_REPORT:INFO"
-			},
-			{
-				"key": "StateController",
-				"value": "LOG_AND_REPORT:INFO"
 			}
 		],
-		"updated": 1575940754660
+		"updated": 1595544380107
 	},
 	{
 		"id": "hoth_rebel_phase06",
@@ -1773,7 +1769,7 @@
 				"value": "GALACTIC_SCORE:541000"
 			}
 		],
-		"updated": 1575940754660
+		"updated": 1595544380107
 	},
 	{
 		"id": "hoth_rebel_phase04",
@@ -1807,7 +1803,7 @@
 				"value": "GALACTIC_SCORE:423000"
 			}
 		],
-		"updated": 1575940754660
+		"updated": 1595544380107
 	},
 	{
 		"id": "aurodium-promote-condition_4zone_5v5_ga_c4s0",
@@ -1857,7 +1853,7 @@
 				"value": "23500"
 			}
 		],
-		"updated": 1575940754660
+		"updated": 1595544380107
 	},
 	{
 		"id": "hoth_rebel_phase05",
@@ -1891,7 +1887,7 @@
 				"value": "GALACTIC_SCORE:470000"
 			}
 		],
-		"updated": 1575940754660
+		"updated": 1595544380107
 	},
 	{
 		"id": "hoth_rebel_phase02",
@@ -1925,7 +1921,7 @@
 				"value": "GALACTIC_SCORE:329000"
 			}
 		],
-		"updated": 1575940754660
+		"updated": 1595544380107
 	},
 	{
 		"id": "hoth_rebel_phase03",
@@ -1959,7 +1955,7 @@
 				"value": "GALACTIC_SCORE:372000"
 			}
 		],
-		"updated": 1575940754660
+		"updated": 1595544380107
 	},
 	{
 		"id": "hoth_rebel_phase01",
@@ -1993,7 +1989,7 @@
 				"value": "GALACTIC_SCORE:291000"
 			}
 		],
-		"updated": 1575940754660
+		"updated": 1595544380107
 	},
 	{
 		"id": "geonosis_republic_phase03_special_mission",
@@ -2019,7 +2015,7 @@
 				"value": "GALACTIC_SCORE:2115750"
 			}
 		],
-		"updated": 1575940754660
+		"updated": 1595544380107
 	},
 	{
 		"id": "crew_rating_per_unit_rarity",
@@ -2053,7 +2049,7 @@
 				"value": "3103"
 			}
 		],
-		"updated": 1575940754660
+		"updated": 1595544380107
 	},
 	{
 		"id": "client_home_button_previous_state_override",
@@ -2159,7 +2155,7 @@
 				"value": "GuildHomeGameState"
 			}
 		],
-		"updated": 1575940754660
+		"updated": 1595544380107
 	},
 	{
 		"id": "crew_rating_modifier_per_relic_tier",
@@ -2193,7 +2189,7 @@
 				"value": "2.4"
 			}
 		],
-		"updated": 1575940754660
+		"updated": 1595544380107
 	},
 	{
 		"id": "intelligence_role_healer_mastery",
@@ -2215,7 +2211,7 @@
 				"value": "1.5"
 			}
 		],
-		"updated": 1575940754660
+		"updated": 1595544380107
 	},
 	{
 		"id": "relic_promotion_table",
@@ -2249,7 +2245,7 @@
 				"value": "relic_promotion_recipe_07"
 			}
 		],
-		"updated": 1575940754660
+		"updated": 1595544380107
 	},
 	{
 		"id": "crew_rating_per_gear_piece_at_tier",
@@ -2303,7 +2299,7 @@
 				"value": "140"
 			}
 		],
-		"updated": 1575940754660
+		"updated": 1595544380107
 	},
 	{
 		"id": "chromium-promote-condition_2zone_5v5_ga_c1s1",
@@ -2353,7 +2349,7 @@
 				"value": "9000"
 			}
 		],
-		"updated": 1575940754660
+		"updated": 1595544380107
 	},
 	{
 		"id": "geonosis_republic_phase04_nexu_mission",
@@ -2371,7 +2367,7 @@
 				"value": "GALACTIC_SCORE:1837500"
 			}
 		],
-		"updated": 1575940754660
+		"updated": 1595544380107
 	},
 	{
 		"id": "strength_role_attacker_mastery",
@@ -2401,7 +2397,7 @@
 				"value": "2"
 			}
 		],
-		"updated": 1575940754660
+		"updated": 1595544380107
 	},
 	{
 		"id": "bronzium-promote-condition_2zone_5v5_ga_c1s1",
@@ -2451,7 +2447,7 @@
 				"value": "3750"
 			}
 		],
-		"updated": 1575940754660
+		"updated": 1595544380107
 	},
 	{
 		"id": "chromium-promote-condition_2zone_5v5_ga_c2s0",
@@ -2501,7 +2497,7 @@
 				"value": "8000"
 			}
 		],
-		"updated": 1575940754660
+		"updated": 1595544380107
 	},
 	{
 		"id": "intelligence_role_support_mastery",
@@ -2531,7 +2527,7 @@
 				"value": "12"
 			}
 		],
-		"updated": 1575940754660
+		"updated": 1595544380107
 	},
 	{
 		"id": "crew_rating_modifier_per_ability_crewless_ships",
@@ -2561,7 +2557,7 @@
 				"value": "0.12"
 			}
 		],
-		"updated": 1575940754660
+		"updated": 1595544380107
 	},
 	{
 		"id": "unit_gear_tier_sprite",
@@ -2807,7 +2803,7 @@
 				"value": "TierHighlight13_neutral"
 			}
 		],
-		"updated": 1575940754660
+		"updated": 1595544380107
 	},
 	{
 		"id": "crew_contribution_multiplier_per_rarity",
@@ -2841,7 +2837,7 @@
 				"value": "1.5"
 			}
 		],
-		"updated": 1575940754660
+		"updated": 1595544380107
 	},
 	{
 		"id": "aurodium-promote-condition_4zone_3v3_ga_c3s1",
@@ -2891,7 +2887,7 @@
 				"value": "29000"
 			}
 		],
-		"updated": 1575940754660
+		"updated": 1595544380107
 	},
 	{
 		"id": "geonosis_separatist_phase04",
@@ -2917,7 +2913,7 @@
 				"value": "GALACTIC_SCORE:1564000"
 			}
 		],
-		"updated": 1575940754660
+		"updated": 1595544380107
 	},
 	{
 		"id": "hoth_empire_phase04_ships",
@@ -2931,7 +2927,7 @@
 				"value": "GALACTIC_SCORE:526000"
 			}
 		],
-		"updated": 1575940754660
+		"updated": 1595544380107
 	},
 	{
 		"id": "geonosis_separatist_phase01",
@@ -2957,7 +2953,7 @@
 				"value": "GALACTIC_SCORE:792000"
 			}
 		],
-		"updated": 1575940754660
+		"updated": 1595544380107
 	},
 	{
 		"id": "geonosis_separatist_phase02",
@@ -2983,7 +2979,7 @@
 				"value": "GALACTIC_SCORE:1080000"
 			}
 		],
-		"updated": 1575940754660
+		"updated": 1595544380107
 	},
 	{
 		"id": "geonosis_separatist_phase03",
@@ -3009,7 +3005,7 @@
 				"value": "GALACTIC_SCORE:1352000"
 			}
 		],
-		"updated": 1575940754660
+		"updated": 1595544380107
 	},
 	{
 		"id": "kyber-promote-condition_2zone_5v5_ga_c1s1",
@@ -3059,7 +3055,7 @@
 				"value": "30500"
 			}
 		],
-		"updated": 1575940754660
+		"updated": 1595544380107
 	},
 	{
 		"id": "hoth_rebel_phase05_ships",
@@ -3073,7 +3069,7 @@
 				"value": "GALACTIC_SCORE:536000"
 			}
 		],
-		"updated": 1575940754660
+		"updated": 1595544380107
 	},
 	{
 		"id": "geonosis_republic_phase03_ships",
@@ -3087,7 +3083,7 @@
 				"value": "GALACTIC_SCORE:1800000"
 			}
 		],
-		"updated": 1575940754660
+		"updated": 1595544380107
 	},
 	{
 		"id": "intelligence_role_attacker_mastery",
@@ -3117,7 +3113,7 @@
 				"value": "27"
 			}
 		],
-		"updated": 1575940754660
+		"updated": 1595544380107
 	},
 	{
 		"id": "galactic_power_per_tagged_ability_level_table",
@@ -3125,6 +3121,10 @@
 			{
 				"key": "zeta",
 				"value": "1987"
+			},
+			{
+				"key": "ultimate",
+				"value": "4978"
 			},
 			{
 				"key": "contract_base",
@@ -3147,7 +3147,7 @@
 				"value": "1987"
 			}
 		],
-		"updated": 1575940754660
+		"updated": 1595544380107
 	},
 	{
 		"id": "geonosis_separatist_phase02_ships_special_mission",
@@ -3161,7 +3161,7 @@
 				"value": "GALACTIC_SCORE:1072500"
 			}
 		],
-		"updated": 1575940754660
+		"updated": 1595544380107
 	},
 	{
 		"id": "hoth_rebel_phase03_ships",
@@ -3175,7 +3175,7 @@
 				"value": "GALACTIC_SCORE:371000"
 			}
 		],
-		"updated": 1575940754660
+		"updated": 1595544380107
 	},
 	{
 		"id": "unit_gear_tier_sprite_color",
@@ -3421,7 +3421,7 @@
 				"value": "0xFFFFFFFF"
 			}
 		],
-		"updated": 1575940754660
+		"updated": 1595544380107
 	},
 	{
 		"id": "kyber-promote-condition_2zone_5v5_ga_c2s0",
@@ -3471,7 +3471,7 @@
 				"value": "27000"
 			}
 		],
-		"updated": 1575940754660
+		"updated": 1595544380107
 	},
 	{
 		"id": "TIER_UP_DEFENSEMOD_TIER_06",
@@ -3493,7 +3493,7 @@
 				"value": "tieruprecipe_DEFENSEMOD_TIER_06_04"
 			}
 		],
-		"updated": 1575940754660
+		"updated": 1595544380107
 	},
 	{
 		"id": "TIER_UP_DEFENSEMOD_TIER_05",
@@ -3515,7 +3515,7 @@
 				"value": "tieruprecipe_DEFENSEMOD_TIER_05_04"
 			}
 		],
-		"updated": 1575940754660
+		"updated": 1595544380107
 	},
 	{
 		"id": "bronzium-promote-condition_4zone_3v3_ga_c4s0",
@@ -3565,7 +3565,7 @@
 				"value": "5250"
 			}
 		],
-		"updated": 1575940754660
+		"updated": 1595544380107
 	},
 	{
 		"id": "crew_rating_per_mod_rarity_level_tier",
@@ -22471,7 +22471,7 @@
 				"value": "377"
 			}
 		],
-		"updated": 1575940754660
+		"updated": 1595544380107
 	},
 	{
 		"id": "galactic_power_per_tier_slot_table",
@@ -22789,7 +22789,7 @@
 				"value": "280"
 			}
 		],
-		"updated": 1575940754660
+		"updated": 1595544380107
 	},
 	{
 		"id": "geonosis_separatist_phase04_special_mission_count_dooku",
@@ -22807,7 +22807,7 @@
 				"value": "GALACTIC_SCORE:2033200"
 			}
 		],
-		"updated": 1575940754660
+		"updated": 1595544380107
 	},
 	{
 		"id": "opponent-ability-info-override-table",
@@ -22815,13 +22815,9 @@
 			{
 				"key": "GUILD_RAID_BATTLE",
 				"value": "ON"
-			},
-			{
-				"key": "ARCADE_RAID_BATTLE",
-				"value": "ON"
 			}
 		],
-		"updated": 1575940754660
+		"updated": 1595544380107
 	},
 	{
 		"id": "chromium-promote-condition_4zone_3v3_ga_c3s1",
@@ -22871,7 +22867,7 @@
 				"value": "13750"
 			}
 		],
-		"updated": 1575940754660
+		"updated": 1595544380107
 	},
 	{
 		"id": "bronzium-promote-condition_4zone_3v3_ga_c3s1",
@@ -22921,7 +22917,7 @@
 				"value": "5750"
 			}
 		],
-		"updated": 1575940754660
+		"updated": 1595544380107
 	},
 	{
 		"id": "agility_role_tank_mastery",
@@ -22943,7 +22939,7 @@
 				"value": "200"
 			}
 		],
-		"updated": 1575940754660
+		"updated": 1595544380107
 	},
 	{
 		"id": "chromium-promote-condition_4zone_3v3_ga_c4s0",
@@ -22993,7 +22989,7 @@
 				"value": "12500"
 			}
 		],
-		"updated": 1575940754660
+		"updated": 1595544380107
 	},
 	{
 		"id": "geonosis_republic_phase02_special_mission",
@@ -23019,7 +23015,7 @@
 				"value": "GALACTIC_SCORE:1790100"
 			}
 		],
-		"updated": 1575940754660
+		"updated": 1595544380107
 	},
 	{
 		"id": "kyber-promote-condition_4zone_3v3_ga_c3s1",
@@ -23069,7 +23065,7 @@
 				"value": "44000"
 			}
 		],
-		"updated": 1575940754660
+		"updated": 1595544380107
 	},
 	{
 		"id": "TIER_UP_TENACITYMOD_TIER_06",
@@ -23091,7 +23087,7 @@
 				"value": "tieruprecipe_TENACITYMOD_TIER_06_04"
 			}
 		],
-		"updated": 1575940754660
+		"updated": 1595544380107
 	},
 	{
 		"id": "TIER_UP_TENACITYMOD_TIER_05",
@@ -23113,7 +23109,7 @@
 				"value": "tieruprecipe_TENACITYMOD_TIER_05_04"
 			}
 		],
-		"updated": 1575940754660
+		"updated": 1595544380107
 	},
 	{
 		"id": "aurodium-promote-condition_4zone_3v3_ga_c4s0",
@@ -23163,7 +23159,7 @@
 				"value": "26500"
 			}
 		],
-		"updated": 1575940754660
+		"updated": 1595544380107
 	},
 	{
 		"id": "kyber-promote-condition_4zone_3v3_ga_c4s0",
@@ -23213,7 +23209,7 @@
 				"value": "40500"
 			}
 		],
-		"updated": 1575940754660
+		"updated": 1595544380107
 	},
 	{
 		"id": "agility_role_healer_mastery",
@@ -23239,7 +23235,7 @@
 				"value": "225"
 			}
 		],
-		"updated": 1575940754660
+		"updated": 1595544380107
 	},
 	{
 		"id": "galactic_power_modifier_per_ability_crewless_ships",
@@ -23265,7 +23261,7 @@
 				"value": "0.38"
 			}
 		],
-		"updated": 1575940754660
+		"updated": 1595544380107
 	},
 	{
 		"id": "strength_role_support_mastery",
@@ -23291,7 +23287,7 @@
 				"value": "0.0015"
 			}
 		],
-		"updated": 1575940754660
+		"updated": 1595544380107
 	},
 	{
 		"id": "TIER_UP_HEALTHMOD_TIER_05",
@@ -23313,7 +23309,7 @@
 				"value": "tieruprecipe_HEALTHMOD_TIER_05_04"
 			}
 		],
-		"updated": 1575940754660
+		"updated": 1595544380107
 	},
 	{
 		"id": "TIER_UP_HEALTHMOD_TIER_06",
@@ -23335,7 +23331,7 @@
 				"value": "tieruprecipe_HEALTHMOD_TIER_06_04"
 			}
 		],
-		"updated": 1575940754660
+		"updated": 1595544380107
 	},
 	{
 		"id": "hoth_empire_phase02",
@@ -23361,7 +23357,7 @@
 				"value": "GALACTIC_SCORE:345000"
 			}
 		],
-		"updated": 1575940754660
+		"updated": 1595544380107
 	},
 	{
 		"id": "hoth_empire_phase03",
@@ -23387,7 +23383,7 @@
 				"value": "GALACTIC_SCORE:402000"
 			}
 		],
-		"updated": 1575940754660
+		"updated": 1595544380107
 	},
 	{
 		"id": "hoth_empire_phase01",
@@ -23413,7 +23409,7 @@
 				"value": "GALACTIC_SCORE:297000"
 			}
 		],
-		"updated": 1575940754660
+		"updated": 1595544380107
 	},
 	{
 		"id": "hoth_empire_phase06",
@@ -23439,7 +23435,7 @@
 				"value": "GALACTIC_SCORE:703000"
 			}
 		],
-		"updated": 1575940754660
+		"updated": 1595544380107
 	},
 	{
 		"id": "bronzium-promote-condition_2zone_5v5_ga_c2s0",
@@ -23489,7 +23485,7 @@
 				"value": "3250"
 			}
 		],
-		"updated": 1575940754660
+		"updated": 1595544380107
 	},
 	{
 		"id": "hoth_empire_phase04",
@@ -23515,7 +23511,7 @@
 				"value": "GALACTIC_SCORE:466000"
 			}
 		],
-		"updated": 1575940754660
+		"updated": 1595544380107
 	},
 	{
 		"id": "hoth_empire_phase05",
@@ -23541,6 +23537,6 @@
 				"value": "GALACTIC_SCORE:541000"
 			}
 		],
-		"updated": 1575940754660
+		"updated": 1595544380107
 	}
 ]
