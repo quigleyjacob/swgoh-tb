@@ -1,4 +1,4 @@
-let dev = true
+let dev = false
 
 let factions = []
 let characters = []
@@ -7,7 +7,7 @@ let selectedFactions = []
 let player = {}
 let filteredPlayerCharacters = []
 let textEntryValue = ""
-
+//on startup, want to pull the factions and characters from the server
 getFactions()
 getCharacters()
 
@@ -19,16 +19,8 @@ if (dev) {
 
 $('#allycode-form').submit(async e => {
   e.preventDefault()
-  let allycode = e.target.elements[0].value
+  let allycode = e.target.elements[0].value === "me" ? 488291151 : e.target.elements[0].value
   getPlayer(allycode)
-  .then(data => {
-    player = data
-    console.log(player.allyCode)
-    //add sortable buttons
-    $('#sort-buttons').append(`
-      <button class=\"ui button\">Power</button>
-      `)
-  })
 })
 
 $('#text-entry').keyup((e) => {
@@ -37,27 +29,26 @@ $('#text-entry').keyup((e) => {
 })
 
 async function getPlayer(allycode) {
-  return (await $.get(`/player/${allycode}`))
+  $.get(`/player/${allycode}`)
+  .then(data => {
+      player = data
+      $('.sort.hidden').removeClass('hidden')
+      $('.sort').click(e => {
+        let criteria = e.target.name
+        selectedCharacters.sort((a,b) => {
+          return -(a[criteria] - b[criteria])
+        })
+        refreshCharacters()
+      })
+      filterCharacters()
+
+  })
+
 }
 
 async function getCharacters() {
   characters = await $.get('/characters')
   filterCharacters()
-}
-
-function filterCharacters() {
-  selectedCharacters = characters.filter(character => {
-    // console.log(character)
-    return selectedFactions.every(faction => character.categoryIdList.includes(faction)) && character.nameKey.toLowerCase().includes(textEntryValue.toLowerCase())
-  })
-  if (player.allyCode) {
-    //if an allycode has been entered, then we want to get the informaion in the player character to be displayed
-    let char_ids = selectedCharacters.map(char => char.baseId)
-    selectedCharacters = player.roster.filter(character => {
-      return char_ids.includes(character.defId)
-    })
-  }
-  refreshCharacters()
 }
 
 async function getFactions() {
@@ -86,6 +77,21 @@ async function getFactions() {
   })
 }
 
+function filterCharacters() {
+  selectedCharacters = characters.filter(character => {
+    // console.log(character)
+    return selectedFactions.every(faction => character.categoryIdList.includes(faction)) && character.nameKey.toLowerCase().includes(textEntryValue.toLowerCase())
+  })
+  if (player.allyCode) {
+    //if an allycode has been entered, then we want to get the informaion in the player character to be displayed
+    let char_ids = selectedCharacters.map(char => char.baseId)
+    selectedCharacters = player.roster.filter(character => {
+      return char_ids.includes(character.defId)
+    })
+  }
+  refreshCharacters()
+}
+
 function refreshCharacters() {
   let characterList = $('#characters')
   characterList.empty()
@@ -93,7 +99,7 @@ function refreshCharacters() {
   if (player.allyCode) {
     selectedCharacters.forEach(character => {
       let char = characters.filter(obj => obj.baseId == character.defId)[0]
-      let alignment = char.categoryIdList[0] == "alignment_light" ? "light" : "dark"
+      let alignment = char.categoryIdList.includes("alignment_light") ? "light" : "dark"
       let zetas = character.skills.filter(obj => obj.isZeta && obj.tier == obj.tiers).length
       characterList.append(`
         <div id=${character.defId} class="ui card">
@@ -141,24 +147,4 @@ function refreshCharacters() {
 
 function getSelf() {
   getPlayer(488291151)
-  .then(data => {
-      console.log(data)
-      player = data
-      $('#sort-buttons').append(`
-        <button class=\"ui button sort increasing\" name=gp>Power</button>
-        <button class=\"ui button sort increasing\" name=rarity>Stars</button>
-        <button class=\"ui button sort increasing\" name=gear>Gear</button>
-        <button class=\"ui button sort increasing\" name=level>Level</button>
-        `)
-      $('.sort').click(e => {
-        let criteria = e.target.name
-        selectedCharacters.sort((a,b) => {
-          return -(a[criteria] - b[criteria])
-        })
-        console.log(selectedCharacters)
-        refreshCharacters()
-      })
-      filterCharacters()
-
-  })
 }

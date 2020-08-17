@@ -3,6 +3,7 @@ const app = express()
 // const cheerio = require('cheerio')
 // const axios = require('axios')
 const fs = require('fs')
+const fsPromise = fs.promises
 const ApiSwgohHelp = require('api-swgoh-help')
 const statCalculator = require('swgoh-stat-calc');
 let gameData = JSON.parse(fs.readFileSync(`./data/game-data.json`))
@@ -19,15 +20,6 @@ const swapi = new ApiSwgohHelp({
 app.use(express.static(__dirname + '/views'))
 app.use(express.static(__dirname + '/views/squads'))
 app.use(express.static(__dirname + '/public'))
-
-// app.get('/', (req, res) => {
-//   console.log("hello there")
-//   res.send("hello there")
-//   // res.send(__dirname + './squads.html')
-// })
-app.get('/squads', (req, res) => {
-  res.render('./squads.html')
-})
 
 app.get('/test', async (req, res) => {
   let player = (await swapi.fetchPlayer({
@@ -55,7 +47,6 @@ player.roster.forEach(char => {
 })
 res.send(player.roster)
 })
-
 app.get('/data', async (req, res) => {
   let payload = {'collection': "unitsList",
            'language': "eng_us",
@@ -112,8 +103,8 @@ app.get('/data', async (req, res) => {
 })
 
 
-// caches territory battle data
-
+// caches data
+//todo, put all caching on timer
 app.get('/cacheRewardTableData', (req, res) => {
   let reward_table = getRewardTable()
   reward_table.then(results => {
@@ -205,10 +196,23 @@ app.get('/cacheShipList', (req, res) => {
     res.send(err)
   })
 })
-//TODO
-app.get('/cacheHijinx', (req, res) => {
-  getGuild(488291151)
-  // .then(r)
+app.get('/cacheSelf', (req, res) => {
+    cachePlayer(488291151)
+    .then(result => {
+      res.send(result)
+    })
+    .catch(err => {
+      res.send(err)
+    })
+})
+app.get('/cacheHijinx', async (req, res) => {
+  cacheGuild(488291151)
+  .then(result => {
+    res.send(result)
+  })
+  .catch(err => {
+    res.send(err)
+  })
 })
 
 
@@ -227,24 +231,24 @@ app.get('/geoLSTB', (req, res) => {
 })
 
 app.get('/guild/:ally_code', async (req, res) => {
-  let allycode = req.params.ally_code
-  getGuild(allycode)
-  .then(results => {
-    res.send(unwrap(results))
-  })
+  try {
+    let allycode = req.params.ally_code
+    let guild = await getGuild(allycode)
+    res.send(guild)
+  } catch (err) {
+    res.send(err)
+  }
 })
 app.get('/player/:ally_code', async (req, res) => {
-  let allycode = req.params.ally_code
-  getPlayer(allycode)
-  .then(results => {
-    let player = unwrap(results)[0]
+  try {
+    let allycode = req.params.ally_code
+    let player = await getPlayer(allycode)
     player.roster = player.roster.filter(obj => obj.combatType == 1)
     player.roster.map(obj => obj.gp = statCalculator.calcCharGP(obj))
     res.send(player)
-  })
-  .catch(err => {
-    console.log(err)
-  })
+  } catch (err) {
+    res.send(err)
+  }
 })
 app.get('/characters', async (req, res) => {
   // getCharacterList
@@ -386,11 +390,69 @@ async function getUnits(payload) {
 }
 
 async function getPlayer(allycode) {
-  return await swapi.fetchPlayer({allycodes: allycode, language: "eng_us"})
+  try {
+    let path = `./data/players/${allycode}.json`
+    if (fs.existsSync(path)) {
+      return await fsPromise.readFile(path).then(result => JSON.parse(result))
+    } else {
+      let fetchPlayer = await swapi.fetchPlayer({allycodes: allycode, language: "eng_us"})
+      if (fetchPlayer.error) {
+        throw fetchPlayer.error
+      }
+      return fetchPlayer.result[0]
+    }
+  } catch (err) {
+    throw error
+  }
+
 }
 
 async function getGuild(allycode) {
   return await swapi.fetchGuild({allycodes: allycode, language: "eng_us"})
+}
+
+async function cachePlayer(allycode) {
+  try {
+    let fetchPlayer = await swapi.fetchPlayer({allycodes: allycode, language: "eng_us"})
+    if (fetchPlayer.error) {
+      throw fetchPlayer.error
+    }
+    let playerData = fetchPlayer.result[0]
+    await fsPromise.writeFile(`./data/players/${allycode}.json`, JSON.stringify(playerData, null, '\t'))
+    return "done"
+  } catch(err) {
+    return err
+  }
+}
+
+async function cacheGuild(allycode) {
+  try {
+    //fetch data from SWGOH.HELP
+    let fetchGuild = await swapi.fetchGuild({allycodes: allycode, language: "eng_us"})
+    if (fetchGuild.error) {
+      throw fetchGuild.error
+    }
+    //cache data into JSON file
+    let data = fetchGuild.result[0]
+    let guildId = data.id
+    await fsPromise.writeFile(`./data/guilds/${guildId}.json`, data)
+    // fetch guild players data from SWGOH.HELP
+    let membersAllyCodes = data.roster.map(member => member.allyCode)
+    let fetchPlayers = await swapi.fetchPlayer({allycodes: membersAllyCodes, language: "eng_us"})
+    if (fetchPlayers.error) {
+      throw fetchPlayer.error
+    }
+    //cache guild player data in json with name <ALLYCODE>
+    let members = fetchPlayers.result
+    const promises = members.map(async member => {
+      let allycode = member.allyCode
+      return await fsPromise.writeFile(`./data/players/${allycode}.json`, JSON.stringify(member, null, '\t'))
+    })
+    await Promise.all(promises)
+    return "done"
+  } catch (err) {
+    throw err
+  }
 }
 
 function unwrap(results) {
