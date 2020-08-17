@@ -21,14 +21,15 @@ export async function _cacheGuild(allycode) {
       }
       //cache guild player data in json with name <ALLYCODE>
       let members = fetchPlayers.result
-      const promises = members.map(async member => {
+      const promisesArray = members.map(async member => {
         let allycode = member.allyCode
         return await promises.writeFile(`${__dirname}/data/players/${allycode}.json`, JSON.stringify(member, null, '\t'))
       })
-      await Promise.all(promises)
+      await Promise.all(promisesArray)
       return "done"
     } catch (err) {
-      throw err
+      console.log(err)
+      throw new Error(err)
     }
 }
   
@@ -49,7 +50,7 @@ export async function _cachePlayer(allycode) {
 export async function _cacheShipList() {
   try {
     let ships = await _getShipList()
-    await promises.writeFile(`${dirname}/data/ship-list.json`, JSON.stringify(ships, null, '\t'))
+    await promises.writeFile(`${__dirname}/data/ship-list.json`, JSON.stringify(ships, null, '\t'))
     return "done"
   } catch (err) {
     throw err

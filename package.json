@@ -7,7 +7,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon",
-    "postinstall": "node reloadCache.js"
+    "postinstall": "node reloadCache.mjs"
   },
   "author": "",
   "license": "ISC",
