@@ -12,6 +12,7 @@ $('#getGuildForm').submit((e) => {
   $('#loader').addClass("active")
   if (allycode.match(/^\d{9}$/) || allycode.match(/^\d{3}-\d{3}-\d{3}$/)) {
     allycode = allycode.replace(/-/g, "")
+    console.log("here")
     getGuildInfo(allycode)
   } else {
     $('#error_message').removeClass("hidden")
@@ -21,7 +22,8 @@ $('#getGuildForm').submit((e) => {
 
 async function getGuildInfo(allycode) {
 
-  guild_info = (await $.get(`/guild/${allycode}`))[0]
+  guild_info = await $.get(`/guild/${allycode}`)
+  console.log(guild_info)
   if (guild_info) {
     console.log(guild_info)
     $('#guild-name').text(guild_info.name)
