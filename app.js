@@ -157,33 +157,6 @@ app.get('/cacheTerritoryBattleData', (req, res) => {
     res.send(err)
   })
 })
-app.get('/cacheCategoryList', (req, res) => {
-  let categoryList = getCategoryList()
-  categoryList.then(results => {
-    writeFile("./data/category-list.json", JSON.stringify(results.result, null, '\t'), (err) => {
-      if (err) {
-        console.log(err)
-        return
-      }
-      res.send("done")
-    })
-  })
-  .catch(err => {
-    res.send(err)
-  })
-})
-app.get('/cacheCharacterList', (req, res) => {
-  let characterList = getCharacterList()
-  characterList.then(results => {
-    writeFile("./data/character-list.json", JSON.stringify(results.result, null, '\t'), (err) => {
-      if (err) {
-        console.log(err)
-        return
-      }
-      res.send("done")
-    })
-  })
-})
 
 app.get('/hothLSTB', (req, res) => {
   res.send(getTBData('hoth', 'ls'))
@@ -198,21 +171,11 @@ app.get('/geoLSTB', (req, res) => {
   res.send(getTBData('geo', 'ls'))
 })
 
-app.get('/characters', async (req, res) => {
-  // getCharacterList
-  let characterList = JSON.parse(readFileSync(`./data/character-list.json`))
-  res.send(characterList)
-})
-app.get('/factions', (req, res) => {
-  let categoryList = JSON.parse(readFileSync(`./data/category-list.json`))
-  res.send(categoryList)
-})
 
-
-app.get('/events', async (req, res) => {
-  let {result, error, warning} = await swapi.fetchEvents()
-  res.send(result)
-})
+// app.get('/events', async (req, res) => {
+//   let {result, error, warning} = await swapi.fetchEvents()
+//   res.send(result)
+// })
 
 //simple function that returns the needed data for the territory battle
 function getTBData(planet, type) {
@@ -259,52 +222,6 @@ async function getRewardTable() {
   return await getCollection("tableList")
 }
 
-async function getCategoryList() {
-  return await getCollection("categoryList")
-}
-
-async function getCharacterList() {
-  let payload = {'collection': "unitsList",
-           'language': "eng_us",
-           'enums': true,
-           'match': {
-             "rarity": 7,
-             "obtainable": true,
-             "combatType": 1,
-             "obtainableTime": 0,
-           },
-            'project': {
-              "baseId": 1,
-              "nameKey": 1,
-              "categoryIdList": 1,
-              "combatType": 1,
-              "skillReferenceList": 1
-            }
-           }
-  return await getData(payload)
-}
-
-async function getShipList() {
-  let payload = {'collection': "unitsList",
-           'language': "eng_us",
-           'enums': true,
-           'match': {
-             "rarity": 7,
-             "obtainable": true,
-             "combatType": 2,
-             "obtainableTime": 0,
-           },
-            'project': {
-              "baseId": 1,
-              "nameKey": 1,
-              "categoryIdList": 1,
-              "combatType": 1,
-              "skillReferenceList": 1
-            }
-           }
-  return await getData(payload)
-}
-
 async function getCollection(collectionName) {
   return await getData({collection: collectionName, language: "eng_us"})
 }
@@ -313,9 +230,9 @@ async function getData(payload) {
   return await swapi.fetchData(payload)
 }
 
-async function getUnits(payload) {
-  return await swapi.fetchUnits(payload)
-}
+// async function getUnits(payload) {
+//   return await swapi.fetchUnits(payload)
+// }
 
 app.listen(PORT, async (req, res) => {
   console.log(`Server listening at port ${PORT}`)

@@ -1,6 +1,6 @@
 import { swapi, __dirname } from '../connection.js'
 import { promises } from 'fs'
-import { _getShipList } from './collection.js'
+import { _getShipList, _getCharacterList, _getCategoryList } from './collection.js'
 
 export async function _cacheGuild(allycode) {
     try {
@@ -50,6 +50,26 @@ export async function _cacheShipList() {
   try {
     let ships = await _getShipList()
     await promises.writeFile(`${dirname}/data/ship-list.json`, JSON.stringify(ships, null, '\t'))
+    return "done"
+  } catch (err) {
+    throw err
+  }
+}
+export async function _cacheCharacterList() {
+  try {
+    let characters = await _getCharacterList()
+    await promises.writeFile(`${__dirname}/data/character-list.json`, JSON.stringify(characters, null, '\t'))
+    return "done"
+  } catch (err) {
+    throw err
+  }
+}
+
+export async function _cacheCategoryList() {
+  try {
+    let categories = await _getCategoryList()
+    await promises.writeFile(`${__dirname}/data/category-list.json`, JSON.stringify(categories, null, '\t'))
+    return "done"
   } catch (err) {
     throw err
   }

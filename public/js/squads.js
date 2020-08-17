@@ -47,12 +47,12 @@ async function getPlayer(allycode) {
 }
 
 async function getCharacters() {
-  characters = await $.get('/characters')
+  characters = await $.get('/collection/character')
   filterCharacters()
 }
 
 async function getFactions() {
-  factions = await $.get('/factions')
+  factions = await $.get('/collection/category')
   factions = factions.filter(obj => obj.visible == true && obj.id != "role_capital" && obj.id != "shipclass_cargoship")
   factions = factions.sort((a,b) => a.descKey.localeCompare(b.descKey))
   let factionList = $('#factions')
